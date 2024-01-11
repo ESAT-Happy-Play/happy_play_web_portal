@@ -9,6 +9,8 @@ import { toast } from 'react-toastify';
 import VerificationList from "../../../components/table/userVerification/VerificationList";
 
 import { GETFetch } from "../../../api/ApiFetchBuilder";
+import CustomVerticalTab from "../../../components/tab/CustomVerticalTab";
+import { UserVerificationTable } from "./UserVerificationTable";
 
 const UserVerification = () => {
   /**
@@ -23,15 +25,15 @@ const UserVerification = () => {
 
   const handleVerificationData = async () => {
     setPageLoader(true);
-    let url = `${process.env.REACT_APP_API_URL}/users/forverification?usercode=${userCode}`; 
+    let url = `${process.env.REACT_APP_API_URL}/users/forverification?usercode=${userCode}`;
     let response = await GETFetch(url);
     setPageLoader(false);
 
-    if(response.status) {
+    if (response.status) {
       setusersForV(response.data.usersForVerification);
     }
 
-    if(!response.status) {
+    if (!response.status) {
       toast.error(response.data.errorMessage);
     }
   }
@@ -54,25 +56,47 @@ const UserVerification = () => {
     setuserCode(code);
   }
 
+  const playerlist = [
+    { name: "Player 1", date: "Jan 11, 2024" },
+    { name: "Player 2", date: "Jan 11, 2024" },
+    { name: "Player 3", date: "Jan 12, 2024" },
+    { name: "Player 4", date: "Jan 12, 2024" },
+    { name: "Player 11", date: "Jan 11, 2024" },
+    { name: "Player 12", date: "Jan 11, 2024" },
+    { name: "Player 13", date: "Jan 12, 2024" },
+    { name: "Player 14", date: "Jan 12, 2024" },
+  ];
+
+  const agentlist = [
+    { name: "Agent 1", date: "Jan 11, 2024" },
+    { name: "Agent 2", date: "Jan 11, 2024" },
+    { name: "Agent 4", date: "Jan 12, 2024" },
+    { name: "Agent 11", date: "Jan 11, 2024" },
+    { name: "Agent 12", date: "Jan 11, 2024" },
+    { name: "Agent 14", date: "Jan 12, 2024" },
+    { name: "Agent 17", date: "Jan 11, 2024" },
+    { name: "Agent 18", date: "Jan 11, 2024" },
+    { name: "Agent 19", date: "Jan 12, 2024" },
+  ];
+
   return (
     <div className="verificationPage">
-      <div className="container">
-        <div className="top" style={{borderBottom:'2px solid rgb(239, 239, 239)'}}>
-          <h2 className="title">VERIFICATION REQUEST</h2>
+      <div className="tab-container">
+        <div className="tab-header">
+          <h1>User Verification</h1>
         </div>
-        <div style={{display:'flex'}}>
-          <div className="div-left">
-            <ul>
-              <li onClick={(e) => handleClick(e, _UserAgentCode)} className="active-b">Agents</li>
-              <li onClick={(e) => handleClick(e, _UserPlayerCode)}>Players</li>
-            </ul>
-          </div>
-          <div className="div-right">
-            <div className="div-bottom">
-              <VerificationList searchResults={ usersForV } isLoading={ pageLoader } />
-            </div>
-          </div>
-        </div>
+        <CustomVerticalTab
+          tabList={
+            [{
+              label: "Agents",
+              Component: <UserVerificationTable data={agentlist} />
+            },
+            {
+              label: "Players",
+              Component: <UserVerificationTable data={playerlist} />
+            }]
+          }
+        />
       </div>
     </div>
   )

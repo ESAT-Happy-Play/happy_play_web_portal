@@ -79,382 +79,382 @@ import Game from '../pages/superadmin/games/Game';
 let user_role = GetStoreObject("role");
 var userRole = "Agent";
 
-if(user_role !== null) {
+if (user_role !== null) {
   userRole = user_role.role;
 }
 
 const routeLinks = [
-    // Home 1
-    {
-      path: "/",
-      element: <AgentHome />,
-      state: "Home.Home",
+  // Home 1
+  {
+    path: "/",
+    element: <AgentHome />,
+    state: "Home.Home",
+  },
+  // Dashboard 0
+  {
+    path: "/",
+    element: <Home />,
+    state: "Admin.Dashboard"
+  },
+  // History 2
+  {
+    path: "",
+    element: <PageLayout />,
+    state: "History",
+    sidebarProps: {
+      displayText: "History",
+      icon: <DashboardOutlinedIcon />
     },
-    // Dashboard 0
-    {
-      path: "/",
-      element: <Home />,
-      state: "Admin.Dashboard"
-    },
-    // History 2
-    {
-      path: "",
-      element: <PageLayout />,
-      state: "History",
-      sidebarProps: {
-        displayText: "HISTORY",
-        icon: <DashboardOutlinedIcon />
+    child: [
+      {
+        path: "/agent/history/gamebets",
+        element: <AgentGameBets />,
+        state: "History.GameBets",
+        sidebarProps: {
+          displayText: "Game Bets",
+          icon: <PaymentsOutlinedIcon />
+        },
       },
-      child: [
-        {
-          path: "/agent/history/gamebets",
-          element: <AgentGameBets />,
-          state: "History.GameBets",
-          sidebarProps: {
-            displayText: "Game Bets",
-            icon: <PaymentsOutlinedIcon />
-          },
+      {
+        path: "/agent/history/gameresult",
+        element: <AgentGameResults />,
+        state: "History.GameResult",
+        sidebarProps: {
+          displayText: "Game Result",
+          icon: <PostAddOutlinedIcon />
         },
-        {
-          path: "/agent/history/gameresult",
-          element: <AgentGameResults />,
-          state: "History.GameResult",
-          sidebarProps: {
-            displayText: "Game Result",
-            icon: <PostAddOutlinedIcon />
-          },
-        }
-      ]
+      }
+    ]
+  },
+  // Wallet 3
+  {
+    path: "",
+    element: <PageLayout />,
+    state: "Wallet",
+    sidebarProps: {
+      displayText: "Wallet",
+      icon: <DashboardOutlinedIcon />
     },
-    // Wallet 3
-    {
-      path: "",
-      element: <PageLayout />,
-      state: "Wallet",
-      sidebarProps: {
-        displayText: "WALLET",
-        icon: <DashboardOutlinedIcon />
-      },
-      child: [
-        {
-          path: "/agent/wallet",
-          element: <AgentWallet />,
-          state: "Wallet.Wallet",
-          sidebarProps: {
-            displayText: "Wallet",
-            icon: <WalletOutlinedIcon />
-          },
-        }
-      ]
+    child: [
+      {
+        path: "/agent/wallet",
+        element: <AgentWallet />,
+        state: "Wallet.Wallet",
+        sidebarProps: {
+          displayText: "Wallet",
+          icon: <WalletOutlinedIcon />
+        },
+      }
+    ]
+  },
+  // Profile 4
+  {
+    path: "",
+    element: <PageLayout />,
+    state: "Profile",
+    sidebarProps: {
+      displayText: "Profile",
+      icon: <DashboardOutlinedIcon />
     },
-    // Profile 4
-    {
-      path: "",
-      element: <PageLayout />,
-      state: "Profile",
-      sidebarProps: {
-        displayText: "PROFILE",
-        icon: <DashboardOutlinedIcon />
+    child: [
+      {
+        path: "/profile/info",
+        element: <ProfileInfo />,
+        state: "Profile.ProfileInformation",
+        sidebarProps: {
+          displayText: "Profile Information",
+          icon: <PersonIcon />
+        },
       },
-      child: [
-        {
-          path: "/profile/info",
-          element: <ProfileInfo />,
-          state: "Profile.ProfileInformation",
-          sidebarProps: {
-            displayText: "Profile Information",
-            icon: <PersonIcon />
-          },
+      {
+        path: "/profile/reset",
+        element: <Resetpassword />,
+        state: "Profile.ResetPassword",
+        sidebarProps: {
+          displayText: "Reset Password",
+          icon: <VisibilityOutlinedIcon />
         },
-        {
-          path: "/profile/reset",
-          element: <Resetpassword />,
-          state: "Profile.ResetPassword",
-          sidebarProps: {
-            displayText: "Reset Password",
-            icon: <VisibilityOutlinedIcon />
-          },
-        },
-      ]
+      },
+    ]
+  },
+  // Super Admin 5
+  {
+    path: "",
+    element: <PageLayout />,
+    state: "SuperAdmin",
+    sidebarProps: {
+      displayText: "Super Admin",
+      icon: <DashboardOutlinedIcon />
     },
-    // Super Admin 5
-    {
-      path: "",
-      element: <PageLayout />,
-      state: "SuperAdmin",
-      sidebarProps: {
-        displayText: "SUPER ADMIN",
-        icon: <DashboardOutlinedIcon />
+    child: [
+      {
+        path: "/admin",
+        element: <Admin />,
+        state: "SuperAdmin.SuperAdmin",
+        sidebarProps: {
+          displayText: "Super Admin",
+          icon: <LockOutlinedIcon />
+        },
       },
-      child: [
-        {
-          path: "/admin",
-          element: <Admin/>,
-          state: "SuperAdmin.SuperAdmin",
-          sidebarProps: {
-            displayText: "Super Admin",
-            icon: <LockOutlinedIcon />
-          },
+      {
+        path: "/company",
+        element: <Company />,
+        state: "SuperAdmin.Company",
+        sidebarProps: {
+          displayText: "Company",
+          icon: <ApartmentOutlinedIcon />
         },
-        {
-          path: "/company",
-          element: <Company />,
-          state: "SuperAdmin.Company",
-          sidebarProps: {
-            displayText: "Company",
-            icon: <ApartmentOutlinedIcon />
-          },
+      },
+      {
+        path: "/branch",
+        element: <Branch />,
+        state: "SuperAdmin.Branch",
+        sidebarProps: {
+          displayText: "Branch",
+          icon: <HomeWorkOutlinedIcon />
         },
-        {
-          path: "/branch",
-          element: <Branch />,
-          state: "SuperAdmin.Branch",
-          sidebarProps: {
-            displayText: "Branch",
-            icon: <HomeWorkOutlinedIcon />
-          },
+      },
+      {
+        path: "/profiles",
+        element: <Profile />,
+        state: "SuperAdmin.Profiles",
+        sidebarProps: {
+          displayText: "Profiles",
+          icon: <AssignmentIndIcon />
         },
-        {
-          path: "/profiles",
-          element: <Profile />,
-          state: "SuperAdmin.Profiles",
-          sidebarProps: {
-            displayText: "Profiles",
-            icon: <AssignmentIndIcon />
-          },
+      },
+      {
+        path: "/games",
+        element: <Game />,
+        state: "SuperAdmin.Games",
+        sidebarProps: {
+          displayText: "Games",
+          icon: <DashboardOutlinedIcon />
         },
-        {
-          path: "/games",
-          element: <Game />,
-          state: "SuperAdmin.Games",
-          sidebarProps: {
-            displayText: "Games",
-            icon: <DashboardOutlinedIcon />
-          },
-        }
-      ]
+      }
+    ]
+  },
+  // User Account 6
+  {
+    path: "",
+    element: <PageLayout />,
+    state: "UserAccount",
+    sidebarProps: {
+      displayText: "User Accounts",
+      icon: <DashboardOutlinedIcon />
     },
-    // User Account 6
-    {
-      path: "",
-      element: <PageLayout />,
-      state: "UserAccount",
-      sidebarProps: {
-        displayText: "USER ACCOUNTS",
-        icon: <DashboardOutlinedIcon />
+    child: [
+      {
+        path: "/account/systemusers",
+        element: <SystemUser />,
+        state: "UserAccount.SystemUsers",
+        sidebarProps: {
+          displayText: "System Users",
+          icon: <Diversity3OutlinedIcon />
+        },
       },
-      child: [
-        {
-          path: "/account/systemusers",
-          element: <SystemUser />,
-          state: "UserAccount.SystemUsers",
-          sidebarProps: {
-            displayText: "System Users",
-            icon: <Diversity3OutlinedIcon />
-          },
+      {
+        path: "/account/operators",
+        element: <Operator />,
+        state: "UserAccount.Operators",
+        sidebarProps: {
+          displayText: "Operators",
+          icon: <AccountCircleIcon />
         },
-        {
-          path: "/account/operators",
-          element: <Operator />,
-          state: "UserAccount.Operators",
-          sidebarProps: {
-            displayText: "Operators",
-            icon: <AccountCircleIcon />
-          },
+      },
+      {
+        path: "/agent/account/approval",
+        element: <AgentUserApproval />,
+        state: "UserAccount.UserApproval",
+        sidebarProps: {
+          displayText: "User Approval",
+          icon: <VerifiedOutlinedIcon />
         },
-        {
-          path: "/agent/account/approval",
-          element: <AgentUserApproval/>,
-          state: "UserAccount.UserApproval",
-          sidebarProps: {
-            displayText: "User Approval",
-            icon: <VerifiedOutlinedIcon />
-          },
+      },
+      {
+        path: "/account/verify",
+        element: <UserVerification />,
+        state: "UserAccount.UserVerification",
+        sidebarProps: {
+          displayText: "User Verification",
+          icon: <VerifiedOutlinedIcon />
         },
-        {
-          path: "/account/verify",
-          element: <UserVerification />,
-          state: "UserAccount.UserVerification",
-          sidebarProps: {
-            displayText: "User Verification",
-            icon: <VerifiedOutlinedIcon />
-          },
+      },
+      {
+        path: "/account/masteragents",
+        element: <MasterAgent />,
+        state: "UserAccount.MasterAgents",
+        sidebarProps: {
+          displayText: "Master Agents",
+          icon: <PersonAddAltOutlinedIcon />
         },
-        {
-          path: "/account/masteragents",
-          element: <MasterAgent />,
-          state: "UserAccount.MasterAgents",
-          sidebarProps: {
-            displayText: "Master Agents",
-            icon: <PersonAddAltOutlinedIcon />
-          },
-        },
+      },
 
-        {
-          path: "/account/agents",
-          element: (userRole === "Dashboard") ? <AdminAgents /> : <AccountAgent />,
-          state: "UserAccount.Agents",
-          sidebarProps: {
-            displayText: "Agents",
-            icon: <PeopleOutlinedIcon />
-          },
+      {
+        path: "/account/agents",
+        element: (userRole === "Dashboard") ? <AdminAgents /> : <AccountAgent />,
+        state: "UserAccount.Agents",
+        sidebarProps: {
+          displayText: "Agents",
+          icon: <PeopleOutlinedIcon />
         },
-        {
-          path: "/account/players",
-          element: (userRole === "Dashboard") ? <AdminPlayers /> : <AccountPlayer />,
-          state: "UserAccount.Players",
-          sidebarProps: {
-            displayText: "Players",
-            icon: <PersonOutlineOutlinedIcon />
-          },
+      },
+      {
+        path: "/account/players",
+        element: (userRole === "Dashboard") ? <AdminPlayers /> : <AccountPlayer />,
+        state: "UserAccount.Players",
+        sidebarProps: {
+          displayText: "Players",
+          icon: <PersonOutlineOutlinedIcon />
         },
+      },
 
-      ]
+    ]
+  },
+  // Game 7
+  {
+    path: "",
+    element: <PageLayout />,
+    state: "Game",
+    sidebarProps: {
+      displayText: "Game",
+      icon: <DashboardOutlinedIcon />
     },
-    // Game 7
-    {
-      path: "",
-      element: <PageLayout />,
-      state: "Game",
-      sidebarProps: {
-        displayText: "GAME",
-        icon: <DashboardOutlinedIcon />
+    child: [
+      {
+        path: "/game/schedulesettings",
+        element: <ScheduleSetting />,
+        state: "Game.GameScheduleSettings",
+        sidebarProps: {
+          displayText: "Game Schedule Settings",
+          icon: <QueryBuilderOutlinedIcon />
+        },
       },
-      child: [
-        {
-          path: "/game/schedulesettings",
-          element: <ScheduleSetting />,
-          state: "Game.GameScheduleSettings",
-          sidebarProps: {
-            displayText: "Game Schedule Settings",
-            icon: <QueryBuilderOutlinedIcon />
-          },
+      {
+        path: "/game/mechanicssettings",
+        element: <MechanicsSetting />,
+        state: "Game.GameMechanicsSettings",
+        sidebarProps: {
+          displayText: "Game Mechanics Settings",
+          icon: <SettingsOutlinedIcon />
         },
-        {
-          path: "/game/mechanicssettings",
-          element: <MechanicsSetting />,
-          state: "Game.GameMechanicsSettings",
-          sidebarProps: {
-            displayText: "Game Mechanics Settings",
-            icon: <SettingsOutlinedIcon />
-          },
+      },
+      {
+        path: "/game/prices",
+        element: <Prices />,
+        state: "Game.GameWinningSettings",
+        sidebarProps: {
+          displayText: "Game Winning Settings",
+          icon: <MoneyOutlinedIcon />
         },
-        {
-          path: "/game/prices",
-          element: <Prices />,
-          state: "Game.GameWinningSettings",
-          sidebarProps: {
-            displayText: "Game Winning Settings",
-            icon: <MoneyOutlinedIcon />
-          },
+      },
+      {
+        path: "/game/gamebets",
+        element: (userRole === "Dashboard") ? <AdminGameBets /> : <GameBets />,
+        state: "Game.GameBets",
+        sidebarProps: {
+          displayText: "Game Bets",
+          icon: <PaymentsOutlinedIcon />
         },
-        {
-          path: "/game/gamebets",
-          element: (userRole === "Dashboard") ? <AdminGameBets /> : <GameBets />,
-          state: "Game.GameBets",
-          sidebarProps: {
-            displayText: "Game Bets",
-            icon: <PaymentsOutlinedIcon />
-          },
+      },
+      {
+        path: "/game/gameresult",
+        element: (userRole === "Dashboard") ? <AdminGameResult /> : <GameResults />,
+        state: "Game.GameResult",
+        sidebarProps: {
+          displayText: "Game Result",
+          icon: <PostAddOutlinedIcon />
         },
-        {
-          path: "/game/gameresult",
-          element: (userRole === "Dashboard") ? <AdminGameResult /> : <GameResults />,
-          state: "Game.GameResult",
-          sidebarProps: {
-            displayText: "Game Result",
-            icon: <PostAddOutlinedIcon />
-          },
-        },
-      ]
+      },
+    ]
+  },
+  // Postings 8
+  {
+    path: "",
+    element: <PageLayout />,
+    state: "Postings",
+    sidebarProps: {
+      displayText: "Postings",
+      icon: <DashboardOutlinedIcon />
     },
-    // Postings 8
-    {
-      path: "",
-      element: <PageLayout />,
-      state: "Postings",
-      sidebarProps: {
-        displayText: "POSTINGS",
-        icon: <DashboardOutlinedIcon />
+    child: [
+      {
+        path: "/textblast",
+        element: <TextBlast />,
+        state: "Postings.TextBlast",
+        sidebarProps: {
+          displayText: "Text Blast",
+          icon: <SmsIcon />
+        },
       },
-      child: [
-        {
-          path: "/textblast",
-          element: <TextBlast />,
-          state: "Postings.TextBlast",
-          sidebarProps: {
-            displayText: "Text Blast",
-            icon: <SmsIcon />
-          },
+      {
+        path: "/announcements",
+        element: <Announcement />,
+        state: "Postings.Announcements",
+        sidebarProps: {
+          displayText: "Announcements",
+          icon: <CampaignOutlinedIcon />
         },
-        {
-          path: "/announcements",
-          element: <Announcement />,
-          state: "Postings.Announcements",
-          sidebarProps: {
-            displayText: "Announcements",
-            icon: <CampaignOutlinedIcon />
-          },
+      },
+      {
+        path: "/livestreaming",
+        element: <LiveStreaming />,
+        state: "Postings.LiveStreaming",
+        sidebarProps: {
+          displayText: "Livestreaming",
+          icon: <LiveTvOutlinedIcon />
         },
-        {
-          path: "/livestreaming",
-          element: <LiveStreaming />,
-          state: "Postings.LiveStreaming",
-          sidebarProps: {
-            displayText: "Livestreaming",
-            icon: <LiveTvOutlinedIcon />
-          },
-        },
-      ]
+      },
+    ]
+  },
+  // Reporting 9
+  {
+    path: "",
+    element: <PageLayout />,
+    state: "Reporting",
+    sidebarProps: {
+      displayText: "Reporting",
+      icon: <DashboardOutlinedIcon />
     },
-    // Reporting 9
-    {
-      path: "",
-      element: <PageLayout />,
-      state: "Reporting",
-      sidebarProps: {
-        displayText: "REPORTING",
-        icon: <DashboardOutlinedIcon />
+    child: [
+      {
+        path: "/sales/report",
+        element: (userRole === "Dashboard") ? <SalesReport /> : <AgentSales />,
+        state: "Reporting.SalesReport",
+        sidebarProps: {
+          displayText: "Sales Report",
+          icon: <MonetizationOnIcon />
+        },
       },
-      child: [
-        {
-          path: "/sales/report",
-          element: (userRole === "Dashboard") ?  <SalesReport /> : <AgentSales />,
-          state: "Reporting.SalesReport",
-          sidebarProps: {
-            displayText: "Sales Report",
-            icon: <MonetizationOnIcon />
-          },
+      {
+        path: "/transactions/report",
+        element: (userRole === "Dashboard") ? <TransactionReport /> : <AgentTransactions />,
+        state: "Reporting.TransactionReport",
+        sidebarProps: {
+          displayText: "Transaction Report",
+          icon: <PointOfSaleIcon />
         },
-        {
-          path: "/transactions/report",
-          element: (userRole === "Dashboard") ? <TransactionReport /> : <AgentTransactions />,
-          state: "Reporting.TransactionReport",
-          sidebarProps: {
-            displayText: "Transaction Report",
-            icon: <PointOfSaleIcon />
-          },
+      },
+      {
+        path: "/activity/report",
+        element: (userRole === "Admin") ? <Admin /> : <AgentUserActivities />,
+        state: "Reporting.UserActivityReport",
+        sidebarProps: {
+          displayText: "User Activity Report",
+          icon: <AcUnitOutlinedIcon />
         },
-        {
-          path: "/activity/report",
-          element: (userRole === "Admin") ? <Admin/> : <AgentUserActivities/>,
-          state: "Reporting.UserActivityReport",
-          sidebarProps: {
-            displayText: "User Activity Report",
-            icon: <AcUnitOutlinedIcon />
-          },
+      },
+      {
+        path: "/activity/report",
+        element: (userRole === "Dashboard") ? <Admin /> : <AgentUserActivities />,
+        state: "Reporting.UserGrowth",
+        sidebarProps: {
+          displayText: "User Growth",
+          icon: <AcUnitOutlinedIcon />
         },
-        {
-          path: "/activity/report",
-          element: (userRole === "Dashboard") ? <Admin/> : <AgentUserActivities/>,
-          state: "Reporting.UserGrowth",
-          sidebarProps: {
-            displayText: "User Growth",
-            icon: <AcUnitOutlinedIcon />
-          },
-        }
-      ]
-    }
-  ];
+      }
+    ]
+  }
+];
 
 export default routeLinks;

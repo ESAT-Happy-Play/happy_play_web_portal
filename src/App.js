@@ -5,6 +5,7 @@ import { routes } from "./routes";
 import Login from "./pages/login/Login";
 import Registration from "./pages/registration/Registration";
 import NotFound from "./pages/404/NotFound";
+import './assets/fonts/Inter-Regular.otf';
 
 import AgentLogin from "./pages/console/login/AgentLogin";
 
@@ -34,9 +35,9 @@ function App() {
             <Route exact path="/company/:id" element={<LayoutWrapper state="SuperAdmin.Company"><CompanyDetails /></LayoutWrapper>} />
             <Route exact path="/branch/:branchCode/:companyId" element={<LayoutWrapper state="SuperAdmin.Branch"><BranchDetails /></LayoutWrapper>} />
             {/* End Details routes */}
-            
+
           </Route>
-          <Route path='*' element={<NotFound />}/>
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
 
@@ -52,7 +53,7 @@ function App() {
         pauseOnHover
         theme="light"
       />
-      
+
     </div>
 
 

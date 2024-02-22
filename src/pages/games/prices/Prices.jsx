@@ -26,80 +26,80 @@ const Prices = () => {
   const tabs = [
     {
       label: "Regular",
-      Component: 
-      <div className="div-multiplier">
-        <Card
-          header={"Winning Multiplier"}
-          actions={
-            <Button onClick={()=> {}} variant="outline" className="edit-button" size="large">
-              Edit <EditOutlinedIcon />
-            </Button>}
-          body={
-            <div className="mult-body">
-              <h1>{multiplier}</h1>
-              <p>Winning equivalent per 1 peso bet</p>
-            </div>
-          }
-        />
-    </div>
+      Component:
+        <div className="div-multiplier">
+          <Card
+            header={"Winning Multiplier"}
+            actions={
+              <Button onClick={() => { }} variant="outline" className="edit-button" size="large">
+                Edit <EditOutlinedIcon />
+              </Button>}
+            body={
+              <div className="mult-body">
+                <h1>{multiplier}</h1>
+                <p>Winning equivalent per 1 peso bet</p>
+              </div>
+            }
+          />
+        </div>
     },
     {
       label: "Jackpot 3.3",
       Component:
-      <div className="div-multiplier">
-        <Card
-          header={"Gross Percentage"}
-          actions={
-            <Button onClick={()=> {}} variant="outline" className="edit-button" size="large">
-              Change <EditOutlinedIcon />
-            </Button>}
-          body={
-            <div className="mult-body">
-              <h1>{percentage}%</h1>
-              <p>Gross percentage as prize increment</p>
-            </div>
-          }
-        />
-        <Card
-          style={{flex:2}}
-          header={"Current Prize"}
-          body={
-            <div className="mult-body">
-              <h1>{prize}</h1>
-              <p>May 08, 2023  <b>2PM</b></p>
-            </div>
-          }
-        />
-      </div>
+        <div className="div-multiplier">
+          <Card
+            header={"Gross Percentage"}
+            actions={
+              <Button onClick={() => { }} variant="outline" className="edit-button" size="large">
+                Change <EditOutlinedIcon />
+              </Button>}
+            body={
+              <div className="mult-body">
+                <h1>{percentage}%</h1>
+                <p>Gross percentage as prize increment</p>
+              </div>
+            }
+          />
+          <Card
+            style={{ flex: 2 }}
+            header={"Current Prize"}
+            body={
+              <div className="mult-body">
+                <h1>{prize}</h1>
+                <p>May 08, 2023  <b>2PM</b></p>
+              </div>
+            }
+          />
+        </div>
     },
     {
       label: "Jackpot 3.4",
-      Component: 
-      <div className="div-multiplier">
-        <Card
-          header={"Gross Percentage"}
-          actions={
-            <Button onClick={()=> {}} variant="outline" className="edit-button" size="large">
-              Change <EditOutlinedIcon />
-            </Button>}
-          body={
-            <div className="mult-body">
-              <h1>{percentage}%</h1>
-              <p>Gross percentage as prize increment</p>
-            </div>
-          }
-        />
-        <Card
-          style={{flex:2}}
-          header={"Current Prize"}
-          body={
-            <div className="mult-body">
-              <h1>{prize}</h1>
-              <p>May 08, 2023  <b>2PM</b></p>
-            </div>
-          }
-        />
-      </div>
+      Component:
+        <div className="div-multiplier">
+          <Card
+            header={"Gross Percentage"}
+            actions={
+              <Button onClick={() => { }} variant="outline" className="edit-button" size="large">
+                Change <EditOutlinedIcon />
+              </Button>}
+            body={
+              <div className="mult-body">
+                <h1>{percentage}%</h1>
+                <p>Gross percentage as prize increment</p>
+              </div>
+            }
+          />
+          <Card
+            style={{ flex: 2 }}
+            header={"Current Prize"}
+            body={
+              <div className="mult-body">
+                <h1>{prize}</h1>
+                <p>May 08, 2023  <b>2PM</b></p>
+              </div>
+            }
+          />
+        </div>
     }
   ];
   const handleCallBackRefresh = () => {
@@ -109,7 +109,7 @@ const Prices = () => {
 
   return (
     <div className="content">
-      <CustomTab 
+      <CustomTab
         tabList={tabs}
       />
       {/* <PageLoader isLoadingPage={ pageLoader } /> */}

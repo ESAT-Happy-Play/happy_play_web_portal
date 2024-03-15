@@ -19,7 +19,9 @@ let listRoutes = {
   game: false,
   posts: false,
   reports: false,
-  system: false
+  system: false,
+  notification: false,
+  profile: false
 }
 
 // menus.push("SuperAdmin.Profiles");
@@ -35,15 +37,17 @@ const buildChildObj = (dataObj, childLinks) => {
 
 let finalRoutes = [];
 finalRoutes.push(routeLinks[0]);
-
+finalRoutes.push(routeLinks[7]);
 if (menus !== null) {
   // set parent menu active
+  if ((menus.filter(str => str.includes("Administrative.")).length > 0)) { listRoutes.administrative = true; }
   if ((menus.filter(str => str.includes("Administrative.")).length > 0)) { listRoutes.administrative = true; }
   if ((menus.filter(str => str.includes("UserAccounts.")).length > 0)) { listRoutes.userAccounts = true; }
   if ((menus.filter(str => str.includes("Game.")).length > 0)) { listRoutes.game = true; }
   if ((menus.filter(str => str.includes("Posts.")).length > 0)) { listRoutes.posts = true; }
   if ((menus.filter(str => str.includes("Reports.")).length > 0)) { listRoutes.reports = true; }
   if ((menus.filter(str => str.includes("System.")).length > 0)) { listRoutes.system = true; }
+
 
   // add child menus
   if (listRoutes.administrative) { finalRoutes.push(buildChildObj(routeLinks[1], menus.filter(str => str.includes("Administrative.")))); }

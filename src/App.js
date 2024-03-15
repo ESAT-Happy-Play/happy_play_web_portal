@@ -9,7 +9,7 @@ import Layout from "./components/layout/Layout";
 import LayoutWrapper from "./components/layout/LayoutWrapper";
 
 import {Login, LoginNewUser, AuthOTP, ForgotPassword, UpdatePassword, Registration, RegistrationOTP,
-  CompanyDetails, RegisterDetails, BranchDetails, NotFound } from './views';
+  CompanyDetails, RegisterDetails, BranchDetails, NotFound, UserProfile } from './views';
 
 function App() {
   return (
@@ -36,6 +36,7 @@ function App() {
             {/* Start Details routes */}
             <Route exact path="/companies/:id" element={<LayoutWrapper state="Administrative.Company"><CompanyDetails /></LayoutWrapper>} />
             <Route exact path="/branches/:id" element={<LayoutWrapper state="Administrative.Branch"><BranchDetails /></LayoutWrapper>} />
+            {/* <Route exact path="/profile" element={<LayoutWrapper state="Profile.ProfileInformation"><UserProfile /></LayoutWrapper>} /> */}
             {/* End Details routes */}
 
           </Route>

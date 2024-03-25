@@ -10,6 +10,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { useSelector, useDispatch } from "react-redux";
 import "./sidebar.scss"
 import { GetJWTStoreObject, GetStoreObject } from "../../helper/Helpers";
+import { Routes, Route, Link } from "react-router-dom";
 
 const Sidebar = () => {
   const dispatch = useDispatch();
@@ -25,7 +26,6 @@ const Sidebar = () => {
   const [selected, setSelected] = useState("");
   // TODO: connect to actual notification number
   const mockNotifCounter = 4;
-
 
   return (
     <div className="sidebar">
@@ -51,14 +51,16 @@ const Sidebar = () => {
             <p className="notif-count">{mockNotifCounter}</p>
           }
         </div>
-        <div className="profile">
-          <AccountCircleRoundedIcon className='icon' />
-          <div>
-            <h2>Username</h2>
-            <p>Your Profile</p>
+        <a href="/profile">  
+          <div className="profile">
+            <AccountCircleRoundedIcon className='icon' />
+            <div>
+              <h2>Username</h2>
+              Your Profile
+            </div>
+            <ArrowForwardIosIcon className='icon' />
           </div>
-          <ArrowForwardIosIcon className='icon' />
-        </div>
+        </a>
         <div className="trademark">
           <h2>Web Dashboard</h2>
           <p>Happy Play © 2024</p>

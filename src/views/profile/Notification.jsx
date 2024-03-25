@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Terms() {
+function Notifications() {
   return (
     <div>
       Notification
@@ -8,4 +8,4 @@ function Terms() {
   )
 }
 
-export default Terms
+export default Notifications

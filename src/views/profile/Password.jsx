@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Terms() {
+function Password() {
   return (
     <div>
       Password
@@ -8,4 +8,4 @@ function Terms() {
   )
 }
 
-export default Terms
+export default Password

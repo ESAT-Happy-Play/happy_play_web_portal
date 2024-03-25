@@ -3,7 +3,6 @@ import CustomVerticalTab from '../../components/tab/CustomVerticalTab';
 import CustomTab from '../../components/tab/CustomTab';
 import { useSelector, useDispatch } from "react-redux";
 import './ProfileInfo.scss';
-import { companyGames } from '../../helper/mocks';
 import GameInfo from './GameInfo';
 import PersonalDetails from './PersonalDetails';
 import Address from './Address';
@@ -38,50 +37,40 @@ const ProfileInfo = () => {
       window.location.href = '/login';
     };
 
-  const tabs =
-    companyGames.map((game) => {
-      return {
-        label: game.gameName,
-        Component:
-          <div className="tab-container">
-            <div className="top">
-                <img src={require('../../assets/happy-play-logo.png')} className="logo" title="Esat Logo" />
-            </div>
-            <CustomVerticalTab            
-              tabList={[
-                { label: "About You", isHeader: true },
-                { label: "Game Info", Component: <GameInfo /> },
-                { label: "Personal Details", Component: <PersonalDetails /> },
-                { label: "Address", Component: <Address /> },
-                { label: "Professional Info", Component: <ProfessionalInfo /> },
-                { label: "Preferences", isHeader: true },
-                { label: "Notifications", Component: <Notification /> },
-                { label: "Account", isHeader: true },
-                { label: "Password", Component: <Password /> },
-              ]} />
-            <div className="foot">
-            <div className="item itemLogout" onClick={ handleLogoutSubmitOpen }>
-            <span style={{fontSize:'16px',marginRight:'10px',color:'white'}}>Logout</span> 
-            <ExitToAppIcon className='icon' />
-            </div>
-            </div>
-            <MessageDialog
-                isOpenMessage={ openConfirmLogoutSubmit } 
-                handleCloseMessage={ handleLogoutSubmitClose } 
-                handleOkay={ handleLogoutOkay } 
-                title={ "Logout" } 
-                content={ "Are you sure you want to logout?" }
-                color={ "error" } />
-            
-            <NotificationDialog isOpen={ openNotify } handleClose={ handleNotifyClose } />
-          </div>          
-      }
-    });
-
+  
   return (
     <div className='container'>
-      <CustomTab tabList={tabs} />
-    </div>
+      <div className="tab-container">
+        <CustomVerticalTab            
+          tabList={[
+            { label: <img src={require('../../assets/Default Profile Pic.png')} className="profilePic" title="Your Profile Picture" />, isHeader: true },
+            { label: "About You", isHeader: true },
+            { label: "Game Info", Component: <GameInfo /> },
+            { label: "Personal Details", Component: <PersonalDetails /> },
+            { label: "Address", Component: <Address /> },
+            { label: "Professional Info", Component: <ProfessionalInfo /> },
+            { label: "Preferences", isHeader: true },
+            { label: "Notifications", Component: <Notification /> },
+            { label: "Account", isHeader: true },
+            { label: "Password", Component: <Password /> },
+          ]} />
+        {/* <div className="foot">
+          <div className="item itemLogout" onClick={ handleLogoutSubmitOpen }>
+          <span >Logout</span> 
+          <ExitToAppIcon className='icon' />
+          </div>
+        </div>
+        <MessageDialog
+            isOpenMessage={ openConfirmLogoutSubmit } 
+            handleCloseMessage={ handleLogoutSubmitClose } 
+            handleOkay={ handleLogoutOkay } 
+            title={ "Logout" } 
+            content={ "Are you sure you want to logout?" }
+            color={ "error" } /> */}
+        
+        {/* <NotificationDialog isOpen={ openNotify } handleClose={ handleNotifyClose } /> */}
+      </div>   
+    </div>       
   )
 }
 

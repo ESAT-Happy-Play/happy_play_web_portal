@@ -1,14 +1,16 @@
-import { styled } from '@mui/material/styles';
 import React, { useState, useEffect } from 'react';
-import { TextField, MenuItem } from "@mui/material";
+import { TextField } from "@mui/material";
+import Stack from '@mui/material/Stack';
+import Grid from '@mui/material/Grid'; // Grid version 1
+import { styled } from '@mui/material/styles';
 import Link from '@mui/material/Link';
-import './ProfileInfo.scss';
-
+import EditIcon from '@mui/icons-material/Edit';
+import CancelIcon from '@mui/icons-material/Cancel';
+import SaveIcon from '@mui/icons-material/Save';
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
-
 import List from '@mui/material/List';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
@@ -17,105 +19,126 @@ import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 
 import Button from '@mui/material/Button';
+import './ProfileInfo.scss';
 import Select from 'react-select'
 import { toast } from 'react-toastify';
 import { GETFetch } from "../../api/ApiFetchBuilder";
 import PageLoader from "../../components/widget/PageLoader";
 
-// import { GetStoreObject } from "../../helper/Helpers/";
+import { UserProfileService } from '../../services/UserProfileService';
 
-const GameInfo = () => {
+const WorkInfo = () => {
   // let loginObj = GetStoreObject("auth");
   const [pageLoader, setPageLoader] = useState(false);
-
-  const [birthPlaceOpen, setbirthPlaceOpen] = React.useState(true);
-  const [userdata, setuserdata] = useState(null);
-
-  const handleCurrentUserData = async () => {
-    setPageLoader(true);
-    let url = `${process.env.REACT_APP_API_URL}/users/currentuserdata`;
-    let response = await GETFetch(url);
-    setPageLoader(false);
-    if(response.status) {
-      setuserdata(response.data.loggedInUserData);
-      console.log(response.data.loggedInUserData)
+  const [workInfo, setWorkInfoState] = useState([]);
+  // const dispatch = useDispatch();
+  const WorkInfoHandler = async (data) => {
+    UserProfileService.getProfileInfo(data).then((response) => {
+    if(response) {
+      setWorkInfoState(response.data.account);
+      console.log(response.data.account);
     }
-
-    if(!response.status) {
-      toast.error(response.data.errorMessage);
-    }
+  });
   }
 
-  // trigger call API endpoint if state change
   useEffect(() => {
-    handleCurrentUserData();
+    WorkInfoHandler();
   }, []);
 
-  const handleBirthPlaceClick = () => {
-    setbirthPlaceOpen(!birthPlaceOpen);
+  const [isEditing, setIsEditing] = React.useState(true);
+  const toggleEdit = () => {
+    setIsEditing(!isEditing)
   };
 
-  const [presentAddrOpen, setpresentAddrOpen] = React.useState(true);
-  const handlePresentClick = () => {
-    setpresentAddrOpen(!presentAddrOpen);
-  };
-  
-  const [permanentAddrOpen, setpermanentAddrOpen] = React.useState(true);
-  const handlePermanentClick = () => {
-    setpermanentAddrOpen(!permanentAddrOpen);
-  };
-
-  const [validIdOpen, setvalidIdOpen] = React.useState(true);
-  const handleValidIDClick = () => {
-    setvalidIdOpen(!validIdOpen);
-  };
-
-  const [signatureOpen, setsignatureOpen] = React.useState(true);
-  const handleSignatureClick = () => {
-    setsignatureOpen(!signatureOpen);
-  };
-
-  const [profileImageOpen, setprofileImageOpen] = React.useState(true);
-  const handleProfileImageClick = () => {
-    setprofileImageOpen(!profileImageOpen);
-  };
+  const validIDs = [
+    { value: 'Passport', label: 'Passport'},
+    { value: '(SSS) Social Security System', label: '(SSS) Social Security System'},
+    { value: '(GSIS) Government Service Insurance System', label: '(GSIS) Government Service Insurance System'},
+    { value: '(UMID) Unified Multi-Purpose Identification', label: '(UMID) Unified Multi-Purpose Identification'},
+    { value: '(LTO) Drivers License', label: '(LTO) Drivers License'},
+    { value: '(PRC) Professional Regulatory Commission', label: '(PRC) Professional Regulatory Commission'},
+    { value: '(OWWA) Overseas Workers Welfare Administration', label: '(OWWA) Overseas Workers Welfare Administration'},
+    { value: '(PNP) Philippine National Police', label: '(PNP) Philippine National Police'},
+    { value: 'Airman License', label: 'Airman License'},
+    { value: 'Postal ID', label: 'Postal ID' },
+    { value: 'Seafarers Record Book', label: 'Seafarers Record Book'},
+    { value: 'Senior Citizen', label: 'Senior Citizen'},
+    { value: 'PWD', label: 'PWD'},
+    { value: 'Solo Parent', label: 'Solo Parent'},
+    { value: 'School ID', label: 'School ID'},
+    { value: 'Others', label: 'Others'}
+  ];
 
   return (
     <div className="divprofile">
       <div className="divright">
         <div className="div-cont">
           <p>Source of Income</p>
-          <TextField disabled defaultValue="Employee" variant="outlined" size="small" fullWidth />
+          <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
+            { 
+              isEditing ? <TextField disabled placeholder={workInfo.sourceOfIncome} sx={{ width: "50%" }} variant="outlined" size="small" /> :
+              <TextField placeholder={workInfo.sourceOfIncome} defaultValue={workInfo.sourceOfIncome} sx={{ width: "50%" }} variant="outlined" size="small" />
+            }
+          </div>
         </div>
         <div className="div-cont">
           <p>Nature of Work</p>
-          <TextField disabled defaultValue="Infomation Technology" variant="outlined" size="small" fullWidth />
+            { 
+              isEditing ? <TextField disabled placeholder={workInfo.natureOfWork} sx={{ width: "50%" }} variant="outlined" size="small" /> :
+              <TextField placeholder={workInfo.natureOfWork} defaultValue={workInfo.natureOfWork} sx={{ width: "50%" }} variant="outlined" size="small" />
+            }
         </div>
         <div className="div-cont">
-            <List component="nav" style={{marginTop:'10px'}}>
-              <ListItemButton onClick={handleValidIDClick}>
-                <ListItemText primary="Valid ID" />
-                {validIdOpen ? <ExpandLess /> : <ExpandMore />}
-              </ListItemButton>
-              <Collapse in={validIdOpen} timeout="auto" unmountOnExit>
-                <List component="div" style={{ paddingLeft: '15px', textAlign:'left', marginRight:'25px'}}>
-                  <div style={{display:'flex',gap:'5px',justifyContent:'center'}}>
-                    <div style={{width:'100%'}}>
-                      <div className="div-imgUpload">
-                          <img className="imgFiles" src={require('../../assets/logo192.png')} salt="" />
-                      </div>
-                    </div>                    
-                  </div>
-                  <div style={{display:'flex',gap:'5px',justifyContent:'center'}}>
-                    <div style={{width:'100%'}}>
-                      <div className="div-imgUpload">
-                          <img className="imgFiles" src={require('../../assets/logo192.png')} salt="" />
-                      </div>
-                    </div>                    
-                  </div>
-                </List>
-              </Collapse>
-            </List>
+          <p>Valid ID</p>
+            { 
+              isEditing ? <Select disabled placeholder={workInfo.validId} sx={{ width: "50%" }} options={validIDs} variant="outlined" size="small" /> :
+              <Select placeholder={workInfo.validId} defaultValue={workInfo.validId} options={validIDs} variant="outlined" size="small" />
+            }
+        </div>
+        <div className="div-cont">
+          <p>ID Capture</p>
+            { 
+              isEditing ?
+              <Grid container spacing={3} p={5}>
+                <Grid xs={4}>
+                  <p>Front of ID</p>
+                  <img src={require('../../assets/logo192.png')} className="frontID" title="Front ID Pic" />
+                </Grid>                
+                <Grid xs={4}>
+                  <p>Selfie</p>
+                  <img src={require('../../assets/logo192.png')} className="backID" title="Back ID Pic" />
+                </Grid>
+                <Grid xs={4}>
+                  <p>Selfie</p>
+                  <img src={require('../../assets/logo192.png')} className="selfiePic" title="Your Selfie" />
+                </Grid>
+              </Grid> 
+              :
+              <Grid container spacing={3} p={5}>
+                <Grid xs={4}>
+                  <p>Front of ID</p>
+                  <img src={require('../../assets/logo192.png')} className="frontID" title="Front ID Pic" />
+                </Grid>                
+                <Grid xs={4}>
+                  <p>Selfie</p>
+                  <img src={require('../../assets/logo192.png')} className="backID" title="Back ID Pic" />
+                </Grid>
+                <Grid xs={4}>
+                  <p>Selfie</p>
+                  <img src={require('../../assets/logo192.png')} className="selfiePic" title="Your Selfie" />
+                </Grid>
+              </Grid>  
+            }
+        </div>
+        <div className='form-footer'>
+            { isEditing ? 
+              <Button variant="outlined" size="medium" onClick={toggleEdit}> Edit <EditIcon /> </Button> 
+              :
+              <Stack direction="row" spacing={2}>
+                  <Button variant="outlined" size="medium" onClick={toggleEdit}> Update <SaveIcon /> </Button> 
+                  <Button variant="outlined" size="medium" onClick={toggleEdit}> Cancel <CancelIcon /> </Button> 
+              </Stack>
+            }            
           </div>
       </div>
       <PageLoader isLoadingPage={ pageLoader } />
@@ -123,4 +146,4 @@ const GameInfo = () => {
   )
 }
 
-export default GameInfo
+export default WorkInfo

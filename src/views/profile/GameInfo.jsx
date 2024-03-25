@@ -1,7 +1,9 @@
 import { styled } from '@mui/material/styles';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useDispatch} from 'react';
 import { TextField, MenuItem } from "@mui/material";
 import Link from '@mui/material/Link';
+import { useForm } from 'react-hook-form';
+import EditIcon from '@mui/icons-material/Edit';
 import './ProfileInfo.scss';
 
 import Radio from '@mui/material/Radio';
@@ -17,111 +19,100 @@ import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 
 import Button from '@mui/material/Button';
-import { toast } from 'react-toastify';
-import { GETFetch } from "../../api/ApiFetchBuilder";
 import PageLoader from "../../components/widget/PageLoader";
 import DefaultAddressWithData from "../../components/widget/address/DefaultAddressWithData";
-
+import { UserProfileService } from '../../services/UserProfileService';
 import { GetStoreObject } from "../../helper/Helpers";
+
 
 const GameInfo = () => {
   let loginObj = GetStoreObject("auth");
-  const [pageLoader, setPageLoader] = useState(false);
-
-  const [birthPlaceOpen, setbirthPlaceOpen] = React.useState(true);
-  const [userdata, setuserdata] = useState(null);
-
-  const handleCurrentUserData = async () => {
-    setPageLoader(true);
-    let url = `${process.env.REACT_APP_API_URL}/users/currentuserdata`;
-    let response = await GETFetch(url);
-    setPageLoader(false);
-    if(response.status) {
-      setuserdata(response.data.loggedInUserData);
-      console.log(response.data.loggedInUserData)
+  const [gameInfo, setGameInfoState] = useState([]);
+  // const dispatch = useDispatch();
+  const GameInfoHandler = async (data) => {
+    UserProfileService.getProfileInfo(data).then((response) => {
+    if(response) {
+      setGameInfoState(response.data.account);
+      console.log(response.data.account);
     }
-
-    if(!response.status) {
-      toast.error(response.data.errorMessage);
-    }
+  });
   }
-
-  // trigger call API endpoint if state change
+  const [pageLoader, setPageLoader] = useState(false);
+  
+  const [birthPlaceOpen, setbirthPlaceOpen] = React.useState(true);
+  
   useEffect(() => {
-    handleCurrentUserData();
+    GameInfoHandler();
   }, []);
 
-  const handleBirthPlaceClick = () => {
-    setbirthPlaceOpen(!birthPlaceOpen);
+  const [isEditing, setIsEditing] = React.useState(true);
+  const toggleEdit = () => {
+    setIsEditing(!isEditing)
   };
 
-  const [presentAddrOpen, setpresentAddrOpen] = React.useState(true);
-  const handlePresentClick = () => {
-    setpresentAddrOpen(!presentAddrOpen);
-  };
-  
-  const [permanentAddrOpen, setpermanentAddrOpen] = React.useState(true);
-  const handlePermanentClick = () => {
-    setpermanentAddrOpen(!permanentAddrOpen);
-  };
-
-  const [validIdOpen, setvalidIdOpen] = React.useState(true);
-  const handleValidIDClick = () => {
-    setvalidIdOpen(!validIdOpen);
-  };
-
-  const [signatureOpen, setsignatureOpen] = React.useState(true);
-  const handleSignatureClick = () => {
-    setsignatureOpen(!signatureOpen);
-  };
-
-  const [profileImageOpen, setprofileImageOpen] = React.useState(true);
-  const handleProfileImageClick = () => {
-    setprofileImageOpen(!profileImageOpen);
-  };
   return (
     <div className="divprofile">
       <div className="divleft">
         <br />
-        <img src={require('../../assets/logo192.png')} className="ProfilePic" title="Your Profile PIC" />
+        <img src={require('../../assets/Default Profile Pic.png')} className="gameInfoProfilePic" title="Your Profile PIC" />
         <br />
       </div>
       <div className="divright">
         <div className="div-r-content">
-          <div className="GameInfo-details">
+          <div className="gameInfodetails">
             <table>
               <tr>
                 <td> Mobile Number</td>
                 <td colSpan={2}>
-                  {
-                    (userdata !== null) ? <TextField disabled defaultValue={userdata.mobileNumber} variant="outlined" size="small" fullWidth /> : "..."
+                  <div id="mobileNumber">
+                  { gameInfo.mobileNumber  
+                    // (gameInfo !== null) ? <TextField disabled defaultValue={gameInfo.mobileNumber} variant="outlined" size="small" fullWidth /> : "..."
                   }
+                  </div>
                 </td>
               </tr>
               <tr>
                 <td> Display Name</td>
                 <td colSpan={2}>
-                  { (userdata !== null) ? <TextField disabled defaultValue={userdata.firstname} variant="outlined" size="small" /> : "RUFF" }
-                  { (userdata !== null) ? <TextField disabled defaultValue={userdata.lastname} variant="outlined" size="small" /> : "NOT" }
+                  { gameInfo.firstName+" "+gameInfo.lastName
+                  /* { (gameInfo.firstname !== null) ? <TextField disabled defaultValue={gameInfo.firstname} variant="outlined" size="small" /> : "RUFF" }
+                  { (gameInfo.lastname !== null) ? <TextField disabled defaultValue={gameInfo.lastname} variant="outlined" size="small" /> : "NOT" } */}
                 </td>
               </tr>
               <tr>
                 <td> Birthday </td>
-                <td> <TextField disabled type="date" defaultValue={"MM-DD-YYYY"} variant="outlined" size="small" fullWidth /></td>
+                <td> 
+                  { gameInfo.birthDate }
+                  {/* <TextField disabled type="date" defaultValue={"MM-DD-YYYY"} variant="outlined" size="small" fullWidth /> */}
+                </td>
               </tr>
               <tr>
                 <td> Branch Name </td>
-                <td> { (userdata !== null) ? <TextField disabled defaultValue={userdata.branchName} variant="outlined" size="small" /> : "TESTBranch" } </td>
+                <td>
+                  { gameInfo.branchName }
+                  {/* { (gameInfo.branchName !== null) ? <TextField disabled defaultValue={gameInfo.branchName} variant="outlined" size="small" /> : "TESTBranch" } */}
+                </td>
               </tr>
               <tr>
                 <td> Registration Date</td>
-                <td> { (userdata !== null) ? <TextField disabled type="date" defaultValue={"MM-DD-YYYY"} variant="outlined" size="small" fullWidth /> : "MM-DD-YYYY" } </td>
+                <td> 
+                  To be implemented
+                  {/* { (gameInfo.registerdate !== null) ? <TextField disabled type="date" defaultValue={"MM-DD-YYYY"} variant="outlined" size="small" fullWidth /> : "MM-DD-YYYY" } */}
+                </td>
               </tr>
               <tr>
                 <td> Role </td>
-                <td> { (userdata !== null) ? <TextField disabled defaultValue={userdata.role} variant="outlined" size="small" /> : "TESTrole" } </td>
+                <td>
+                  Must patch UserTypeId to type of Role
+                  {/* { (gameInfo.role !== null) ? <TextField disabled defaultValue={gameInfo.role} variant="outlined" size="small" /> : "TESTrole" } */}
+                </td>
               </tr>
             </table>            
+          </div>
+          <div className='form-footer'>
+            <Button variant="outlined" size="medium" onClick={toggleEdit}>
+              Edit <EditIcon />
+            </Button>
           </div>
         </div>
       </div>

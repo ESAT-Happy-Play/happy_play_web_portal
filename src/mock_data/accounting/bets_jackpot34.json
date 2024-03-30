@@ -1,0 +1,4502 @@
+[
+	{
+		"betID": "54E81CDA-E380-9329-6813-382E79C95E8E",
+		"companyName": "Facilisis Industries",
+		"betAmount": "6 685 770",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "10%",
+		"claimDate": "Oct 29, 2023"
+	},
+	{
+		"betID": "F222777B-7A72-D748-597D-5E9148562931",
+		"companyName": "Turpis Nec Mauris Corp.",
+		"betAmount": "6 896 381",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "10%",
+		"claimDate": "Dec 30, 2024"
+	},
+	{
+		"betID": "16BE62D8-4653-FCE8-C067-5E39D65B6262",
+		"companyName": "Suspendisse Corp.",
+		"betAmount": "763 722",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "11%",
+		"claimDate": "Aug 14, 2024"
+	},
+	{
+		"betID": "A63DC811-A465-EBA7-185A-74B6985C1E9A",
+		"companyName": "Enim Suspendisse PC",
+		"betAmount": "4 243 147",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Oct 4, 2024"
+	},
+	{
+		"betID": "41EB53A7-D93E-61B8-376B-B85B714189A2",
+		"companyName": "Lorem Eu Corporation",
+		"betAmount": "8 232 287",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Jun 11, 2023"
+	},
+	{
+		"betID": "4882012C-75BF-25EB-7E72-BE817072314B",
+		"companyName": "Risus Morbi Limited",
+		"betAmount": "7 353 162",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Mar 8, 2024"
+	},
+	{
+		"betID": "6C3DD525-7676-D98A-EA62-BD71520E3A14",
+		"companyName": "Vestibulum Ante Ipsum Associates",
+		"betAmount": "6 349 209",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "13%",
+		"claimDate": "Aug 3, 2023"
+	},
+	{
+		"betID": "2EF2C3BB-8788-6F92-6201-544632C5EC51",
+		"companyName": "Proin Nisl Institute",
+		"betAmount": "8 721 951",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "13%",
+		"claimDate": "Mar 28, 2023"
+	},
+	{
+		"betID": "E90230E3-2339-2CC7-ACDE-B8D343B30FDA",
+		"companyName": "Donec Non Incorporated",
+		"betAmount": "3 946 127",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "14%",
+		"claimDate": "Jan 20, 2024"
+	},
+	{
+		"betID": "2EED5E54-BDED-17B5-23DD-C4D6D1C90AEB",
+		"companyName": "Eu LLP",
+		"betAmount": "2 587 044",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Sep 15, 2024"
+	},
+	{
+		"betID": "26C53AD9-C177-81B1-8726-E65E3E0A7355",
+		"companyName": "Mauris Eu Turpis Incorporated",
+		"betAmount": "4 439 057",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "15%",
+		"claimDate": "Jul 17, 2024"
+	},
+	{
+		"betID": "3B3EC215-2273-009B-6D8E-C61594EA32EF",
+		"companyName": "Nisl Quisque Fringilla Corporation",
+		"betAmount": "3 618 438",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "15%",
+		"claimDate": "Apr 11, 2023"
+	},
+	{
+		"betID": "4A54A696-36A3-A977-890D-29B169E5264E",
+		"companyName": "Vel Lectus Cum Corporation",
+		"betAmount": "6 542 413",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "16%",
+		"claimDate": "May 7, 2024"
+	},
+	{
+		"betID": "B5B61E8A-0787-25C5-D421-39C9CF215386",
+		"companyName": "Dolor Institute",
+		"betAmount": "7 888 164",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "16%",
+		"claimDate": "Dec 16, 2023"
+	},
+	{
+		"betID": "85CD1949-E7AE-A611-EB87-4A829961DA59",
+		"companyName": "Amet Consectetuer Adipiscing LLP",
+		"betAmount": "268 977",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "17%",
+		"claimDate": "Mar 28, 2024"
+	},
+	{
+		"betID": "CFAAB184-21FB-9C91-CCC2-9D08290DBB26",
+		"companyName": "Euismod Incorporated",
+		"betAmount": "2 108 188",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "17%",
+		"claimDate": "May 30, 2024"
+	},
+	{
+		"betID": "46C987DE-D896-C4E0-2C7C-178B3C932DB3",
+		"companyName": "Quis Urna Associates",
+		"betAmount": "4 637 536",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "18%",
+		"claimDate": "Aug 23, 2023"
+	},
+	{
+		"betID": "F2E5D24C-8AEC-58C6-9988-74BD88A12139",
+		"companyName": "Nunc Ac LLP",
+		"betAmount": "4 634 982",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "Jan 28, 2025"
+	},
+	{
+		"betID": "E6457EAE-266B-C441-2F98-89711C23DD92",
+		"companyName": "Nunc Corp.",
+		"betAmount": "9 228 067",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "19%",
+		"claimDate": "Feb 25, 2024"
+	},
+	{
+		"betID": "9D82A144-7889-E11A-8569-6C7CA901BBD5",
+		"companyName": "Facilisis Associates",
+		"betAmount": "3 632 761",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "19%",
+		"claimDate": "May 22, 2024"
+	},
+	{
+		"betID": "D466A0E1-5C6D-7CD6-37D1-E014C59B631D",
+		"companyName": "Dictum Placerat Augue Industries",
+		"betAmount": "1 954 720",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "20%",
+		"claimDate": "Jan 18, 2024"
+	},
+	{
+		"betID": "870577B5-5696-1E2F-5806-EE117CA42831",
+		"companyName": "Aenean Euismod Incorporated",
+		"betAmount": "1 946 805",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "20%",
+		"claimDate": "Nov 13, 2024"
+	},
+	{
+		"betID": "99AA829B-3D31-0C83-6982-75C8A6EAA670",
+		"companyName": "Mus Aenean LLC",
+		"betAmount": "3 028 535",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "10%",
+		"claimDate": "May 11, 2023"
+	},
+	{
+		"betID": "7472A6EA-B813-92A3-098E-9BE0D3D362B7",
+		"companyName": "Dignissim Magna Industries",
+		"betAmount": "7 442 505",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "10%",
+		"claimDate": "Jul 15, 2023"
+	},
+	{
+		"betID": "7B0E529B-617C-E34C-CEAF-12188F47AD4C",
+		"companyName": "Nisl Nulla LLP",
+		"betAmount": "1 367 108",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "11%",
+		"claimDate": "Aug 8, 2024"
+	},
+	{
+		"betID": "CDC98845-24B8-A638-0B2B-41C80CA4B63E",
+		"companyName": "Proin Nisl LLC",
+		"betAmount": "2 139 410",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Feb 11, 2025"
+	},
+	{
+		"betID": "3B840E36-903A-A899-5897-AD1C4B620A55",
+		"companyName": "Vivamus Corporation",
+		"betAmount": "281 680",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "12%",
+		"claimDate": "Jan 7, 2024"
+	},
+	{
+		"betID": "40546434-48B8-2AD1-D70A-EA0A792CD228",
+		"companyName": "In Faucibus Associates",
+		"betAmount": "1 969 406",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Nov 10, 2024"
+	},
+	{
+		"betID": "CA5CAB87-11B7-8A26-DF1C-C67667EDCC6A",
+		"companyName": "Risus Varius LLC",
+		"betAmount": "9 392 913",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "13%",
+		"claimDate": "Oct 29, 2023"
+	},
+	{
+		"betID": "D560EB51-CC6E-5CD8-915A-5FACAD43D21D",
+		"companyName": "Ac Corporation",
+		"betAmount": "1 982 478",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "13%",
+		"claimDate": "Nov 12, 2024"
+	},
+	{
+		"betID": "E228CCEA-2227-4DFC-2AD8-005B8E7B61C5",
+		"companyName": "Ornare Libero At Corporation",
+		"betAmount": "2 122 932",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "14%",
+		"claimDate": "Jul 30, 2024"
+	},
+	{
+		"betID": "2B873936-D71E-B31D-6A76-8B2485553624",
+		"companyName": "Curae Phasellus Ornare Institute",
+		"betAmount": "4 277 140",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Jul 27, 2024"
+	},
+	{
+		"betID": "90FF5EA9-A6DC-E95B-7EDA-27E293AAE185",
+		"companyName": "Consectetuer Euismod Est Associates",
+		"betAmount": "3 963 113",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "15%",
+		"claimDate": "Jul 26, 2023"
+	},
+	{
+		"betID": "7553A428-B7E4-DD63-D582-D758342FFA3B",
+		"companyName": "Nulla Integer Vulputate Inc.",
+		"betAmount": "9 735 906",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "15%",
+		"claimDate": "Dec 28, 2023"
+	},
+	{
+		"betID": "49877BE5-D046-6A7E-12A4-649A1B532DA0",
+		"companyName": "Orci Lacus Limited",
+		"betAmount": "6 316 640",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "16%",
+		"claimDate": "Mar 8, 2024"
+	},
+	{
+		"betID": "94B13184-D3E3-376A-561D-BBA6366AA52C",
+		"companyName": "Sed Corp.",
+		"betAmount": "929 168",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "16%",
+		"claimDate": "Apr 16, 2023"
+	},
+	{
+		"betID": "5C8A26C1-46BD-8EC8-828A-FD082F4D1631",
+		"companyName": "Justo Nec Ante Ltd",
+		"betAmount": "6 877 987",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "17%",
+		"claimDate": "Apr 22, 2023"
+	},
+	{
+		"betID": "C47A8C43-2562-602E-81E5-5205B2211C6E",
+		"companyName": "Eu Company",
+		"betAmount": "8 186 178",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "17%",
+		"claimDate": "Dec 2, 2023"
+	},
+	{
+		"betID": "1EA31DC4-D5F5-DF8B-8D22-07CA192674CA",
+		"companyName": "Sed Dui Fusce Company",
+		"betAmount": "1 395 593",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "18%",
+		"claimDate": "Jun 9, 2023"
+	},
+	{
+		"betID": "7F7B3500-9198-ED47-8D3F-1D175362E517",
+		"companyName": "Bibendum Sed Associates",
+		"betAmount": "8 675 843",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "18%",
+		"claimDate": "Dec 28, 2023"
+	},
+	{
+		"betID": "826B1C4C-9653-01C5-A599-3E9323E8F297",
+		"companyName": "Ornare Lectus Corp.",
+		"betAmount": "5 645 615",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "19%",
+		"claimDate": "Mar 31, 2024"
+	},
+	{
+		"betID": "912882A4-8D1C-A5E9-C5A2-7153DEC70BC5",
+		"companyName": "Etiam Limited",
+		"betAmount": "3 609 651",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Nov 12, 2023"
+	},
+	{
+		"betID": "2ADE4F41-3592-1D6C-4436-B77C497C0A42",
+		"companyName": "Rutrum Justo Incorporated",
+		"betAmount": "3 330 631",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "20%",
+		"claimDate": "Jul 3, 2023"
+	},
+	{
+		"betID": "5FEC6C96-EAE6-CA55-2BB8-B94B6A1464DD",
+		"companyName": "Ultrices Posuere Inc.",
+		"betAmount": "3 995 791",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "20%",
+		"claimDate": "Sep 17, 2024"
+	},
+	{
+		"betID": "61A12E05-C9C1-810D-E8C8-378BEB927E14",
+		"companyName": "Velit Sed Malesuada LLC",
+		"betAmount": "57 150",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "10%",
+		"claimDate": "Oct 4, 2023"
+	},
+	{
+		"betID": "1E1E0408-24B4-43C3-78BB-4443AF48C58B",
+		"companyName": "Laoreet Lectus Incorporated",
+		"betAmount": "3 506 822",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Mar 5, 2025"
+	},
+	{
+		"betID": "D896A662-5C78-EB4F-452A-B9264C4DB9E8",
+		"companyName": "Eu Arcu Institute",
+		"betAmount": "4 858 360",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Jun 9, 2024"
+	},
+	{
+		"betID": "8E420432-DED4-3204-B4AE-126E838CAAF2",
+		"companyName": "Vitae Nibh PC",
+		"betAmount": "4 099 890",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Oct 27, 2024"
+	},
+	{
+		"betID": "1452CDE8-794D-216D-7A43-6D68C1A599ED",
+		"companyName": "Ante Ipsum Primis LLC",
+		"betAmount": "9 310 531",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "12%",
+		"claimDate": "Apr 5, 2024"
+	},
+	{
+		"betID": "7468F934-859A-40D2-2692-CCD099EEC9EB",
+		"companyName": "Nostra Per Institute",
+		"betAmount": "5 156 436",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Sep 28, 2024"
+	},
+	{
+		"betID": "D2F5FE95-14E7-76BC-7201-437A86588199",
+		"companyName": "A Magna Lorem Inc.",
+		"betAmount": "773 810",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "13%",
+		"claimDate": "Jun 1, 2023"
+	},
+	{
+		"betID": "D1948567-199A-7C3A-8695-B5E56A9BE31A",
+		"companyName": "Integer Limited",
+		"betAmount": "2 625 347",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "13%",
+		"claimDate": "Mar 10, 2025"
+	},
+	{
+		"betID": "368EEDEB-DAC1-7D26-2C37-5C27B19814B9",
+		"companyName": "Nibh Phasellus Corporation",
+		"betAmount": "6 740 253",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "14%",
+		"claimDate": "Mar 5, 2025"
+	},
+	{
+		"betID": "D34A2C98-31DA-E373-5E65-A369943A141B",
+		"companyName": "Metus Aenean LLP",
+		"betAmount": "5 095 142",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "14%",
+		"claimDate": "May 29, 2023"
+	},
+	{
+		"betID": "1D4C11E9-4EDC-662C-251B-3A2E8D4E9C2A",
+		"companyName": "Lobortis Quam Company",
+		"betAmount": "2 523 726",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "15%",
+		"claimDate": "Feb 24, 2024"
+	},
+	{
+		"betID": "6A14781C-1348-F56D-333D-C49CA9705C14",
+		"companyName": "Mus Donec Ltd",
+		"betAmount": "2 257 835",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "15%",
+		"claimDate": "Nov 21, 2024"
+	},
+	{
+		"betID": "6F34A2DA-C217-2DBF-F458-6CA73677EE75",
+		"companyName": "Id Ante Consulting",
+		"betAmount": "1 236 753",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "16%",
+		"claimDate": "Mar 4, 2025"
+	},
+	{
+		"betID": "887AB000-761B-A562-B6DE-F82C5481C024",
+		"companyName": "Purus Duis Elementum Ltd",
+		"betAmount": "650 482",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "16%",
+		"claimDate": "Jul 14, 2023"
+	},
+	{
+		"betID": "359E8266-1BF5-4363-C932-B749BD5BEE24",
+		"companyName": "Nascetur Ridiculus Institute",
+		"betAmount": "4 992 365",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "17%",
+		"claimDate": "Jul 28, 2024"
+	},
+	{
+		"betID": "9B639BBA-CD0B-41D7-2AD4-D4E217BD2DBC",
+		"companyName": "Dolor Sit Foundation",
+		"betAmount": "561 573",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "17%",
+		"claimDate": "Jun 29, 2023"
+	},
+	{
+		"betID": "B5DDB3DC-EC51-5E01-4379-62E5E4814CD9",
+		"companyName": "Cras Dolor Dolor LLP",
+		"betAmount": "9 289 925",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "18%",
+		"claimDate": "Jul 31, 2024"
+	},
+	{
+		"betID": "B85D8A7C-A961-829F-E7C5-C872BE19389F",
+		"companyName": "Varius Nam Porttitor LLP",
+		"betAmount": "8 709 149",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "18%",
+		"claimDate": "Dec 6, 2024"
+	},
+	{
+		"betID": "029BE1D1-AE67-5AA5-A250-B7795A3AE5AA",
+		"companyName": "Duis Cursus Associates",
+		"betAmount": "422 676",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "19%",
+		"claimDate": "Apr 16, 2024"
+	},
+	{
+		"betID": "F39E5E10-0C95-EAA9-BD91-5DD185AE1A9C",
+		"companyName": "Sodales Elit Corp.",
+		"betAmount": "2 650 839",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "19%",
+		"claimDate": "Jan 21, 2025"
+	},
+	{
+		"betID": "C2093267-5991-43DD-3D69-FF8F82E66797",
+		"companyName": "Est Tempor Foundation",
+		"betAmount": "1 797 076",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "20%",
+		"claimDate": "Feb 22, 2024"
+	},
+	{
+		"betID": "DB11D77A-3234-12C5-9B13-D5211DC77473",
+		"companyName": "Duis Gravida Company",
+		"betAmount": "7 028 519",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "20%",
+		"claimDate": "Dec 9, 2023"
+	},
+	{
+		"betID": "7A69970F-A96A-DC8E-F793-9162A81D92F3",
+		"companyName": "Ullamcorper Velit Corporation",
+		"betAmount": "9 475 843",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Dec 11, 2023"
+	},
+	{
+		"betID": "CE2BE865-EB1A-A2B0-9185-25BEF10AC73C",
+		"companyName": "Euismod Enim Etiam PC",
+		"betAmount": "2 751 240",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Apr 3, 2023"
+	},
+	{
+		"betID": "A1232FC9-1EF2-C43F-BFE6-B127416094A8",
+		"companyName": "Nunc Incorporated",
+		"betAmount": "4 095 613",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Feb 17, 2024"
+	},
+	{
+		"betID": "7611B512-8CA6-58A3-1A8F-5CC58B1B6B6C",
+		"companyName": "Ante Vivamus Non Consulting",
+		"betAmount": "7 506 851",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Aug 31, 2024"
+	},
+	{
+		"betID": "C87D7111-BA2D-42AE-D91B-842C12B471BF",
+		"companyName": "Massa Rutrum Industries",
+		"betAmount": "3 710 540",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Mar 3, 2024"
+	},
+	{
+		"betID": "DD2189BA-9D64-5585-B2E8-AEA17F8AE1A5",
+		"companyName": "Ac Mattis Ornare Foundation",
+		"betAmount": "1 243 132",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Oct 7, 2023"
+	},
+	{
+		"betID": "29579BCD-BEC2-6B63-BC61-04298D4B97B1",
+		"companyName": "Iaculis Quis Foundation",
+		"betAmount": "5 507 221",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "13%",
+		"claimDate": "Mar 19, 2025"
+	},
+	{
+		"betID": "86253607-A6B4-8393-1880-AD8C74CCF723",
+		"companyName": "Erat Incorporated",
+		"betAmount": "638 419",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "13%",
+		"claimDate": "Nov 15, 2024"
+	},
+	{
+		"betID": "5E7ED538-B5C2-418A-75AA-84AA576BE5FA",
+		"companyName": "Cras Dolor Dolor Industries",
+		"betAmount": "6 184 299",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "14%",
+		"claimDate": "Aug 1, 2023"
+	},
+	{
+		"betID": "11C79832-620D-C51A-7279-C32494364537",
+		"companyName": "Odio Semper Associates",
+		"betAmount": "4 487 947",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Mar 24, 2025"
+	},
+	{
+		"betID": "5502C113-E353-A136-39F0-3646F6BED577",
+		"companyName": "Gravida Non Company",
+		"betAmount": "2 777 587",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "15%",
+		"claimDate": "Sep 23, 2024"
+	},
+	{
+		"betID": "9272E8B4-8581-F947-951A-ECF784D80CC2",
+		"companyName": "Turpis Corporation",
+		"betAmount": "7 656 113",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "15%",
+		"claimDate": "Feb 3, 2024"
+	},
+	{
+		"betID": "CA60487D-4646-CBEE-E243-440313EA89D2",
+		"companyName": "Proin Non Massa Associates",
+		"betAmount": "2 088 508",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "16%",
+		"claimDate": "Apr 27, 2023"
+	},
+	{
+		"betID": "AFE24CAD-E599-25BE-42AB-C6B146DAA0CD",
+		"companyName": "Non Magna Foundation",
+		"betAmount": "8 210 686",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "16%",
+		"claimDate": "Jul 21, 2023"
+	},
+	{
+		"betID": "E6F8DD59-7CCA-BBC6-07EA-D473185BA6EC",
+		"companyName": "Tellus Non Consulting",
+		"betAmount": "6 264 767",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "17%",
+		"claimDate": "Feb 3, 2025"
+	},
+	{
+		"betID": "F1D95A78-637B-EB28-4075-111F331428B9",
+		"companyName": "Vitae Nibh Associates",
+		"betAmount": "7 064 903",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "17%",
+		"claimDate": "Sep 23, 2023"
+	},
+	{
+		"betID": "DDEDD42E-F91E-3737-37EA-8A834441EC12",
+		"companyName": "Integer Vitae Corporation",
+		"betAmount": "8 758 659",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "18%",
+		"claimDate": "May 2, 2024"
+	},
+	{
+		"betID": "ECFF47F4-783C-6DC7-BECD-DB650B5ED961",
+		"companyName": "A Ultricies Institute",
+		"betAmount": "2 113 889",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "18%",
+		"claimDate": "Jun 19, 2023"
+	},
+	{
+		"betID": "717F948B-9DBC-3B25-0D35-1C27C21C1856",
+		"companyName": "Etiam LLP",
+		"betAmount": "22 295",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Apr 21, 2023"
+	},
+	{
+		"betID": "BBA6C1FB-B52B-4AF5-7D99-559411239FB2",
+		"companyName": "Id Blandit Ltd",
+		"betAmount": "8 122 503",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "19%",
+		"claimDate": "Jan 19, 2025"
+	},
+	{
+		"betID": "C58A8B46-CF3D-E926-AB6A-CD2BB9E47319",
+		"companyName": "Viverra Foundation",
+		"betAmount": "6 761 234",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "20%",
+		"claimDate": "Nov 18, 2023"
+	},
+	{
+		"betID": "729759AD-B8A5-8EB8-E0F4-E92CA3B42B5E",
+		"companyName": "Fringilla Institute",
+		"betAmount": "4 271 407",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "20%",
+		"claimDate": "May 10, 2024"
+	},
+	{
+		"betID": "DCEFFC45-7BEB-D1A4-52C1-996956161634",
+		"companyName": "Cursus Diam Corp.",
+		"betAmount": "578 282",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "10%",
+		"claimDate": "Sep 7, 2024"
+	},
+	{
+		"betID": "BE93879D-7284-48FA-CF1A-52CF89421646",
+		"companyName": "Est Congue A Corp.",
+		"betAmount": "5 505 812",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Mar 25, 2025"
+	},
+	{
+		"betID": "B81E7D44-3B71-DA53-FCED-BE424DAD26ED",
+		"companyName": "Integer Id LLC",
+		"betAmount": "1 124 191",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "11%",
+		"claimDate": "Oct 30, 2023"
+	},
+	{
+		"betID": "E7DA844A-73F6-E4D2-6FED-133F481F2A9A",
+		"companyName": "Egestas Aliquam Nec Limited",
+		"betAmount": "7 849 961",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "11%",
+		"claimDate": "May 13, 2023"
+	},
+	{
+		"betID": "C6EA267D-316A-0EA2-C4B1-EADCDA9EBBB5",
+		"companyName": "Nisl Corp.",
+		"betAmount": "1 465 401",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Oct 29, 2023"
+	},
+	{
+		"betID": "B5359316-DDCE-0866-24C7-878A623AFB4A",
+		"companyName": "Accumsan Interdum Corp.",
+		"betAmount": "4 963 265",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Jun 29, 2023"
+	},
+	{
+		"betID": "F5422695-8BD2-82EC-E41E-93134ECE78D1",
+		"companyName": "Dapibus Ligula Aliquam LLP",
+		"betAmount": "5 216 999",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "13%",
+		"claimDate": "Mar 21, 2024"
+	},
+	{
+		"betID": "7CCA9E4D-1361-E9F3-7461-2F8185EDCC6E",
+		"companyName": "Scelerisque Mollis Limited",
+		"betAmount": "4 117 456",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "13%",
+		"claimDate": "Jul 7, 2024"
+	},
+	{
+		"betID": "0CBB9BDE-D9DD-4DC9-D418-74BB33AA45CC",
+		"companyName": "Integer Eu Lacus Institute",
+		"betAmount": "582 186",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Aug 24, 2024"
+	},
+	{
+		"betID": "FB39F5B7-A32D-53C6-D19C-DDB6EABBD30F",
+		"companyName": "Aliquet Vel Limited",
+		"betAmount": "4 003 300",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "14%",
+		"claimDate": "Jul 2, 2024"
+	},
+	{
+		"betID": "991630CE-AD8D-5194-864D-979C09C4B294",
+		"companyName": "Vitae Velit Incorporated",
+		"betAmount": "4 348 896",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "15%",
+		"claimDate": "Dec 25, 2024"
+	},
+	{
+		"betID": "EB3ADFED-E1DB-60CF-CE37-ACCC453754D2",
+		"companyName": "Aenean Gravida Nunc Inc.",
+		"betAmount": "3 139 176",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "15%",
+		"claimDate": "Oct 7, 2023"
+	},
+	{
+		"betID": "89AC3A23-E2C6-B261-25A6-AF20D8D02856",
+		"companyName": "Nullam Suscipit Foundation",
+		"betAmount": "1 028 224",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "16%",
+		"claimDate": "May 24, 2024"
+	},
+	{
+		"betID": "C2DA59C1-92C7-9522-952A-62A9E09D103E",
+		"companyName": "Sed Dictum Proin Limited",
+		"betAmount": "299 683",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "16%",
+		"claimDate": "Mar 7, 2025"
+	},
+	{
+		"betID": "F8D1B8E9-FCB8-FE88-4AFD-8242BF7D409A",
+		"companyName": "Ipsum Sodales LLP",
+		"betAmount": "5 857 762",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "17%",
+		"claimDate": "Oct 19, 2023"
+	},
+	{
+		"betID": "29B37B15-5115-6BE4-ED12-ED648CEB12B8",
+		"companyName": "Suspendisse Aliquet Corp.",
+		"betAmount": "6 439 481",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "17%",
+		"claimDate": "Jan 10, 2025"
+	},
+	{
+		"betID": "F4269556-6639-7F46-4865-2853231A6DBA",
+		"companyName": "Cursus Nunc Mauris Incorporated",
+		"betAmount": "3 180 884",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "Mar 10, 2025"
+	},
+	{
+		"betID": "4531378E-0C89-E409-A99E-4A89AD178EA4",
+		"companyName": "Nulla Aliquet Industries",
+		"betAmount": "3 646 861",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "18%",
+		"claimDate": "Jun 3, 2024"
+	},
+	{
+		"betID": "E95B3543-E0F7-C58D-CE0B-6B93C149E5A7",
+		"companyName": "Eu Dolor Egestas Limited",
+		"betAmount": "3 032 972",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "19%",
+		"claimDate": "Mar 25, 2024"
+	},
+	{
+		"betID": "138DDD60-9147-4F59-16B3-630144298415",
+		"companyName": "Feugiat Sed Limited",
+		"betAmount": "553 448",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Jan 25, 2024"
+	},
+	{
+		"betID": "D9918A3E-AEA0-97EB-43BE-88A116E2ECAE",
+		"companyName": "Dapibus Ligula Institute",
+		"betAmount": "6 727 979",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "20%",
+		"claimDate": "Sep 15, 2024"
+	},
+	{
+		"betID": "D19D1966-B303-AD79-B56D-8D7408D1C6A6",
+		"companyName": "Vel Associates",
+		"betAmount": "2 805 873",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "20%",
+		"claimDate": "Apr 12, 2024"
+	},
+	{
+		"betID": "6CCE15DE-434A-DD9E-A58C-ECC38C91DC46",
+		"companyName": "Ligula Tortor Corp.",
+		"betAmount": "6 998 834",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "10%",
+		"claimDate": "Nov 29, 2023"
+	},
+	{
+		"betID": "AA808AA2-F1CD-118C-64F2-4C306041F0CD",
+		"companyName": "Nostra Industries",
+		"betAmount": "7 578 035",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Dec 11, 2023"
+	},
+	{
+		"betID": "326D412E-B4BA-CBC1-0894-1DC41263BA71",
+		"companyName": "Magna Industries",
+		"betAmount": "7 779 699",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "11%",
+		"claimDate": "Dec 31, 2024"
+	},
+	{
+		"betID": "700F852D-7457-6878-02A2-5485A4B7A65A",
+		"companyName": "Ultricies Corporation",
+		"betAmount": "7 869 966",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "11%",
+		"claimDate": "Aug 31, 2023"
+	},
+	{
+		"betID": "8D5FC88E-E005-9E34-9F9A-9F9467A65824",
+		"companyName": "Pellentesque Ltd",
+		"betAmount": "8 201 427",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Jan 5, 2024"
+	},
+	{
+		"betID": "97E39DB5-3A39-F853-3952-32254181B96D",
+		"companyName": "Lacus Vestibulum Incorporated",
+		"betAmount": "371 478",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Sep 28, 2024"
+	},
+	{
+		"betID": "13929268-5880-B3BE-0DC9-585D75B64217",
+		"companyName": "Praesent Eu PC",
+		"betAmount": "8 207 493",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "13%",
+		"claimDate": "Dec 22, 2023"
+	},
+	{
+		"betID": "3ABA7767-2854-27D8-619B-B8BACD6BF77D",
+		"companyName": "Cras Dictum Corp.",
+		"betAmount": "6 161 664",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "13%",
+		"claimDate": "Jul 21, 2024"
+	},
+	{
+		"betID": "DAE74516-EDFB-78E7-DD87-85E5B3758CD4",
+		"companyName": "Sit Amet Industries",
+		"betAmount": "5 506 879",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Mar 28, 2023"
+	},
+	{
+		"betID": "EE215A64-B06B-3EA2-BB3B-69EDE5846969",
+		"companyName": "Fringilla Ornare Placerat Inc.",
+		"betAmount": "9 232 962",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "14%",
+		"claimDate": "Jan 20, 2024"
+	},
+	{
+		"betID": "95F9E1A0-C729-3395-D48D-5DD62AA86EF1",
+		"companyName": "Mi Eleifend PC",
+		"betAmount": "5 310 479",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "15%",
+		"claimDate": "Jun 9, 2023"
+	},
+	{
+		"betID": "44812EDE-DFBA-DA81-ABCE-72288D149A4A",
+		"companyName": "In Consectetuer Ipsum Inc.",
+		"betAmount": "5 852 249",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "15%",
+		"claimDate": "Jan 11, 2024"
+	},
+	{
+		"betID": "70BA5362-29D8-9AEC-CA32-22BD13F8E8D2",
+		"companyName": "Quam Dignissim Pharetra Consulting",
+		"betAmount": "9 060 940",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "16%",
+		"claimDate": "Dec 31, 2024"
+	},
+	{
+		"betID": "41CB762A-C7C9-5978-B6B4-FBBAB7789A4F",
+		"companyName": "Adipiscing Enim Mi Corporation",
+		"betAmount": "2 712 423",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "16%",
+		"claimDate": "Apr 10, 2023"
+	},
+	{
+		"betID": "2F17BB7E-F2AB-3473-5737-15C883DB3C8B",
+		"companyName": "Metus Incorporated",
+		"betAmount": "6 395 941",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "17%",
+		"claimDate": "Oct 8, 2024"
+	},
+	{
+		"betID": "ED8373CD-75D9-8996-BE02-C1D82DB640A3",
+		"companyName": "Netus Et Industries",
+		"betAmount": "3 239 112",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "17%",
+		"claimDate": "Sep 18, 2023"
+	},
+	{
+		"betID": "194F58B3-B116-A3DF-BF2A-9235994524BE",
+		"companyName": "In Consequat Limited",
+		"betAmount": "1 836 743",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "18%",
+		"claimDate": "Mar 28, 2023"
+	},
+	{
+		"betID": "88A6AC47-0469-2C1E-D440-04ED121635D1",
+		"companyName": "Malesuada Augue Ut LLP",
+		"betAmount": "9 144 481",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "18%",
+		"claimDate": "Oct 23, 2023"
+	},
+	{
+		"betID": "22075243-8071-02A8-EC33-7BF6AB9742A2",
+		"companyName": "Donec Fringilla Inc.",
+		"betAmount": "419 030",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "19%",
+		"claimDate": "Dec 16, 2024"
+	},
+	{
+		"betID": "9A5EEA4B-AC61-3398-134E-C16214E85A82",
+		"companyName": "Sed Malesuada Augue LLP",
+		"betAmount": "6 160 964",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "19%",
+		"claimDate": "Dec 22, 2023"
+	},
+	{
+		"betID": "30B81DA2-C12C-8D22-5CC4-D29C1FE29E3D",
+		"companyName": "In Scelerisque Company",
+		"betAmount": "5 066 967",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "20%",
+		"claimDate": "Feb 19, 2024"
+	},
+	{
+		"betID": "6CEA4F64-EAA5-0799-F3C3-9B85C712D8CC",
+		"companyName": "Aliquam LLC",
+		"betAmount": "8 024 437",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "20%",
+		"claimDate": "Mar 2, 2025"
+	},
+	{
+		"betID": "E772E141-5C14-583C-7E8F-1E7AC3430489",
+		"companyName": "Fames Ac Incorporated",
+		"betAmount": "9 978 603",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Nov 3, 2024"
+	},
+	{
+		"betID": "87656A4E-5C63-76FD-DA27-C9A70566EDF2",
+		"companyName": "Egestas PC",
+		"betAmount": "5 314 090",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Jun 21, 2023"
+	},
+	{
+		"betID": "5C7FE5D5-3CC8-D923-DCB3-1376C3AB99A9",
+		"companyName": "Aenean Incorporated",
+		"betAmount": "1 714 137",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "11%",
+		"claimDate": "Aug 3, 2023"
+	},
+	{
+		"betID": "B03941B3-35C2-8C51-EFAA-5918D05AE5C4",
+		"companyName": "Nunc Interdum Feugiat Limited",
+		"betAmount": "3 116 198",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "11%",
+		"claimDate": "Jan 5, 2024"
+	},
+	{
+		"betID": "89E6C3DF-5EEB-C4AE-167B-D4F9243F86DA",
+		"companyName": "Sit Amet Foundation",
+		"betAmount": "7 861 137",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Oct 20, 2024"
+	},
+	{
+		"betID": "CF3B9F51-B31B-1114-DA4E-37A5DE34BA43",
+		"companyName": "A Arcu Corporation",
+		"betAmount": "6 991 257",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Jul 26, 2024"
+	},
+	{
+		"betID": "425882A3-7191-EEC1-460A-0284A758D61A",
+		"companyName": "Praesent Eu Associates",
+		"betAmount": "2 960 442",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "13%",
+		"claimDate": "Jan 29, 2025"
+	},
+	{
+		"betID": "CD6A6D96-269D-DBC6-8D30-58055F961628",
+		"companyName": "Semper Auctor Mauris Industries",
+		"betAmount": "3 692 589",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "13%",
+		"claimDate": "Mar 5, 2025"
+	},
+	{
+		"betID": "945967C9-2A2C-29BC-B1B3-5327E2C957AD",
+		"companyName": "Tortor At Inc.",
+		"betAmount": "8 740 142",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "14%",
+		"claimDate": "Mar 5, 2025"
+	},
+	{
+		"betID": "6048446F-6902-7E58-AEEF-2E35F59C0DB7",
+		"companyName": "Orci Corp.",
+		"betAmount": "2 734 736",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "14%",
+		"claimDate": "Jun 21, 2024"
+	},
+	{
+		"betID": "B08437E7-FB35-99AD-2626-E689CE3DCD75",
+		"companyName": "Tempor Corporation",
+		"betAmount": "5 182 820",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "15%",
+		"claimDate": "May 19, 2023"
+	},
+	{
+		"betID": "FB627495-CD7C-DC81-EE98-3CA3680C56AD",
+		"companyName": "Ornare Fusce Mollis Foundation",
+		"betAmount": "7 725 524",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "15%",
+		"claimDate": "Aug 25, 2023"
+	},
+	{
+		"betID": "CCE4CD38-1E07-3561-025A-253EA76FAD0E",
+		"companyName": "Turpis Egestas Aliquam PC",
+		"betAmount": "6 426 570",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "16%",
+		"claimDate": "May 25, 2023"
+	},
+	{
+		"betID": "5C9375E7-E313-C55C-D189-16DD579A1F38",
+		"companyName": "Nec Incorporated",
+		"betAmount": "7 959 319",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "16%",
+		"claimDate": "Jul 20, 2023"
+	},
+	{
+		"betID": "A6A54B10-84C8-14EB-EBC5-14EB3ACC33FF",
+		"companyName": "Id Company",
+		"betAmount": "4 778 884",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "17%",
+		"claimDate": "May 8, 2024"
+	},
+	{
+		"betID": "1C119A69-D128-2A6D-8789-EB8BA9D37393",
+		"companyName": "Eget Dictum Foundation",
+		"betAmount": "2 666 935",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "17%",
+		"claimDate": "Jan 26, 2024"
+	},
+	{
+		"betID": "199D6606-71FE-7916-3730-B5AA583A303C",
+		"companyName": "Quam Quis LLC",
+		"betAmount": "3 727 042",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "May 4, 2023"
+	},
+	{
+		"betID": "BD34CB6B-C6CA-A565-A2D4-EF7C8F4C89D4",
+		"companyName": "Urna Nunc Quis LLP",
+		"betAmount": "4 706 124",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "Jan 11, 2025"
+	},
+	{
+		"betID": "81330630-AB4B-D926-D95C-E121BEA4200B",
+		"companyName": "Turpis Non Corporation",
+		"betAmount": "9 134 099",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "19%",
+		"claimDate": "Dec 7, 2024"
+	},
+	{
+		"betID": "8889946C-DCD4-A225-99B9-B6C43ECDB8BD",
+		"companyName": "Pellentesque Tincidunt Industries",
+		"betAmount": "2 452 534",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Mar 31, 2023"
+	},
+	{
+		"betID": "E7CF6C95-1272-FAAD-733D-1118505DF848",
+		"companyName": "Integer Aliquam PC",
+		"betAmount": "3 350 878",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "20%",
+		"claimDate": "Oct 7, 2024"
+	},
+	{
+		"betID": "7885B1BE-C3C8-D785-3CC8-BF609402DF45",
+		"companyName": "Aliquet Proin Velit PC",
+		"betAmount": "2 515 081",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "20%",
+		"claimDate": "Jul 8, 2024"
+	},
+	{
+		"betID": "537F864A-14DB-F654-F144-4676371534BF",
+		"companyName": "Pellentesque Tincidunt Limited",
+		"betAmount": "4 485 530",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "10%",
+		"claimDate": "May 7, 2024"
+	},
+	{
+		"betID": "DB21647A-558B-DB76-DD41-D343BDF948D4",
+		"companyName": "Amet Corporation",
+		"betAmount": "323 869",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Mar 31, 2023"
+	},
+	{
+		"betID": "7F1C33B2-A518-4E77-7DED-A33970D37687",
+		"companyName": "Malesuada Fames Limited",
+		"betAmount": "1 126 497",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "11%",
+		"claimDate": "May 20, 2024"
+	},
+	{
+		"betID": "A4913063-DB19-C1AA-1722-BC86C6E5737D",
+		"companyName": "Rutrum Fusce PC",
+		"betAmount": "9 257 161",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Jun 29, 2024"
+	},
+	{
+		"betID": "7A21DB29-BAE4-1B83-ED96-B6A46A19D292",
+		"companyName": "Tellus LLC",
+		"betAmount": "7 579 637",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "12%",
+		"claimDate": "Jun 28, 2023"
+	},
+	{
+		"betID": "9864946A-C816-8BB9-B34A-ED155D2B4B51",
+		"companyName": "At Risus Corporation",
+		"betAmount": "5 959 308",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Mar 15, 2025"
+	},
+	{
+		"betID": "C76970C3-84CD-8A42-4EA4-8E0B2A16638A",
+		"companyName": "Pharetra Corp.",
+		"betAmount": "9 699 963",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "13%",
+		"claimDate": "Mar 17, 2025"
+	},
+	{
+		"betID": "77C1195C-1BC8-7A39-9E98-FC2B7C958599",
+		"companyName": "Non Lacinia At Inc.",
+		"betAmount": "8 584 366",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "13%",
+		"claimDate": "Dec 26, 2024"
+	},
+	{
+		"betID": "BD790293-FC8A-EF93-CD5D-A8DDF812C545",
+		"companyName": "Eu Neque Pellentesque Institute",
+		"betAmount": "5 680 352",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Jun 23, 2024"
+	},
+	{
+		"betID": "D924122E-B6B4-EB01-21EB-60B2CC924386",
+		"companyName": "Ac PC",
+		"betAmount": "7 598 242",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "14%",
+		"claimDate": "Dec 6, 2024"
+	},
+	{
+		"betID": "656BE1C5-A60E-4296-9B42-D492723490C5",
+		"companyName": "Amet Lorem Corp.",
+		"betAmount": "8 902 798",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "15%",
+		"claimDate": "Apr 23, 2023"
+	},
+	{
+		"betID": "AAD8A792-ECC0-E2EA-58F2-5D8D77E517D9",
+		"companyName": "Ligula LLC",
+		"betAmount": "2 690 079",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "15%",
+		"claimDate": "Jan 26, 2024"
+	},
+	{
+		"betID": "C8A59BAD-6E93-37ED-5BA1-DA69733D57C4",
+		"companyName": "Neque Corporation",
+		"betAmount": "6 624 483",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "16%",
+		"claimDate": "Apr 22, 2023"
+	},
+	{
+		"betID": "62D48463-6758-B551-572B-98ADC417E891",
+		"companyName": "Cum Corp.",
+		"betAmount": "9 472 399",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "16%",
+		"claimDate": "Oct 18, 2023"
+	},
+	{
+		"betID": "5797218F-D719-F4B4-8ECB-BB42C66F6B78",
+		"companyName": "Et Malesuada Foundation",
+		"betAmount": "9 469 848",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "17%",
+		"claimDate": "Jul 4, 2023"
+	},
+	{
+		"betID": "71C38D34-1F41-98EE-6935-68C22EE7BE8B",
+		"companyName": "Non Sollicitudin A Industries",
+		"betAmount": "7 091 111",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "17%",
+		"claimDate": "May 17, 2023"
+	},
+	{
+		"betID": "BAADC666-04E7-82C9-7D8A-1629B3D8C45D",
+		"companyName": "Convallis LLC",
+		"betAmount": "5 755 368",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "Sep 8, 2023"
+	},
+	{
+		"betID": "778D6D2A-146F-1794-1AAD-4471FC83C4EC",
+		"companyName": "Eget Ipsum Limited",
+		"betAmount": "4 648 214",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "Mar 28, 2023"
+	},
+	{
+		"betID": "B7A71C32-3452-2142-0D2E-50F932793A8E",
+		"companyName": "Pretium Neque Associates",
+		"betAmount": "6 476 203",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "19%",
+		"claimDate": "Jul 6, 2024"
+	},
+	{
+		"betID": "585618DD-62F4-8915-E433-CDCC0FF4E1A8",
+		"companyName": "Aliquam Eu Accumsan Corp.",
+		"betAmount": "5 649 366",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "May 31, 2024"
+	},
+	{
+		"betID": "BB54A79B-8D78-2684-CC89-95736C0ACDEC",
+		"companyName": "Ac Libero Nec PC",
+		"betAmount": "9 710 677",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "20%",
+		"claimDate": "Nov 5, 2023"
+	},
+	{
+		"betID": "77DAE6EA-A4D6-55A8-B7A2-DB78671C1ECE",
+		"companyName": "Felis Orci Limited",
+		"betAmount": "967 356",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "20%",
+		"claimDate": "Apr 20, 2023"
+	},
+	{
+		"betID": "A866A25C-BA24-C3A4-411E-876DE8BF8762",
+		"companyName": "Facilisis PC",
+		"betAmount": "2 944 567",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "10%",
+		"claimDate": "Jun 19, 2023"
+	},
+	{
+		"betID": "E8515A50-1F56-8530-F79E-74C45E32AB6B",
+		"companyName": "Sem Molestie Incorporated",
+		"betAmount": "4 668 687",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "10%",
+		"claimDate": "May 29, 2024"
+	},
+	{
+		"betID": "B732A2AB-4BE7-111D-49BF-768B39D5899B",
+		"companyName": "Integer Sem Institute",
+		"betAmount": "4 781 401",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "11%",
+		"claimDate": "Jul 13, 2024"
+	},
+	{
+		"betID": "B39AFB88-721C-9798-DCE2-CAE390A776DC",
+		"companyName": "Morbi Non Company",
+		"betAmount": "828 813",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Apr 14, 2023"
+	},
+	{
+		"betID": "4DA918D8-CE0A-DD58-DEED-A1E935F7D7E6",
+		"companyName": "Amet Ltd",
+		"betAmount": "2 808 684",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Dec 13, 2023"
+	},
+	{
+		"betID": "DCC04614-1C85-0954-E58C-9D281D4857AA",
+		"companyName": "Nec Tempus LLC",
+		"betAmount": "4 015 973",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Mar 4, 2024"
+	},
+	{
+		"betID": "5F7CC8EE-EC9C-E143-7386-6C82F3D208E5",
+		"companyName": "Sociis Associates",
+		"betAmount": "2 809 214",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "13%",
+		"claimDate": "Aug 24, 2024"
+	},
+	{
+		"betID": "10A0FF6D-A5EA-F2C0-55D4-4FAB0B67EB7D",
+		"companyName": "Donec Tincidunt Industries",
+		"betAmount": "7 723 735",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "13%",
+		"claimDate": "Oct 4, 2023"
+	},
+	{
+		"betID": "DB71BD20-AE0D-99AE-99AD-8BD7A2BAABA9",
+		"companyName": "Purus Ac LLP",
+		"betAmount": "9 034 171",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "14%",
+		"claimDate": "Mar 9, 2024"
+	},
+	{
+		"betID": "F1DADE25-2B68-E2E4-2391-724D9B296AF2",
+		"companyName": "Donec Vitae Institute",
+		"betAmount": "4 069 802",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Aug 19, 2023"
+	},
+	{
+		"betID": "6896A842-A8E3-24CA-A334-8DF846676CA4",
+		"companyName": "Metus Vivamus Euismod Corp.",
+		"betAmount": "3 195 224",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "15%",
+		"claimDate": "Aug 26, 2024"
+	},
+	{
+		"betID": "D9CA31A8-4987-BFA8-AB66-D2F7241F7CB3",
+		"companyName": "Amet Massa Corporation",
+		"betAmount": "9 056 043",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "15%",
+		"claimDate": "Apr 4, 2024"
+	},
+	{
+		"betID": "DB315D7E-93DE-ED8B-21E0-299C5E3F511C",
+		"companyName": "Nulla Aliquet Proin Company",
+		"betAmount": "4 321 717",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "16%",
+		"claimDate": "Oct 2, 2024"
+	},
+	{
+		"betID": "71244169-1EAD-76AE-41BA-5E3A9219C2F2",
+		"companyName": "Quisque Varius Nam Ltd",
+		"betAmount": "2 275 292",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "16%",
+		"claimDate": "May 28, 2024"
+	},
+	{
+		"betID": "95392B83-C9D2-A9BA-6A9A-B69DD5153968",
+		"companyName": "Lacinia Orci Consectetuer PC",
+		"betAmount": "5 985 545",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "17%",
+		"claimDate": "Nov 6, 2024"
+	},
+	{
+		"betID": "9D84BA71-F9BD-CBD8-2CA5-327C90C388C9",
+		"companyName": "Luctus Aliquet Odio Associates",
+		"betAmount": "2 306 614",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "17%",
+		"claimDate": "May 7, 2023"
+	},
+	{
+		"betID": "07185A63-3588-A55D-6AB7-3930871B5897",
+		"companyName": "Mollis Institute",
+		"betAmount": "8 396 701",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "Aug 5, 2023"
+	},
+	{
+		"betID": "CD2228C5-919E-CFDB-6A23-266A5EA37266",
+		"companyName": "Nisl Maecenas Malesuada Inc.",
+		"betAmount": "4 088 599",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "Jun 27, 2024"
+	},
+	{
+		"betID": "1D18C2F8-2237-EAEA-EBB7-4A82ADBA9757",
+		"companyName": "Tincidunt Tempus Risus Inc.",
+		"betAmount": "615 707",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Oct 28, 2024"
+	},
+	{
+		"betID": "4A9D5976-11B3-B967-E4CB-329569D821B2",
+		"companyName": "Eu Ultrices Corp.",
+		"betAmount": "3 954 218",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "May 13, 2023"
+	},
+	{
+		"betID": "3CE28CD6-7A3C-C8DE-7CB7-D91EDEC49546",
+		"companyName": "Amet Ornare LLC",
+		"betAmount": "1 033 224",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "20%",
+		"claimDate": "Aug 30, 2023"
+	},
+	{
+		"betID": "8288923C-4416-267E-3D4C-1D619BB216EC",
+		"companyName": "Aenean Eget Institute",
+		"betAmount": "84 135",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "20%",
+		"claimDate": "Sep 8, 2024"
+	},
+	{
+		"betID": "6F779F3B-DE38-8339-9971-6C53EBCA3CA3",
+		"companyName": "Pretium Et Ltd",
+		"betAmount": "6 639 474",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Dec 1, 2023"
+	},
+	{
+		"betID": "46EA74CC-BD7B-456D-30B6-8675056D2A7A",
+		"companyName": "Rhoncus Industries",
+		"betAmount": "5 534 785",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "10%",
+		"claimDate": "Feb 1, 2024"
+	},
+	{
+		"betID": "D4487553-7C54-BB48-8839-7CABE11A0949",
+		"companyName": "Vel Nisl Ltd",
+		"betAmount": "7 694 933",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Jul 14, 2024"
+	},
+	{
+		"betID": "8DCAE539-C2A8-533F-C988-457230336DC4",
+		"companyName": "Interdum Nunc Sollicitudin Inc.",
+		"betAmount": "463 746",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "11%",
+		"claimDate": "Dec 25, 2024"
+	},
+	{
+		"betID": "AC42B658-2414-A481-917B-AC2E7E47813D",
+		"companyName": "Enim Nec Limited",
+		"betAmount": "6 370 596",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Jun 26, 2023"
+	},
+	{
+		"betID": "849564D3-B199-CDEA-ECAF-7DE9C6A1898A",
+		"companyName": "Dignissim Associates",
+		"betAmount": "2 756 737",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Dec 5, 2023"
+	},
+	{
+		"betID": "60F229A3-AB20-13E8-DD11-D6111604CFA0",
+		"companyName": "Non Justo Associates",
+		"betAmount": "925 385",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "13%",
+		"claimDate": "Jun 27, 2024"
+	},
+	{
+		"betID": "A8A58740-2BB1-5289-DF9A-DA6132E2303C",
+		"companyName": "Nascetur Ridiculus Mus Limited",
+		"betAmount": "7 590 307",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "13%",
+		"claimDate": "Jun 15, 2023"
+	},
+	{
+		"betID": "E51B1427-2224-B03A-C52C-91C2F3662645",
+		"companyName": "Ac Eleifend Industries",
+		"betAmount": "6 664 367",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Oct 25, 2023"
+	},
+	{
+		"betID": "46CE41A7-2D7F-1884-5A38-7EBE591293B3",
+		"companyName": "A Limited",
+		"betAmount": "1 495 705",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "14%",
+		"claimDate": "Jun 7, 2024"
+	},
+	{
+		"betID": "F00AE99E-7441-99C9-E781-3A3D07BE2CD8",
+		"companyName": "Eu Corp.",
+		"betAmount": "532 431",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "15%",
+		"claimDate": "Mar 9, 2024"
+	},
+	{
+		"betID": "463CC451-3B48-1664-3BF5-4AC9CB734FC6",
+		"companyName": "Elit Pretium Et Institute",
+		"betAmount": "3 010 446",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "15%",
+		"claimDate": "Apr 23, 2024"
+	},
+	{
+		"betID": "3A8BD3B4-6962-4A27-74AA-6E749BEC354F",
+		"companyName": "Enim PC",
+		"betAmount": "7 001 595",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "16%",
+		"claimDate": "Aug 23, 2023"
+	},
+	{
+		"betID": "604AEE3C-F1D9-2919-BED1-2E5697B5E8A0",
+		"companyName": "Euismod Mauris Eu Corporation",
+		"betAmount": "5 048 108",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "16%",
+		"claimDate": "Dec 11, 2024"
+	},
+	{
+		"betID": "3D565781-B0B8-615A-D62B-E84114FC927B",
+		"companyName": "Ultrices Posuere Cubilia Institute",
+		"betAmount": "7 550 019",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "17%",
+		"claimDate": "Jun 13, 2024"
+	},
+	{
+		"betID": "DA24BA04-E967-DAFC-189C-45B1F7EC3DCE",
+		"companyName": "Libero Dui Limited",
+		"betAmount": "1 204 606",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "17%",
+		"claimDate": "Oct 25, 2024"
+	},
+	{
+		"betID": "B7B39458-49D8-45D1-3B04-542953E85DB9",
+		"companyName": "Id Company",
+		"betAmount": "809 997",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "18%",
+		"claimDate": "Aug 17, 2023"
+	},
+	{
+		"betID": "3B5C5841-AF44-A2A3-36AD-4400D6D11126",
+		"companyName": "Lacus Limited",
+		"betAmount": "4 221 967",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "Apr 13, 2023"
+	},
+	{
+		"betID": "AD830267-42B8-54D4-AE53-F6549C641491",
+		"companyName": "Ornare Sagittis Industries",
+		"betAmount": "872 153",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Jan 22, 2025"
+	},
+	{
+		"betID": "0EC36189-87A5-7E3B-0841-3A8DB643C9BC",
+		"companyName": "Dignissim Maecenas LLC",
+		"betAmount": "4 748 886",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Aug 30, 2024"
+	},
+	{
+		"betID": "3AD15C1B-4A9A-3C83-6780-E0E427CF9909",
+		"companyName": "Nec Quam Curabitur PC",
+		"betAmount": "3 568 587",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "20%",
+		"claimDate": "May 31, 2024"
+	},
+	{
+		"betID": "CB8CEE42-CDDE-B78C-B0D8-156415C1E26E",
+		"companyName": "Suspendisse Aliquet LLP",
+		"betAmount": "7 819 743",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "20%",
+		"claimDate": "Feb 14, 2024"
+	},
+	{
+		"betID": "7BFB9473-6E33-E66D-E377-B0142915C744",
+		"companyName": "Cursus A Foundation",
+		"betAmount": "9 184 370",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "10%",
+		"claimDate": "Feb 19, 2025"
+	},
+	{
+		"betID": "37EF639D-5ADB-8DE0-E629-581396A62F8C",
+		"companyName": "Nisi Aenean Associates",
+		"betAmount": "4 305 775",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "10%",
+		"claimDate": "Oct 10, 2024"
+	},
+	{
+		"betID": "B77D6A0D-9B85-C14A-3F88-675DF8AFAD38",
+		"companyName": "Urna Et Inc.",
+		"betAmount": "3 221 448",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Dec 25, 2024"
+	},
+	{
+		"betID": "F3FDC48B-373C-C6F9-A4E5-531C3A6983BC",
+		"companyName": "Convallis Convallis Company",
+		"betAmount": "6 785 924",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "11%",
+		"claimDate": "Oct 5, 2024"
+	},
+	{
+		"betID": "4379B590-495A-1048-F2BB-CA5E38EDF136",
+		"companyName": "Dolor Egestas Company",
+		"betAmount": "4 730 890",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Apr 16, 2024"
+	},
+	{
+		"betID": "BE81D6D9-A7D9-ADBA-9BFC-A577F2A836DA",
+		"companyName": "Phasellus Vitae Ltd",
+		"betAmount": "6 266 468",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Mar 30, 2024"
+	},
+	{
+		"betID": "28668416-14B8-398C-7D6A-9898A0047392",
+		"companyName": "Magna Nam Institute",
+		"betAmount": "5 864 874",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "13%",
+		"claimDate": "Nov 21, 2023"
+	},
+	{
+		"betID": "8AEBD874-C27B-9899-CC9C-D8341FF5B53C",
+		"companyName": "Pharetra Corporation",
+		"betAmount": "7 409 033",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "13%",
+		"claimDate": "Apr 23, 2023"
+	},
+	{
+		"betID": "92064A2B-6572-5161-E840-DAE869E68B92",
+		"companyName": "Turpis Non Enim Limited",
+		"betAmount": "8 246 739",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Dec 6, 2024"
+	},
+	{
+		"betID": "67AA1201-9B81-EE2B-6596-CE8D0C16596A",
+		"companyName": "Gravida Foundation",
+		"betAmount": "4 146 441",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "14%",
+		"claimDate": "Mar 5, 2025"
+	},
+	{
+		"betID": "154BE9A4-A189-33D1-9A85-FD278ABA99C3",
+		"companyName": "Cursus A Enim Consulting",
+		"betAmount": "6 495 699",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "15%",
+		"claimDate": "Jun 30, 2024"
+	},
+	{
+		"betID": "5724A714-A419-BCDC-3D67-B7D295BABDD3",
+		"companyName": "Mi LLC",
+		"betAmount": "7 087 829",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "15%",
+		"claimDate": "Nov 23, 2023"
+	},
+	{
+		"betID": "B14A25EA-8A7E-EC77-9284-9C6DC1D3AED0",
+		"companyName": "Commodo At Ltd",
+		"betAmount": "6 903 206",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "16%",
+		"claimDate": "Dec 21, 2024"
+	},
+	{
+		"betID": "290D39A0-DE3B-8708-F853-BD1A64D969B3",
+		"companyName": "Eu Placerat LLP",
+		"betAmount": "1 116 567",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "16%",
+		"claimDate": "Apr 14, 2024"
+	},
+	{
+		"betID": "46656235-184C-2A64-9D93-41A044841B4E",
+		"companyName": "Bibendum LLC",
+		"betAmount": "5 466 970",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "17%",
+		"claimDate": "Apr 8, 2023"
+	},
+	{
+		"betID": "2EFE8DC2-4B89-C525-4A3A-5B25F45CF7EC",
+		"companyName": "Consectetuer Limited",
+		"betAmount": "3 727 853",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "17%",
+		"claimDate": "Aug 31, 2023"
+	},
+	{
+		"betID": "255899E9-9919-6ACD-485E-F36EF95B1ECA",
+		"companyName": "Convallis Est Corp.",
+		"betAmount": "193 963",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "18%",
+		"claimDate": "Apr 10, 2024"
+	},
+	{
+		"betID": "ABDBD524-DE42-7998-9353-7CB9727190A2",
+		"companyName": "Pharetra Limited",
+		"betAmount": "3 272 289",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "18%",
+		"claimDate": "Jul 25, 2024"
+	},
+	{
+		"betID": "532801EA-2C8A-B41B-3FE8-D0CDDAA189B7",
+		"companyName": "Sociis Natoque Penatibus Limited",
+		"betAmount": "7 452 184",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Jan 8, 2025"
+	},
+	{
+		"betID": "9CC89329-B7F4-B457-A9D3-441647B7C249",
+		"companyName": "Sapien Aenean Institute",
+		"betAmount": "1 501 332",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Feb 12, 2025"
+	},
+	{
+		"betID": "FC28E2A5-1A62-D2DC-4148-1E1AE7759C31",
+		"companyName": "Tristique Ac Eleifend PC",
+		"betAmount": "1 815 613",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "20%",
+		"claimDate": "Nov 5, 2023"
+	},
+	{
+		"betID": "75B33BB7-9D15-1AC3-4EE8-2662B499B991",
+		"companyName": "Ipsum Dolor Associates",
+		"betAmount": "97 512",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "20%",
+		"claimDate": "Nov 17, 2023"
+	},
+	{
+		"betID": "732D1309-0F3A-9049-6821-137052C77782",
+		"companyName": "Scelerisque Corporation",
+		"betAmount": "7 720 719",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "10%",
+		"claimDate": "Feb 20, 2025"
+	},
+	{
+		"betID": "8C66223F-3106-448A-CEA8-7738A18E6AD2",
+		"companyName": "Sed Diam Lorem PC",
+		"betAmount": "3 982 830",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Sep 23, 2023"
+	},
+	{
+		"betID": "7AA518CD-1848-7D7E-271A-1DEA727D33A3",
+		"companyName": "Fringilla Euismod PC",
+		"betAmount": "6 838 756",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Jan 4, 2025"
+	},
+	{
+		"betID": "9C4692FD-16FC-5BC7-5252-41D63D57F67E",
+		"companyName": "Tellus Incorporated",
+		"betAmount": "1 500 779",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Jun 30, 2023"
+	},
+	{
+		"betID": "7D1483F7-8DD8-1902-DAD1-60911E56771D",
+		"companyName": "Sapien Molestie Orci LLC",
+		"betAmount": "9 097 793",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Apr 12, 2024"
+	},
+	{
+		"betID": "A33594ED-3637-3D1D-29F8-C193D970FDE4",
+		"companyName": "Auctor LLC",
+		"betAmount": "6 363 539",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Oct 24, 2024"
+	},
+	{
+		"betID": "F43AC9DF-C685-5BD1-E53C-5A56FDC67852",
+		"companyName": "Curabitur Foundation",
+		"betAmount": "7 672 498",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "13%",
+		"claimDate": "May 2, 2023"
+	},
+	{
+		"betID": "9E8EEAC4-BCCA-5995-DFE5-9595AA0FD851",
+		"companyName": "Et Magna Praesent Associates",
+		"betAmount": "5 019 337",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "13%",
+		"claimDate": "Dec 18, 2023"
+	},
+	{
+		"betID": "84581492-255F-2332-6A86-479355DE0DCB",
+		"companyName": "Nunc Corp.",
+		"betAmount": "8 998 625",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "14%",
+		"claimDate": "Dec 15, 2024"
+	},
+	{
+		"betID": "5D5CC783-2869-A407-3693-580992C63309",
+		"companyName": "Sapien Nunc Pulvinar Limited",
+		"betAmount": "8 765 646",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Aug 16, 2024"
+	},
+	{
+		"betID": "05CCEA4D-18D8-596D-515E-6DDD752D0E32",
+		"companyName": "Quam Elementum Incorporated",
+		"betAmount": "9 666 338",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "15%",
+		"claimDate": "Jun 3, 2024"
+	},
+	{
+		"betID": "ABDAD339-DB14-8032-114C-90B809E9AE2B",
+		"companyName": "Placerat Industries",
+		"betAmount": "633 470",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "15%",
+		"claimDate": "Mar 3, 2025"
+	},
+	{
+		"betID": "5119D1E4-219A-9513-A246-D100EB064D2B",
+		"companyName": "Varius Et Foundation",
+		"betAmount": "1 915 087",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "16%",
+		"claimDate": "Apr 23, 2024"
+	},
+	{
+		"betID": "B1C39A75-04CE-6072-C0C9-70B7C92A747B",
+		"companyName": "Dolor Vitae PC",
+		"betAmount": "7 063 299",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "16%",
+		"claimDate": "Nov 29, 2024"
+	},
+	{
+		"betID": "648093D8-4AC6-2A6B-F395-34C3298B9118",
+		"companyName": "Laoreet Lectus Ltd",
+		"betAmount": "8 368 300",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "17%",
+		"claimDate": "Apr 1, 2024"
+	},
+	{
+		"betID": "CC2C1155-BC2D-B6CC-728C-4D9EDA03C012",
+		"companyName": "Augue Eu Corporation",
+		"betAmount": "5 685 639",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "17%",
+		"claimDate": "Sep 15, 2023"
+	},
+	{
+		"betID": "64B5A925-C78B-5B2B-B549-5813E574C782",
+		"companyName": "Lobortis Tellus Justo Corp.",
+		"betAmount": "9 494 270",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "Jan 17, 2025"
+	},
+	{
+		"betID": "2F2D8C2F-4CC1-F6BE-A416-5EDE173EE1AC",
+		"companyName": "A Odio Corporation",
+		"betAmount": "9 311 466",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "Apr 17, 2023"
+	},
+	{
+		"betID": "4182674C-5664-4462-3171-71AB5EF34BD9",
+		"companyName": "Amet Risus Donec Ltd",
+		"betAmount": "6 562 662",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "19%",
+		"claimDate": "Apr 19, 2023"
+	},
+	{
+		"betID": "2F4AD128-424A-1974-1374-4C6E10C54938",
+		"companyName": "Vel Faucibus Institute",
+		"betAmount": "8 231 565",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Mar 18, 2025"
+	},
+	{
+		"betID": "20378527-2D39-6871-CAE1-4EB279511F84",
+		"companyName": "Sapien Associates",
+		"betAmount": "7 196 962",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "20%",
+		"claimDate": "Apr 23, 2023"
+	},
+	{
+		"betID": "49BC8865-E167-1D13-4036-CC4D6445DA6E",
+		"companyName": "Cursus Non LLC",
+		"betAmount": "395 921",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "20%",
+		"claimDate": "Apr 27, 2024"
+	},
+	{
+		"betID": "35AB9643-7166-7118-F431-4CAEF0F7DFA1",
+		"companyName": "Etiam Imperdiet Dictum Company",
+		"betAmount": "1 437 598",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "10%",
+		"claimDate": "Sep 4, 2023"
+	},
+	{
+		"betID": "5CED7565-9A2E-43E0-644B-2024EBB80BAA",
+		"companyName": "Fusce LLP",
+		"betAmount": "1 319 861",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "10%",
+		"claimDate": "Nov 27, 2024"
+	},
+	{
+		"betID": "C391D5F8-1286-4C3F-8877-2CA6D63D25B1",
+		"companyName": "Erat Eget LLP",
+		"betAmount": "5 840 614",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "11%",
+		"claimDate": "Oct 1, 2024"
+	},
+	{
+		"betID": "D94B8ECE-13D1-7ABE-A314-647EFDADE48F",
+		"companyName": "Nec Cursus Company",
+		"betAmount": "9 941 833",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "11%",
+		"claimDate": "Nov 19, 2024"
+	},
+	{
+		"betID": "9C67E75F-DE14-2AD6-75F7-5318704D9344",
+		"companyName": "Vehicula Ltd",
+		"betAmount": "1 506 290",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "12%",
+		"claimDate": "Jun 12, 2023"
+	},
+	{
+		"betID": "7C9E5820-55BB-61EA-8DDD-A170E7287165",
+		"companyName": "A Industries",
+		"betAmount": "4 785 613",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Dec 7, 2024"
+	},
+	{
+		"betID": "649B4F96-72C0-426B-B12B-77E2A85425B2",
+		"companyName": "Gravida Non Sollicitudin Incorporated",
+		"betAmount": "7 564 212",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "13%",
+		"claimDate": "May 3, 2024"
+	},
+	{
+		"betID": "551B74DC-46AC-F78B-FB94-AD47CC5D48C8",
+		"companyName": "Sodales Nisi LLP",
+		"betAmount": "9 689 184",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "13%",
+		"claimDate": "Jan 26, 2024"
+	},
+	{
+		"betID": "17BA6359-C70C-A563-B7BC-C59A26A64688",
+		"companyName": "Auctor Velit Aliquam Institute",
+		"betAmount": "3 291 637",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "14%",
+		"claimDate": "Jul 23, 2024"
+	},
+	{
+		"betID": "5801E235-E53F-FDDF-1885-279D75474183",
+		"companyName": "Vitae Risus PC",
+		"betAmount": "4 780 079",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "14%",
+		"claimDate": "Jan 16, 2024"
+	},
+	{
+		"betID": "8C91216C-B8D6-7A89-19A9-898A0BC9C1E1",
+		"companyName": "Et Corporation",
+		"betAmount": "6 511 058",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "15%",
+		"claimDate": "Mar 20, 2024"
+	},
+	{
+		"betID": "4454CEEA-FC46-E74A-7202-51D1806D776C",
+		"companyName": "Lacus Company",
+		"betAmount": "9 875 368",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "15%",
+		"claimDate": "Mar 19, 2025"
+	},
+	{
+		"betID": "E2BD87B9-6283-9EAF-8B8B-786EF6CA8DD4",
+		"companyName": "Adipiscing Ligula Limited",
+		"betAmount": "1 461 416",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "16%",
+		"claimDate": "Sep 20, 2024"
+	},
+	{
+		"betID": "71EA855A-4DFA-486A-AA36-90928664FCA4",
+		"companyName": "Dapibus Ligula Ltd",
+		"betAmount": "7 768 308",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "16%",
+		"claimDate": "Dec 4, 2024"
+	},
+	{
+		"betID": "B2223013-D94C-DCA4-5688-39C988095D4C",
+		"companyName": "Ac Corp.",
+		"betAmount": "7 176 451",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "17%",
+		"claimDate": "May 7, 2024"
+	},
+	{
+		"betID": "A8302D80-0BD6-3CAD-A6A6-C7789D2CCBB9",
+		"companyName": "Sed Ltd",
+		"betAmount": "3 002 477",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "17%",
+		"claimDate": "Jan 10, 2025"
+	},
+	{
+		"betID": "A16E7BD5-89BB-0446-32C7-812C348A6CB8",
+		"companyName": "Magnis Dis Limited",
+		"betAmount": "7 799 779",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "18%",
+		"claimDate": "Feb 12, 2025"
+	},
+	{
+		"betID": "35A3DB59-1389-81B3-6231-21C3F6886B86",
+		"companyName": "Varius Et Industries",
+		"betAmount": "4 636 286",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "18%",
+		"claimDate": "Jul 27, 2023"
+	},
+	{
+		"betID": "E8C2FB8F-9612-8942-2EB6-8A045738B9F3",
+		"companyName": "Odio Incorporated",
+		"betAmount": "5 199 954",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Mar 24, 2024"
+	},
+	{
+		"betID": "6BADBC49-526E-20A4-0C90-89BE48DC83D8",
+		"companyName": "Arcu Vivamus Sit Limited",
+		"betAmount": "8 737 812",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Apr 18, 2024"
+	},
+	{
+		"betID": "36EDD8E5-4BCA-A7E5-2992-7CAC381CEF51",
+		"companyName": "Quam Elementum Ltd",
+		"betAmount": "6 678 112",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "20%",
+		"claimDate": "Dec 4, 2024"
+	},
+	{
+		"betID": "4C5BDADE-0DFA-663D-74F3-5A27DDB6F4D3",
+		"companyName": "Elit Inc.",
+		"betAmount": "7 931 384",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "20%",
+		"claimDate": "Jul 25, 2024"
+	},
+	{
+		"betID": "978FF479-A775-5DB3-4E4C-7538EC9E6BB1",
+		"companyName": "Cursus In Inc.",
+		"betAmount": "7 078 606",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Sep 8, 2024"
+	},
+	{
+		"betID": "D05B46D9-66D5-0EBF-2D9D-612B75B699C3",
+		"companyName": "Non Luctus Limited",
+		"betAmount": "8 234 638",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Oct 18, 2023"
+	},
+	{
+		"betID": "77D5EB78-29D5-9E93-6183-8DBC82166DA6",
+		"companyName": "Ipsum LLP",
+		"betAmount": "4 814 544",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "May 30, 2024"
+	},
+	{
+		"betID": "DAE3B475-8F61-D5BD-3837-1A7D52264778",
+		"companyName": "Convallis Est LLP",
+		"betAmount": "5 208 934",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Sep 3, 2023"
+	},
+	{
+		"betID": "B8AFE6EA-30B3-706D-0CEF-AF1CBAE914C8",
+		"companyName": "Nec Company",
+		"betAmount": "2 560 381",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "12%",
+		"claimDate": "Dec 9, 2024"
+	},
+	{
+		"betID": "EFCD9B91-7850-5032-AB94-FF34DD1E50D0",
+		"companyName": "Consequat Auctor Nunc Ltd",
+		"betAmount": "9 053 701",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "12%",
+		"claimDate": "Jun 14, 2024"
+	},
+	{
+		"betID": "AB1AE2D8-CBCE-2735-47D3-7E3B7010D093",
+		"companyName": "Mus Aenean Incorporated",
+		"betAmount": "6 314 045",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "13%",
+		"claimDate": "Jun 6, 2023"
+	},
+	{
+		"betID": "87E1C08B-3E00-CB1E-FF7E-7CC36982EB33",
+		"companyName": "Nulla Tincidunt Neque Consulting",
+		"betAmount": "3 458 006",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "13%",
+		"claimDate": "Nov 21, 2023"
+	},
+	{
+		"betID": "B7C345DE-95AF-9172-7695-8156A4CEC81C",
+		"companyName": "Eget Ltd",
+		"betAmount": "3 613 206",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "14%",
+		"claimDate": "Jul 11, 2023"
+	},
+	{
+		"betID": "2DD9A210-BDA9-F899-E112-5556BD3D0E2D",
+		"companyName": "Duis Cursus Corp.",
+		"betAmount": "1 568 150",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Dec 14, 2024"
+	},
+	{
+		"betID": "840238EE-DCF5-5736-638C-66FD03C86224",
+		"companyName": "Auctor Vitae Aliquet Corporation",
+		"betAmount": "6 741 540",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "15%",
+		"claimDate": "Feb 1, 2025"
+	},
+	{
+		"betID": "C51ECC63-B976-0CB6-1146-57FE9BF16177",
+		"companyName": "Vitae Aliquam Eros Corp.",
+		"betAmount": "5 499 896",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "15%",
+		"claimDate": "Apr 13, 2024"
+	},
+	{
+		"betID": "EE91D104-EE97-086B-D4E9-9CE258939514",
+		"companyName": "Aliquet Molestie Tellus Incorporated",
+		"betAmount": "8 069 329",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "16%",
+		"claimDate": "Apr 13, 2023"
+	},
+	{
+		"betID": "099361CE-4657-5954-9239-2839C1B8C24E",
+		"companyName": "Felis Associates",
+		"betAmount": "7 622 576",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "16%",
+		"claimDate": "Mar 12, 2024"
+	},
+	{
+		"betID": "45DF9EBD-EEE9-149A-B299-9C8C1724661E",
+		"companyName": "Enim Gravida LLC",
+		"betAmount": "8 913 026",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "17%",
+		"claimDate": "Sep 17, 2024"
+	},
+	{
+		"betID": "8DD02A6D-245D-0B31-F5F9-55E5CAD47414",
+		"companyName": "Lorem Eu Metus Foundation",
+		"betAmount": "2 377 895",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "17%",
+		"claimDate": "Jun 11, 2024"
+	},
+	{
+		"betID": "C194E2FF-4377-9803-CF7B-7243169A46CC",
+		"companyName": "Ante Dictum Incorporated",
+		"betAmount": "5 091 889",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "Feb 4, 2024"
+	},
+	{
+		"betID": "42B53484-A7EE-67D9-8D54-C3D497E491CC",
+		"companyName": "Vehicula PC",
+		"betAmount": "6 653 088",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "18%",
+		"claimDate": "Jun 12, 2024"
+	},
+	{
+		"betID": "254152BF-8A66-2C51-FEBC-BCD99B91AE81",
+		"companyName": "Parturient Montes Nascetur Incorporated",
+		"betAmount": "9 403 911",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Mar 3, 2024"
+	},
+	{
+		"betID": "4D828C67-8035-9828-57AD-C6433E30928A",
+		"companyName": "Ultricies Ligula Corp.",
+		"betAmount": "4 966 729",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Feb 10, 2024"
+	},
+	{
+		"betID": "0489D1A8-0D4F-3EEC-DEC5-8376B296A208",
+		"companyName": "Iaculis Lacus Pede LLC",
+		"betAmount": "7 245 421",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "20%",
+		"claimDate": "Jan 3, 2025"
+	},
+	{
+		"betID": "A932C385-009E-9699-5A58-CE8323C71ADF",
+		"companyName": "Vel Ltd",
+		"betAmount": "9 895 853",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "20%",
+		"claimDate": "May 29, 2023"
+	},
+	{
+		"betID": "5F2CDB92-16C2-6817-24A3-4915DCCFD9EE",
+		"companyName": "Semper Inc.",
+		"betAmount": "7 997 325",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "10%",
+		"claimDate": "Apr 21, 2023"
+	},
+	{
+		"betID": "B9B9EBE7-92CB-4E90-B7DD-B8298702A6BD",
+		"companyName": "Ac Ipsum Consulting",
+		"betAmount": "6 564 069",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Jul 29, 2024"
+	},
+	{
+		"betID": "E57A471A-452D-10DD-DC4B-72E949E7927D",
+		"companyName": "Aliquam PC",
+		"betAmount": "6 625 412",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "11%",
+		"claimDate": "May 15, 2023"
+	},
+	{
+		"betID": "A534A2D7-40F5-7F2F-CCA2-1E142A52B1D1",
+		"companyName": "Vivamus Molestie Ltd",
+		"betAmount": "9 370 045",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "11%",
+		"claimDate": "Nov 19, 2024"
+	},
+	{
+		"betID": "B3A3761E-24DA-768D-2CD1-1D6AB8D66375",
+		"companyName": "Venenatis Corporation",
+		"betAmount": "121 194",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Jun 21, 2023"
+	},
+	{
+		"betID": "FB7D25CD-1345-8497-F6A2-8A3B1C910C26",
+		"companyName": "Ante Nunc Company",
+		"betAmount": "8 734 032",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Jun 17, 2024"
+	},
+	{
+		"betID": "6359366C-E836-104A-9D9C-0A58F601D544",
+		"companyName": "Eu Lacus Institute",
+		"betAmount": "9 694 977",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "13%",
+		"claimDate": "Feb 13, 2024"
+	},
+	{
+		"betID": "3F4E5961-4B1E-2679-D631-DFC628A13CC7",
+		"companyName": "Pretium LLP",
+		"betAmount": "3 732 539",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "13%",
+		"claimDate": "May 21, 2023"
+	},
+	{
+		"betID": "ABC5D4A8-7D54-6BBC-C69E-339C076168B2",
+		"companyName": "Quam PC",
+		"betAmount": "5 916 591",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "14%",
+		"claimDate": "Mar 2, 2025"
+	},
+	{
+		"betID": "25CDAD86-7F80-CC15-B1FA-5CBAD56CD5F9",
+		"companyName": "Faucibus Leo Corp.",
+		"betAmount": "6 606 500",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "14%",
+		"claimDate": "Jul 16, 2024"
+	},
+	{
+		"betID": "3A576419-B6B6-7195-9E71-3EF534D78A9D",
+		"companyName": "Convallis Est Vitae Industries",
+		"betAmount": "4 086 916",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "15%",
+		"claimDate": "Jan 30, 2025"
+	},
+	{
+		"betID": "6A4DAD7D-92B5-2165-A469-6674AAB41E38",
+		"companyName": "Nam Tempor Corporation",
+		"betAmount": "8 760 090",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "15%",
+		"claimDate": "Dec 23, 2023"
+	},
+	{
+		"betID": "95453826-3A92-DB6B-5356-49720E92970D",
+		"companyName": "Tortor Nunc Company",
+		"betAmount": "5 471 260",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "16%",
+		"claimDate": "Oct 22, 2024"
+	},
+	{
+		"betID": "7FF98824-0758-B7C6-75A8-77C485261E9D",
+		"companyName": "Euismod Company",
+		"betAmount": "5 596 808",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "16%",
+		"claimDate": "Dec 24, 2024"
+	},
+	{
+		"betID": "51E9E3E1-E455-4E4B-ABAA-E17651173136",
+		"companyName": "Tellus Imperdiet Limited",
+		"betAmount": "6 244 971",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "17%",
+		"claimDate": "Jul 28, 2023"
+	},
+	{
+		"betID": "E1D66B66-64E2-867A-73A6-3F487156B7C4",
+		"companyName": "Nec Ligula Consectetuer Institute",
+		"betAmount": "7 696 644",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "17%",
+		"claimDate": "Jul 4, 2024"
+	},
+	{
+		"betID": "385335AD-C899-977D-7B39-9421CD847E61",
+		"companyName": "Tincidunt Donec LLP",
+		"betAmount": "9 567 972",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "18%",
+		"claimDate": "Aug 1, 2024"
+	},
+	{
+		"betID": "3E1AE1FE-E099-7CB9-ECB2-DB6CA8491B12",
+		"companyName": "Tellus Justo Sit Foundation",
+		"betAmount": "5 826 900",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "Mar 18, 2024"
+	},
+	{
+		"betID": "CB42E0E2-5C2B-5F85-C18B-BC62C9875CD2",
+		"companyName": "Tristique Neque Ltd",
+		"betAmount": "75 118",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Mar 13, 2025"
+	},
+	{
+		"betID": "6A406AF8-CB25-E8CD-8056-150C633F98D5",
+		"companyName": "Purus Nullam Scelerisque Industries",
+		"betAmount": "2 486 742",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Sep 15, 2023"
+	},
+	{
+		"betID": "EA22C011-B834-771A-BC4B-5B79D50FE352",
+		"companyName": "Praesent Corp.",
+		"betAmount": "7 488 058",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "20%",
+		"claimDate": "Jun 18, 2023"
+	},
+	{
+		"betID": "01DA6D1A-3E1F-E522-C980-79DD3D855B9E",
+		"companyName": "Dui Lectus Rutrum Consulting",
+		"betAmount": "4 897 327",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "20%",
+		"claimDate": "Dec 28, 2024"
+	},
+	{
+		"betID": "AAB14152-DC58-483B-9E39-858C896EA510",
+		"companyName": "Luctus Et Ultrices Incorporated",
+		"betAmount": "3 948 406",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "10%",
+		"claimDate": "Nov 8, 2023"
+	},
+	{
+		"betID": "C4359E85-6D6A-3DBB-46E4-D1173CA617AD",
+		"companyName": "Cras Institute",
+		"betAmount": "4 566 781",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "10%",
+		"claimDate": "Dec 31, 2024"
+	},
+	{
+		"betID": "E1CE45B4-6865-4C71-3FED-14B2217B8C9F",
+		"companyName": "Mauris Erat Eget Inc.",
+		"betAmount": "4 946 504",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Sep 25, 2023"
+	},
+	{
+		"betID": "6851B433-A559-4EED-E7D7-747B41E10FC8",
+		"companyName": "Malesuada PC",
+		"betAmount": "9 602 684",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "11%",
+		"claimDate": "Mar 28, 2024"
+	},
+	{
+		"betID": "384465C5-B80C-383D-5B62-72E19E6CED59",
+		"companyName": "Magna LLP",
+		"betAmount": "9 898 757",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Dec 28, 2024"
+	},
+	{
+		"betID": "2C2CACE9-7EC9-15EC-2158-440D9EB57A64",
+		"companyName": "Dolor Elit LLC",
+		"betAmount": "3 328 845",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Oct 13, 2023"
+	},
+	{
+		"betID": "4E7B71C9-FD6E-6D98-5B2F-F5EB99973785",
+		"companyName": "Luctus Aliquet Institute",
+		"betAmount": "8 909 291",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "13%",
+		"claimDate": "Apr 27, 2023"
+	},
+	{
+		"betID": "34628487-862D-7578-B2AB-B7AC4CD61C9A",
+		"companyName": "Ut Eros Industries",
+		"betAmount": "7 146 544",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "13%",
+		"claimDate": "Jan 13, 2025"
+	},
+	{
+		"betID": "9D45BC58-2795-9553-EB25-84149A3978D6",
+		"companyName": "Ac Nulla Inc.",
+		"betAmount": "9 779 582",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "14%",
+		"claimDate": "Sep 7, 2023"
+	},
+	{
+		"betID": "E3EF266A-373E-B1E9-B17A-E613A31B5ACD",
+		"companyName": "Tempor Erat Incorporated",
+		"betAmount": "1 565 831",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Dec 28, 2024"
+	},
+	{
+		"betID": "3C91CC5A-A6CE-D865-73E1-BD8312329224",
+		"companyName": "Molestie Pharetra Associates",
+		"betAmount": "9 825 273",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "15%",
+		"claimDate": "Nov 4, 2023"
+	},
+	{
+		"betID": "5044732F-B011-7A1E-3958-99C995354285",
+		"companyName": "Risus Duis A Limited",
+		"betAmount": "8 462 290",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "15%",
+		"claimDate": "Jul 29, 2023"
+	},
+	{
+		"betID": "3EAF568C-88A5-7D72-9B5E-B59FD9EB5F08",
+		"companyName": "Auctor Odio Corporation",
+		"betAmount": "4 360 124",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "16%",
+		"claimDate": "Mar 15, 2024"
+	},
+	{
+		"betID": "B4CB7A0E-FB41-337D-1D98-9355E272E7C5",
+		"companyName": "Tincidunt Adipiscing Mauris Industries",
+		"betAmount": "8 794 841",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "16%",
+		"claimDate": "Jul 20, 2024"
+	},
+	{
+		"betID": "9783C147-AB95-25B8-D692-B58AAC9C0F08",
+		"companyName": "Suspendisse Tristique Neque Company",
+		"betAmount": "6 123 538",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "17%",
+		"claimDate": "Dec 23, 2024"
+	},
+	{
+		"betID": "BCE52199-2AB4-C9AA-8EFC-2F8353376A67",
+		"companyName": "Nulla In PC",
+		"betAmount": "5 463 526",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "17%",
+		"claimDate": "Dec 3, 2023"
+	},
+	{
+		"betID": "46EACD66-97AA-DACE-F43B-A96D3B5699C6",
+		"companyName": "Fusce Mi Lorem Company",
+		"betAmount": "3 714 276",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "Nov 14, 2023"
+	},
+	{
+		"betID": "CB14C2E1-72C0-9B72-1143-7E18AD726433",
+		"companyName": "Curabitur Vel Ltd",
+		"betAmount": "4 225 776",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "Mar 8, 2025"
+	},
+	{
+		"betID": "E0D7B4EC-4295-7536-0716-B8EEF2EC987F",
+		"companyName": "Ligula Donec LLC",
+		"betAmount": "7 064 253",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Aug 25, 2024"
+	},
+	{
+		"betID": "9BEF5C32-5F67-E270-0503-F88AABC3E6B9",
+		"companyName": "Mauris Sagittis LLP",
+		"betAmount": "720 362",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Jan 15, 2024"
+	},
+	{
+		"betID": "72306D72-A534-6488-5175-6A417166150F",
+		"companyName": "Adipiscing Fringilla Ltd",
+		"betAmount": "851 962",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "20%",
+		"claimDate": "Aug 7, 2023"
+	},
+	{
+		"betID": "724C158F-6D56-9AC2-C782-F98340C787E1",
+		"companyName": "Pellentesque A LLC",
+		"betAmount": "5 013 430",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "20%",
+		"claimDate": "Apr 13, 2024"
+	},
+	{
+		"betID": "B6B1624B-D226-9FBC-DB24-21BD9A41376A",
+		"companyName": "Proin Nisl Institute",
+		"betAmount": "5 511 762",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Sep 22, 2024"
+	},
+	{
+		"betID": "90DE3146-DBA7-41AE-E966-64A35D1AD8E3",
+		"companyName": "Magna Et Incorporated",
+		"betAmount": "4 163 256",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "10%",
+		"claimDate": "Jan 31, 2025"
+	},
+	{
+		"betID": "2EAE3671-846E-D189-C190-CC75BC6C73BB",
+		"companyName": "Euismod Et Foundation",
+		"betAmount": "6 490 443",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "11%",
+		"claimDate": "Jun 21, 2024"
+	},
+	{
+		"betID": "44FB6DE6-3CA7-F58B-1326-6E636E323F29",
+		"companyName": "Lectus Quis Inc.",
+		"betAmount": "7 666 947",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "11%",
+		"claimDate": "Dec 17, 2024"
+	},
+	{
+		"betID": "74BF597A-EA15-6C55-DD55-967A859D2DC5",
+		"companyName": "Ut Institute",
+		"betAmount": "3 786 497",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Oct 23, 2024"
+	},
+	{
+		"betID": "24EBCED3-B696-C9BB-2D39-A57E821271C5",
+		"companyName": "Tristique LLP",
+		"betAmount": "2 297 165",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Mar 3, 2024"
+	},
+	{
+		"betID": "C9D2D5E2-39CC-14C5-91AD-7D174F7D5AAA",
+		"companyName": "Pede Nunc Company",
+		"betAmount": "7 098 589",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "13%",
+		"claimDate": "Aug 28, 2024"
+	},
+	{
+		"betID": "0745BB32-6BAA-9211-5B21-50846E9E19C5",
+		"companyName": "Tincidunt Donec Inc.",
+		"betAmount": "4 317 822",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "13%",
+		"claimDate": "Jul 26, 2024"
+	},
+	{
+		"betID": "38351E26-6386-3351-3E0B-EA375B3AE7C1",
+		"companyName": "Adipiscing Fringilla LLP",
+		"betAmount": "5 148 498",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Mar 13, 2025"
+	},
+	{
+		"betID": "269AF479-B685-B156-AB9D-8E7048114854",
+		"companyName": "Metus LLP",
+		"betAmount": "4 168 535",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Jun 16, 2023"
+	},
+	{
+		"betID": "2F8A297D-2237-A4C4-A2DA-B4A7D54486E1",
+		"companyName": "Aliquam Associates",
+		"betAmount": "3 267 230",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "15%",
+		"claimDate": "Jul 9, 2023"
+	},
+	{
+		"betID": "45585AE2-CA73-889B-8CDA-BAAD6AA4CBC2",
+		"companyName": "Odio A PC",
+		"betAmount": "8 094 336",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "15%",
+		"claimDate": "Nov 24, 2024"
+	},
+	{
+		"betID": "96366B3D-50DB-D76D-44E8-EADF3E58CCE1",
+		"companyName": "Nisl Arcu Inc.",
+		"betAmount": "3 230 640",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "16%",
+		"claimDate": "May 29, 2023"
+	},
+	{
+		"betID": "78DBED69-4B98-791A-CB18-9D5E118DD53D",
+		"companyName": "Sem Ut LLP",
+		"betAmount": "1 603 958",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "16%",
+		"claimDate": "Mar 1, 2025"
+	},
+	{
+		"betID": "7E50A72E-AD46-DD52-EA68-C798A6292BB3",
+		"companyName": "Lectus Pede LLP",
+		"betAmount": "7 295 395",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "17%",
+		"claimDate": "Jul 15, 2023"
+	},
+	{
+		"betID": "BD17C593-F9BB-3385-9C4B-EDA5CA9E9317",
+		"companyName": "Nunc Interdum Institute",
+		"betAmount": "5 351 177",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "17%",
+		"claimDate": "Jan 30, 2024"
+	},
+	{
+		"betID": "51F8360C-55C9-2A71-6D26-816A371248F6",
+		"companyName": "Fringilla PC",
+		"betAmount": "7 398 219",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "May 24, 2024"
+	},
+	{
+		"betID": "D1DFFEC9-A008-4D54-12B2-78155FA73B4B",
+		"companyName": "Eros PC",
+		"betAmount": "7 840 761",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "18%",
+		"claimDate": "Jan 22, 2024"
+	},
+	{
+		"betID": "A0145744-6D22-3D4B-05B4-1C98B2C7B3B1",
+		"companyName": "Aliquet Diam Sed Corporation",
+		"betAmount": "6 317 633",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "19%",
+		"claimDate": "Sep 12, 2024"
+	},
+	{
+		"betID": "8CDDAE7C-6984-5CD7-A32A-78BAE22734E9",
+		"companyName": "Vulputate Posuere Vulputate Limited",
+		"betAmount": "7 574 474",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "19%",
+		"claimDate": "Sep 18, 2023"
+	},
+	{
+		"betID": "5A4B4656-8B3E-35AA-16F2-80D2CDACB197",
+		"companyName": "Vestibulum Massa Limited",
+		"betAmount": "8 932 651",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "20%",
+		"claimDate": "May 12, 2023"
+	},
+	{
+		"betID": "94321125-99E7-4EB4-7AC8-54ECBC792657",
+		"companyName": "Nunc Ut PC",
+		"betAmount": "1 408 581",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "20%",
+		"claimDate": "Sep 24, 2023"
+	},
+	{
+		"betID": "6D5EE350-71B7-AE4D-0CEE-AD40017C8BDB",
+		"companyName": "Sociosqu Ad Litora Incorporated",
+		"betAmount": "856 679",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "10%",
+		"claimDate": "Dec 24, 2023"
+	},
+	{
+		"betID": "F9BCD5CC-3B0B-EB27-36C6-ADB2B19624C9",
+		"companyName": "Et Corporation",
+		"betAmount": "3 803 795",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "10%",
+		"claimDate": "Feb 12, 2024"
+	},
+	{
+		"betID": "8533BE0E-8513-5822-677B-B37379347045",
+		"companyName": "Natoque Penatibus Limited",
+		"betAmount": "8 823 702",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Apr 3, 2023"
+	},
+	{
+		"betID": "5A66251F-2E11-BC22-596C-9E67B727E765",
+		"companyName": "Consequat Lectus Incorporated",
+		"betAmount": "8 847 508",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Mar 15, 2025"
+	},
+	{
+		"betID": "681A1519-DECB-7435-69D4-BD8421772BD9",
+		"companyName": "Hendrerit Company",
+		"betAmount": "8 125 628",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Oct 22, 2023"
+	},
+	{
+		"betID": "A7A2998F-2071-175F-B477-BD153AC9E3A3",
+		"companyName": "Etiam Ltd",
+		"betAmount": "6 890 571",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Oct 6, 2024"
+	},
+	{
+		"betID": "C52E454A-42D0-E799-CD92-EB96E479DDD4",
+		"companyName": "Proin Nisl LLC",
+		"betAmount": "9 033 223",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "13%",
+		"claimDate": "Jun 29, 2023"
+	},
+	{
+		"betID": "273785F3-B74A-BF0A-B4BA-D866BA948579",
+		"companyName": "Magnis Dis Parturient LLC",
+		"betAmount": "584 714",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "13%",
+		"claimDate": "Nov 9, 2024"
+	},
+	{
+		"betID": "AE691C17-D3A7-C226-42B4-77C1FA823BC7",
+		"companyName": "Tempor LLC",
+		"betAmount": "731 448",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Jun 8, 2024"
+	},
+	{
+		"betID": "4655266A-B4BC-DE97-268D-D08A15C00D96",
+		"companyName": "Eu Tellus Limited",
+		"betAmount": "4 564 685",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Jun 9, 2023"
+	},
+	{
+		"betID": "3AA7FCB3-C279-3368-B61C-2EB98D326A1A",
+		"companyName": "Odio Semper Institute",
+		"betAmount": "540 994",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "15%",
+		"claimDate": "Mar 22, 2025"
+	},
+	{
+		"betID": "283E1B27-8042-E51F-720C-8311EBFEDAF0",
+		"companyName": "Ut Tincidunt LLC",
+		"betAmount": "4 829 309",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "15%",
+		"claimDate": "Apr 6, 2023"
+	},
+	{
+		"betID": "B345D534-823D-DF9A-59E3-59383AEE6CD6",
+		"companyName": "Aenean Eget Institute",
+		"betAmount": "6 556 555",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "16%",
+		"claimDate": "Aug 11, 2023"
+	},
+	{
+		"betID": "BE40964D-45A7-7853-ADA2-4EA386D6387A",
+		"companyName": "Nunc Sed Associates",
+		"betAmount": "9 684 749",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "16%",
+		"claimDate": "Jan 10, 2024"
+	},
+	{
+		"betID": "70751B22-A82B-7D24-8818-FCDC882936D1",
+		"companyName": "Cras Corporation",
+		"betAmount": "8 267 072",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "17%",
+		"claimDate": "Mar 27, 2023"
+	},
+	{
+		"betID": "C6244C6C-7A8F-5F56-C767-F43521C46995",
+		"companyName": "Et Ipsum Institute",
+		"betAmount": "1 782 852",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "17%",
+		"claimDate": "Nov 28, 2023"
+	},
+	{
+		"betID": "66AF272C-5EA2-27A3-6E07-95A2A4381899",
+		"companyName": "Sed Auctor Incorporated",
+		"betAmount": "4 650 857",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "Apr 13, 2023"
+	},
+	{
+		"betID": "BF6AEB7E-6FFD-21CD-3A4F-1F2328D371E9",
+		"companyName": "Consequat LLP",
+		"betAmount": "3 731 331",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "18%",
+		"claimDate": "Dec 7, 2023"
+	},
+	{
+		"betID": "0F490736-249B-AC2B-43E1-0D71196FB2B4",
+		"companyName": "Eros Non Incorporated",
+		"betAmount": "7 325 504",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "19%",
+		"claimDate": "Mar 21, 2024"
+	},
+	{
+		"betID": "B537231F-ACD7-4292-99D6-3575BE84DE3D",
+		"companyName": "Luctus Lobortis Limited",
+		"betAmount": "5 469 798",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "19%",
+		"claimDate": "Feb 3, 2024"
+	},
+	{
+		"betID": "7F2CAAE9-75AB-3539-897F-D71286711BD8",
+		"companyName": "Lobortis Mauris Company",
+		"betAmount": "7 776 696",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "20%",
+		"claimDate": "Jan 20, 2024"
+	},
+	{
+		"betID": "34F50453-F19C-A81E-D0AE-D3BB573B87B2",
+		"companyName": "Tincidunt Vehicula Risus Corp.",
+		"betAmount": "2 690 102",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "20%",
+		"claimDate": "May 20, 2023"
+	},
+	{
+		"betID": "58905CA3-4373-1212-27D5-5DC168CA669D",
+		"companyName": "Accumsan Laoreet Ipsum Associates",
+		"betAmount": "6 686 970",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "10%",
+		"claimDate": "Aug 2, 2023"
+	},
+	{
+		"betID": "3E5CE6AF-B2C3-63E4-A85D-46241C074C46",
+		"companyName": "Dis Parturient Limited",
+		"betAmount": "6 935 825",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Sep 1, 2024"
+	},
+	{
+		"betID": "5E9C6285-063C-2B23-3B1B-D8BDD83A8BE7",
+		"companyName": "A Institute",
+		"betAmount": "9 866 209",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Nov 18, 2024"
+	},
+	{
+		"betID": "DC8A8720-3C0F-4DE8-91C1-635EA169EE9A",
+		"companyName": "Libero LLP",
+		"betAmount": "7 539 616",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "11%",
+		"claimDate": "Oct 21, 2023"
+	},
+	{
+		"betID": "3856C725-3D92-E743-5437-9661A7A27B48",
+		"companyName": "Sed Molestie Corporation",
+		"betAmount": "1 937 926",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Apr 20, 2023"
+	},
+	{
+		"betID": "7A248FCE-03F0-62E7-E172-1BA8A7237A52",
+		"companyName": "Sem PC",
+		"betAmount": "2 078 501",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Nov 13, 2024"
+	},
+	{
+		"betID": "8AA78C5C-FC03-0EB5-BC6E-19F1BEC5F167",
+		"companyName": "Urna Vivamus Molestie Incorporated",
+		"betAmount": "1 080 310",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "13%",
+		"claimDate": "Jun 19, 2024"
+	},
+	{
+		"betID": "92178DAB-03C7-91DA-B3D7-DD63D30AEEF7",
+		"companyName": "Hendrerit Consectetuer Foundation",
+		"betAmount": "3 728 478",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "13%",
+		"claimDate": "Jan 15, 2024"
+	},
+	{
+		"betID": "1BFA66CA-7D48-4D53-E533-1BD4012982BA",
+		"companyName": "Id Ante Dictum Foundation",
+		"betAmount": "4 888 011",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Sep 13, 2023"
+	},
+	{
+		"betID": "DACAA069-5CED-FCBB-4EE8-4D58C6B125E1",
+		"companyName": "Magna Cras Associates",
+		"betAmount": "9 378 087",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "14%",
+		"claimDate": "Jan 27, 2024"
+	},
+	{
+		"betID": "15592F7B-7641-1969-1199-7019D3A68540",
+		"companyName": "Ornare Egestas Consulting",
+		"betAmount": "7 970 008",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "15%",
+		"claimDate": "Aug 13, 2023"
+	},
+	{
+		"betID": "48FD427C-9895-D3EF-ACAE-DF1A2A1872FC",
+		"companyName": "Posuere Enim LLC",
+		"betAmount": "6 179 142",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "15%",
+		"claimDate": "Jun 9, 2024"
+	},
+	{
+		"betID": "09742AA3-9A9F-2140-1E28-D87600338B95",
+		"companyName": "In Molestie Corp.",
+		"betAmount": "1 375 634",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "16%",
+		"claimDate": "May 3, 2024"
+	},
+	{
+		"betID": "669DC762-2484-1721-5471-723D57AD021E",
+		"companyName": "Et Pede Corp.",
+		"betAmount": "6 110 868",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "16%",
+		"claimDate": "Apr 18, 2023"
+	},
+	{
+		"betID": "BD9BDD4C-3200-75C7-73B5-DD28BC7C28E2",
+		"companyName": "Dolor Fusce Feugiat LLC",
+		"betAmount": "6 222 740",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "17%",
+		"claimDate": "Oct 27, 2024"
+	},
+	{
+		"betID": "65B1DD8A-C5CE-BBE4-DEB8-61B77B1D6145",
+		"companyName": "Posuere At Velit Company",
+		"betAmount": "5 535 772",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "17%",
+		"claimDate": "Aug 17, 2023"
+	},
+	{
+		"betID": "E3277C08-1109-E99C-5868-58083DEE1AB8",
+		"companyName": "Vel Vulputate Limited",
+		"betAmount": "7 841 065",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "18%",
+		"claimDate": "Oct 7, 2024"
+	},
+	{
+		"betID": "2549159E-C934-F0AB-5CC9-AFB4BC1383C4",
+		"companyName": "Eu Augue Limited",
+		"betAmount": "5 497 874",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "18%",
+		"claimDate": "Oct 9, 2023"
+	},
+	{
+		"betID": "D81707B3-B0C3-4C55-E094-9E95A6266488",
+		"companyName": "Penatibus Et Magnis Institute",
+		"betAmount": "7 741 806",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "19%",
+		"claimDate": "Dec 6, 2024"
+	},
+	{
+		"betID": "4C6CBBCC-4872-F91E-A691-8628B4AE34CC",
+		"companyName": "Sem Consulting",
+		"betAmount": "2 256 616",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Jan 10, 2024"
+	},
+	{
+		"betID": "DEA288BD-317C-FE7D-F148-9E1003D5C4D1",
+		"companyName": "Ipsum Corp.",
+		"betAmount": "6 649 460",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "20%",
+		"claimDate": "Jul 17, 2023"
+	},
+	{
+		"betID": "8EC4B6C4-8E89-8196-EDEE-79F7C76D1524",
+		"companyName": "Arcu Incorporated",
+		"betAmount": "6 748 348",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "20%",
+		"claimDate": "Mar 7, 2024"
+	},
+	{
+		"betID": "B62A9373-D2B3-5968-4FBB-BE4C213804AF",
+		"companyName": "Fusce Incorporated",
+		"betAmount": "4 627 675",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Oct 12, 2024"
+	},
+	{
+		"betID": "5C8E31AD-0AFA-06E6-4965-39DB1D3FCC20",
+		"companyName": "Pede Suspendisse Corp.",
+		"betAmount": "106 470",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "10%",
+		"claimDate": "Mar 22, 2024"
+	},
+	{
+		"betID": "3028A1FF-E81F-8BF9-C531-D6BA3E269D8D",
+		"companyName": "Sed Tortor Integer Incorporated",
+		"betAmount": "6 356 841",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "11%",
+		"claimDate": "Dec 5, 2024"
+	},
+	{
+		"betID": "86F71B06-36DA-18AF-9855-BA33ADEA961F",
+		"companyName": "Integer Incorporated",
+		"betAmount": "6 811 609",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "11%",
+		"claimDate": "Oct 29, 2024"
+	},
+	{
+		"betID": "2541F85B-FCED-C31D-668A-4D51D5DDFDED",
+		"companyName": "Nisl PC",
+		"betAmount": "7 006 162",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Dec 16, 2023"
+	},
+	{
+		"betID": "876732C3-49FB-2F1F-913D-31469A8B15F4",
+		"companyName": "Sed Molestie Sed Inc.",
+		"betAmount": "46 915",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Dec 5, 2023"
+	},
+	{
+		"betID": "D4ABA916-A842-54A9-D43F-C058E2BC2996",
+		"companyName": "Suscipit Corporation",
+		"betAmount": "2 230 159",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "13%",
+		"claimDate": "Dec 29, 2023"
+	},
+	{
+		"betID": "A1EA6E79-9531-1D12-B8E2-374153AE1796",
+		"companyName": "Faucibus Inc.",
+		"betAmount": "9 258 097",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "13%",
+		"claimDate": "Apr 29, 2024"
+	},
+	{
+		"betID": "D5E82BEB-7346-66BA-0ABF-5284B252B9CA",
+		"companyName": "Cursus Nunc PC",
+		"betAmount": "2 956 968",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "14%",
+		"claimDate": "Aug 31, 2024"
+	},
+	{
+		"betID": "28991F6A-9C53-BE48-45C6-D20463B4BB9A",
+		"companyName": "Congue Elit Inc.",
+		"betAmount": "7 549 246",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Nov 19, 2023"
+	},
+	{
+		"betID": "B1B7474C-4612-EE1C-D52F-13EEBAF07CDD",
+		"companyName": "Id Nunc Foundation",
+		"betAmount": "630 653",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "15%",
+		"claimDate": "May 21, 2024"
+	},
+	{
+		"betID": "BD82DB77-D564-ED25-F568-B9A4CEB8DBD9",
+		"companyName": "Natoque Penatibus Et Ltd",
+		"betAmount": "2 513 979",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "15%",
+		"claimDate": "May 4, 2024"
+	},
+	{
+		"betID": "97D6A30E-6009-AD63-7E46-40225B9465A9",
+		"companyName": "Ullamcorper Duis At Industries",
+		"betAmount": "6 390 762",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "16%",
+		"claimDate": "Jul 8, 2023"
+	},
+	{
+		"betID": "504A57C4-232A-7179-EBC3-6A1A252DDBFF",
+		"companyName": "Molestie Sed Id Foundation",
+		"betAmount": "5 637 643",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "16%",
+		"claimDate": "Oct 5, 2024"
+	},
+	{
+		"betID": "07233AEF-BBE4-1ED8-D676-35BFA368B7EE",
+		"companyName": "Proin Vel Limited",
+		"betAmount": "747 985",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "17%",
+		"claimDate": "Apr 4, 2024"
+	},
+	{
+		"betID": "4DEB3430-424A-8022-D651-AA1B5B949D98",
+		"companyName": "Purus Inc.",
+		"betAmount": "4 349 233",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "17%",
+		"claimDate": "May 7, 2023"
+	},
+	{
+		"betID": "B7A4FF4A-F95B-F80D-48E1-AE921E97B683",
+		"companyName": "Eget Varius Ltd",
+		"betAmount": "6 004 374",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "18%",
+		"claimDate": "Jun 25, 2024"
+	},
+	{
+		"betID": "A3DB62F9-8586-48C9-F35D-E595CD1FAC6D",
+		"companyName": "Commodo Hendrerit Donec Limited",
+		"betAmount": "4 449 631",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "18%",
+		"claimDate": "Aug 29, 2024"
+	},
+	{
+		"betID": "4F04169E-2BD4-82C4-1ABA-28C2C2CFE683",
+		"companyName": "Nunc Incorporated",
+		"betAmount": "3 424 726",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Jan 13, 2024"
+	},
+	{
+		"betID": "05103C71-6BD5-4A52-1459-B532C1CBAB2E",
+		"companyName": "Arcu Vestibulum Ante Foundation",
+		"betAmount": "3 905 691",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "19%",
+		"claimDate": "Aug 23, 2023"
+	},
+	{
+		"betID": "22ACE8E7-8F8D-B858-6E1A-1E2078B5D91A",
+		"companyName": "Ac Corp.",
+		"betAmount": "7 158 095",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "20%",
+		"claimDate": "Nov 16, 2023"
+	},
+	{
+		"betID": "3B46ED85-5CD3-77AD-C80F-849A9A8464E2",
+		"companyName": "Non Vestibulum Corp.",
+		"betAmount": "8 503 251",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "20%",
+		"claimDate": "Oct 29, 2024"
+	},
+	{
+		"betID": "CB7AC27B-4227-AD4C-C84A-95E39312F738",
+		"companyName": "Urna Vivamus Foundation",
+		"betAmount": "8 991 888",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "10%",
+		"claimDate": "May 3, 2024"
+	},
+	{
+		"betID": "64CD5EBC-35C5-D92B-8E4B-3A6C611DBE79",
+		"companyName": "Risus Limited",
+		"betAmount": "1 051 483",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Mar 28, 2023"
+	},
+	{
+		"betID": "F717203F-57F6-F2C3-4D8B-7A9A8EB691AD",
+		"companyName": "Magna Corporation",
+		"betAmount": "6 057 015",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "11%",
+		"claimDate": "Mar 20, 2024"
+	},
+	{
+		"betID": "C7DFFFE9-92E6-0AC9-949A-3356FCD99D20",
+		"companyName": "Augue Scelerisque Mollis Associates",
+		"betAmount": "5 359 161",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "11%",
+		"claimDate": "Aug 16, 2023"
+	},
+	{
+		"betID": "6FFC7706-81E3-8E29-ECB1-249ADAACE114",
+		"companyName": "Sem Corporation",
+		"betAmount": "1 082 881",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Mar 12, 2024"
+	},
+	{
+		"betID": "B699730B-4DBD-BB46-B31E-2FDB9F2BA5B5",
+		"companyName": "Lacus Nulla Inc.",
+		"betAmount": "5 675 617",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "12%",
+		"claimDate": "Mar 14, 2025"
+	},
+	{
+		"betID": "858B1AF6-BE6D-2154-C744-890824826948",
+		"companyName": "Diam Nunc Foundation",
+		"betAmount": "4 803 766",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "13%",
+		"claimDate": "Aug 30, 2023"
+	},
+	{
+		"betID": "DF4B61C6-4453-1B92-A982-69277A08A59B",
+		"companyName": "Pharetra Felis Eget Corp.",
+		"betAmount": "8 352 812",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "13%",
+		"claimDate": "Nov 25, 2024"
+	},
+	{
+		"betID": "4E9FE01B-D1D3-7B09-FBD3-212652ABC7DD",
+		"companyName": "Lectus Quis Massa LLC",
+		"betAmount": "874 667",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "14%",
+		"claimDate": "Jun 30, 2024"
+	},
+	{
+		"betID": "1594629F-A561-FCD1-AFC7-D444D75FAA57",
+		"companyName": "Tortor At Consulting",
+		"betAmount": "4 019 526",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "14%",
+		"claimDate": "Dec 8, 2023"
+	},
+	{
+		"betID": "61BC5828-2E43-8C4E-C4A2-1A107D9D6C43",
+		"companyName": "Mollis Vitae Posuere Associates",
+		"betAmount": "3 099 351",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "15%",
+		"claimDate": "Nov 5, 2024"
+	},
+	{
+		"betID": "35833501-C15F-6620-7F61-A43AB126A635",
+		"companyName": "Consequat Limited",
+		"betAmount": "9 677 473",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "15%",
+		"claimDate": "Dec 1, 2023"
+	},
+	{
+		"betID": "3A4167AA-D48C-A7E9-ACDF-60F4142733AE",
+		"companyName": "Nisi Nibh Lacinia Foundation",
+		"betAmount": "3 538 853",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "16%",
+		"claimDate": "Feb 10, 2024"
+	},
+	{
+		"betID": "53A05D66-D2AF-7B71-C63D-2C2974ED7EF3",
+		"companyName": "Sociis Natoque Foundation",
+		"betAmount": "8 750 115",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "16%",
+		"claimDate": "Jul 5, 2023"
+	},
+	{
+		"betID": "297838E1-C7D2-DF03-AD88-E87B96F57186",
+		"companyName": "Condimentum LLC",
+		"betAmount": "465 818",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "17%",
+		"claimDate": "Feb 21, 2024"
+	},
+	{
+		"betID": "E41D3ACB-3B95-1A14-B4A2-03D0789C3DD7",
+		"companyName": "Aliquet Vel Vulputate Corporation",
+		"betAmount": "3 774 018",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "17%",
+		"claimDate": "Aug 8, 2024"
+	},
+	{
+		"betID": "82934C4F-0E15-33C2-8393-4C568CB7B8E6",
+		"companyName": "Varius Ultrices Mauris Corp.",
+		"betAmount": "8 810 820",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "18%",
+		"claimDate": "May 15, 2024"
+	},
+	{
+		"betID": "4D4CA1B9-3A1A-6123-E8CA-DB4DC8998D8E",
+		"companyName": "Dictum Sapien Aenean Ltd",
+		"betAmount": "2 018 382",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "18%",
+		"claimDate": "Nov 15, 2023"
+	},
+	{
+		"betID": "9B31DCB0-8309-73B7-CB9D-A59A2CF82D54",
+		"companyName": "Habitant Morbi Corp.",
+		"betAmount": "8 866 898",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "19%",
+		"claimDate": "Aug 4, 2023"
+	},
+	{
+		"betID": "64D9A5E7-58FA-43A2-741B-F1A8DED7E383",
+		"companyName": "Mauris Inc.",
+		"betAmount": "1 315 836",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Jan 3, 2025"
+	},
+	{
+		"betID": "34E7D3C6-1236-1BB2-BEB5-7DE5A0E1B9D1",
+		"companyName": "Sociis Corp.",
+		"betAmount": "232 598",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "20%",
+		"claimDate": "May 14, 2023"
+	},
+	{
+		"betID": "26E4712B-862A-C8C9-337F-AF1CD2C73976",
+		"companyName": "Curabitur Consequat Industries",
+		"betAmount": "4 784 470",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "20%",
+		"claimDate": "Mar 13, 2024"
+	},
+	{
+		"betID": "65E31E2E-DD4F-142E-467E-EB0BAC23E2E4",
+		"companyName": "Proin Sed Turpis Ltd",
+		"betAmount": "1 671 690",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "10%",
+		"claimDate": "Nov 12, 2024"
+	},
+	{
+		"betID": "246A7AB0-81CF-4486-EBEF-9338F0E99322",
+		"companyName": "Nec Ante Incorporated",
+		"betAmount": "1 473 432",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "10%",
+		"claimDate": "Jun 11, 2024"
+	},
+	{
+		"betID": "1D5C5C9C-3480-8D29-34C6-E5215CBBA1E3",
+		"companyName": "Ante Bibendum PC",
+		"betAmount": "1 642 680",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "11%",
+		"claimDate": "Apr 1, 2023"
+	},
+	{
+		"betID": "2AEDD579-7218-9EE4-5584-151B2A554A49",
+		"companyName": "Mi Aliquam Institute",
+		"betAmount": "5 058 653",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "11%",
+		"claimDate": "Feb 24, 2024"
+	},
+	{
+		"betID": "60CA6CCC-0B82-4570-A52A-2D8CC97D0D06",
+		"companyName": "Dui Cras Pellentesque Corp.",
+		"betAmount": "6 325 010",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "May 16, 2024"
+	},
+	{
+		"betID": "2BA4A5D3-8CF9-8A64-7363-87F0BAEB02C9",
+		"companyName": "Lacinia Mattis Associates",
+		"betAmount": "4 130 839",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Apr 8, 2023"
+	},
+	{
+		"betID": "3B655346-7AC1-B9AE-396E-71EC3AB6B242",
+		"companyName": "Dui Cum Sociis Corporation",
+		"betAmount": "6 587 040",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "13%",
+		"claimDate": "Oct 30, 2024"
+	},
+	{
+		"betID": "D255875A-83E1-0B62-82A1-3975A2363E37",
+		"companyName": "Pede Sagittis Corporation",
+		"betAmount": "4 548 269",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "13%",
+		"claimDate": "Jan 6, 2025"
+	},
+	{
+		"betID": "A8D064D0-1779-473E-02AF-CC53624ACA58",
+		"companyName": "Conubia Nostra Company",
+		"betAmount": "346 793",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "14%",
+		"claimDate": "Nov 11, 2023"
+	},
+	{
+		"betID": "CB5D3E78-5BED-29BA-6942-BE5FC7D75569",
+		"companyName": "Turpis Incorporated",
+		"betAmount": "9 762 182",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "14%",
+		"claimDate": "Aug 30, 2024"
+	},
+	{
+		"betID": "E75126E0-510E-1B26-F468-4582CE078E60",
+		"companyName": "Consequat Auctor Associates",
+		"betAmount": "9 419 996",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "15%",
+		"claimDate": "Oct 8, 2023"
+	},
+	{
+		"betID": "A926EFC7-D626-702B-4AD3-6774DBCBA53C",
+		"companyName": "Fringilla Inc.",
+		"betAmount": "4 120 200",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "15%",
+		"claimDate": "Feb 24, 2024"
+	},
+	{
+		"betID": "111C92DF-3827-5B92-9438-A4902EC53898",
+		"companyName": "Adipiscing Lobortis Risus Ltd",
+		"betAmount": "4 250 495",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "16%",
+		"claimDate": "Aug 6, 2024"
+	},
+	{
+		"betID": "D71742B6-2AC4-C851-4522-2289685CC5C8",
+		"companyName": "Odio Etiam Ligula Incorporated",
+		"betAmount": "1 500 218",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "16%",
+		"claimDate": "Nov 3, 2023"
+	},
+	{
+		"betID": "034859E8-1946-3AAB-207A-4917B6A78B18",
+		"companyName": "Congue Industries",
+		"betAmount": "5 744 108",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "17%",
+		"claimDate": "Dec 16, 2023"
+	},
+	{
+		"betID": "CE8AD8A8-7790-F2CE-4AE6-F8364C1A7097",
+		"companyName": "Arcu Imperdiet Associates",
+		"betAmount": "2 435 297",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "17%",
+		"claimDate": "Apr 9, 2024"
+	},
+	{
+		"betID": "D845F45E-A4F2-55D4-BE1D-00D65AB4E529",
+		"companyName": "A Ultricies LLP",
+		"betAmount": "2 569 337",
+		"claimed": "No",
+		"claimStatus": "Completed",
+		"normaldist": "18%",
+		"claimDate": "Apr 22, 2024"
+	},
+	{
+		"betID": "98335265-123B-9DAC-3D28-D3D18DBFA28C",
+		"companyName": "At Egestas Foundation",
+		"betAmount": "3 810 556",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "18%",
+		"claimDate": "May 24, 2023"
+	},
+	{
+		"betID": "35AAB3D5-35D4-7C96-E1D1-71A24DEDE232",
+		"companyName": "Lorem Associates",
+		"betAmount": "5 647 512",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "19%",
+		"claimDate": "Jul 6, 2023"
+	},
+	{
+		"betID": "534D4C79-A19F-4D2C-6558-9BDDCACE2A10",
+		"companyName": "Ultrices Sit LLP",
+		"betAmount": "703 727",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "19%",
+		"claimDate": "Jun 5, 2024"
+	},
+	{
+		"betID": "B74A8CE4-598A-6278-5413-FB1E5D1EA21D",
+		"companyName": "Elementum Institute",
+		"betAmount": "2 998 925",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "20%",
+		"claimDate": "Oct 9, 2024"
+	},
+	{
+		"betID": "567328AD-7E9A-821B-22C7-0CF1B52E2C26",
+		"companyName": "Convallis LLC",
+		"betAmount": "8 840 806",
+		"claimed": "No",
+		"claimStatus": "Processing",
+		"normaldist": "20%",
+		"claimDate": "Aug 27, 2024"
+	},
+	{
+		"betID": "553A1749-376F-B131-374F-1C6AAD5E1E1C",
+		"companyName": "Feugiat Tellus Company",
+		"betAmount": "1 764 846",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "10%",
+		"claimDate": "Jan 18, 2024"
+	},
+	{
+		"betID": "3CFB9A58-5A85-F91A-4E87-4BBBDBC31776",
+		"companyName": "Sagittis Nullam LLP",
+		"betAmount": "5 576 456",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "10%",
+		"claimDate": "Jun 22, 2024"
+	},
+	{
+		"betID": "7996E663-2ED5-54E1-E0CF-79598E61D19A",
+		"companyName": "Condimentum Donec Associates",
+		"betAmount": "1 288 643",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "11%",
+		"claimDate": "Jul 21, 2023"
+	},
+	{
+		"betID": "DCBDECC1-B026-4A35-EBAD-3AD43EF91FF1",
+		"companyName": "Metus In LLC",
+		"betAmount": "6 240 266",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "11%",
+		"claimDate": "Jun 28, 2023"
+	},
+	{
+		"betID": "6B81A13C-E5A4-EBDC-BDF3-6861E958653A",
+		"companyName": "Ultricies Corporation",
+		"betAmount": "4 591 729",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "12%",
+		"claimDate": "Oct 5, 2023"
+	},
+	{
+		"betID": "6BECC126-E7D8-E72D-84E0-E0058776BC8A",
+		"companyName": "Neque Foundation",
+		"betAmount": "9 643 440",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "12%",
+		"claimDate": "Oct 1, 2023"
+	},
+	{
+		"betID": "95B8BA29-F124-DD2D-159E-F16079E0FC3C",
+		"companyName": "Phasellus Fermentum Associates",
+		"betAmount": "6 835 122",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "13%",
+		"claimDate": "May 24, 2023"
+	},
+	{
+		"betID": "F8BED3D7-1982-1539-78EA-BA765012EC29",
+		"companyName": "Tellus Nunc LLC",
+		"betAmount": "4 748 775",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "13%",
+		"claimDate": "May 20, 2023"
+	},
+	{
+		"betID": "51983429-2C0C-F7AB-1A76-700B86A7CCEB",
+		"companyName": "Aenean Sed Limited",
+		"betAmount": "9 096 438",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "14%",
+		"claimDate": "Jul 12, 2023"
+	},
+	{
+		"betID": "52262EEB-E1A9-2AAC-43C1-433892D4B06B",
+		"companyName": "Convallis Corporation",
+		"betAmount": "5 630 477",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "14%",
+		"claimDate": "Jul 18, 2023"
+	},
+	{
+		"betID": "0A4A3757-B65E-44DA-D5A5-966E77ACA667",
+		"companyName": "Quam Elementum LLP",
+		"betAmount": "8 254 801",
+		"claimed": "Yes",
+		"claimStatus": "Cancelled",
+		"normaldist": "15%",
+		"claimDate": "Oct 11, 2023"
+	},
+	{
+		"betID": "DB9081D3-8939-8FA8-E58D-A9B5434AA15E",
+		"companyName": "Egestas Urna LLP",
+		"betAmount": "5 497 119",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "15%",
+		"claimDate": "Jan 9, 2024"
+	},
+	{
+		"betID": "8C9D58FE-B52A-4C1E-5290-A7F9A8B836C0",
+		"companyName": "Cras Corporation",
+		"betAmount": "2 207 692",
+		"claimed": "Yes",
+		"claimStatus": "Completed",
+		"normaldist": "16%",
+		"claimDate": "Nov 14, 2024"
+	},
+	{
+		"betID": "D7614CC7-7795-AE36-5B27-9B23560F74DA",
+		"companyName": "Bibendum Sed Est Associates",
+		"betAmount": "52 759",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "16%",
+		"claimDate": "Jul 12, 2024"
+	},
+	{
+		"betID": "86173B17-9624-9D2F-75EB-3FE3E2BCAA12",
+		"companyName": "Ultrices Iaculis Odio Inc.",
+		"betAmount": "1 304 318",
+		"claimed": "Yes",
+		"claimStatus": "Processing",
+		"normaldist": "17%",
+		"claimDate": "Jun 2, 2024"
+	},
+	{
+		"betID": "A3D7CB74-4520-6E48-2C58-6431293AC944",
+		"companyName": "Egestas Blandit PC",
+		"betAmount": "2 083 926",
+		"claimed": "No",
+		"claimStatus": "Cancelled",
+		"normaldist": "17%",
+		"claimDate": "Oct 10, 2023"
+	}
+]

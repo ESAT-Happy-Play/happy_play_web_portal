@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "http://happyplay-web.esat-apps.com/static/css/main.c14d09fa.css",
-    "main.js": "http://happyplay-web.esat-apps.com/static/js/main.f5e79fee.js",
+    "main.js": "http://happyplay-web.esat-apps.com/static/js/main.b2af76c6.js",
     "static/media/Inter-SemiBoldItalic.otf": "http://happyplay-web.esat-apps.com/static/media/Inter-SemiBoldItalic.e38e27f283c11f08ebd7.otf",
     "static/media/Inter-Bold.otf": "http://happyplay-web.esat-apps.com/static/media/Inter-Bold.29a77b7e0aa49b534323.otf",
     "static/media/Inter-Italic.otf": "http://happyplay-web.esat-apps.com/static/media/Inter-Italic.78529c1946e52095fabb.otf",
@@ -14,10 +14,10 @@
     "static/media/Default Profile Pic.png": "http://happyplay-web.esat-apps.com/static/media/Default Profile Pic.62568573736fd855355f.png",
     "index.html": "http://happyplay-web.esat-apps.com/index.html",
     "main.c14d09fa.css.map": "http://happyplay-web.esat-apps.com/static/css/main.c14d09fa.css.map",
-    "main.f5e79fee.js.map": "http://happyplay-web.esat-apps.com/static/js/main.f5e79fee.js.map"
+    "main.b2af76c6.js.map": "http://happyplay-web.esat-apps.com/static/js/main.b2af76c6.js.map"
   },
   "entrypoints": [
     "static/css/main.c14d09fa.css",
-    "static/js/main.f5e79fee.js"
+    "static/js/main.b2af76c6.js"
   ]
 }

@@ -12,6 +12,8 @@ import TollIcon from "@mui/icons-material/Toll";
 import { CustomRadioButton } from "../radio/CustomRadioGroup";
 import { Button } from "@mui/material";
 import CheckIcon from "@mui/icons-material/Check";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import { DatePicker, LocalizationProvider } from "@mui/x-date-pickers";
 
 const CustomFilterModal = ({
   open,
@@ -61,6 +63,23 @@ const CustomFilterModal = ({
     },
   };
 
+  const datePickerStyle = {
+    "& .MuiOutlinedInput-root": {
+      "& fieldset": {
+        borderColor: COLORS.violetMain,
+        borderRadius: "25px",
+      },
+      "&:hover fieldset": {
+        borderColor: COLORS.violetMain,
+        borderRadius: "25px",
+      },
+      "&.Mui-focused fieldset": {
+        borderColor: COLORS.violetMain,
+        borderRadius: "25px",
+      },
+    },
+  };
+
   const displayDateRange = (selectedDateInterval) => {
     const today = new Date();
     let startDate, endDate;
@@ -84,17 +103,44 @@ const CustomFilterModal = ({
         endDate = new Date(today.getFullYear(), 11, 31);
         break;
       case "Custom":
-        return <></>;
+        return (
+          <>
+            <div className="custom-date-range">
+              <p>From</p>
+              <LocalizationProvider dateAdapter={AdapterDayjs}>
+                <DatePicker
+                  sx={datePickerStyle}
+                  slotProps={{
+                    textField: {
+                      size: "small",
+                      placeholder: "Month dd, year",
+                    },
+                  }}
+                  placeholder="Sad"
+                />
+              </LocalizationProvider>
+            </div>
+            <div className="custom-date-range">
+              <p>To</p>
+              <LocalizationProvider dateAdapter={AdapterDayjs}>
+                <DatePicker
+                  sx={datePickerStyle}
+                  slotProps={{
+                    textField: { size: "small", placeholder: "Month dd, year" },
+                  }}
+                />
+              </LocalizationProvider>
+            </div>
+          </>
+        );
       default:
         break;
     }
 
-    const formattedStartDate = `${
-      startDate.getMonth() + 1
-    }/${startDate.getDate()}/${startDate.getFullYear()}`;
-    const formattedEndDate = `${
-      endDate.getMonth() + 1
-    }/${endDate.getDate()}/${endDate.getFullYear()}`;
+    const formattedStartDate = `${startDate.getMonth() + 1
+      }/${startDate.getDate()}/${startDate.getFullYear()}`;
+    const formattedEndDate = `${endDate.getMonth() + 1
+      }/${endDate.getDate()}/${endDate.getFullYear()}`;
 
     return `${FormatFullDate(new Date(formattedStartDate))} - ${FormatFullDate(
       new Date(formattedEndDate)
@@ -215,11 +261,11 @@ const CustomFilterModal = ({
                   key={index}
                   onClick={() => handleChangeTimeSlot(drawType.name)}
                 >
-                  <b>{drawType.name.split(" ")[0]}</b>
+                  <p>{drawType.name.split(" ")[0]}</p>
                   <p>{drawType.name.split(" ")[1]}</p>
-                </div>
+                </div >
               ))}
-            </div>
+            </div >
             <div className="denomination-container">
               <p>Denomination</p>
               <div className="range-container">
@@ -227,10 +273,10 @@ const CustomFilterModal = ({
                   size="small"
                   variant="outlined"
                   fullWidth
-                  onChange={() => {}}
+                  onChange={() => { }}
                   InputProps={{
                     startAdornment: (
-                      <InputAdornment onClick={() => {}} position="end">
+                      <InputAdornment onClick={() => { }} position="end">
                         <TollIcon />
                       </InputAdornment>
                     ),
@@ -242,10 +288,10 @@ const CustomFilterModal = ({
                   size="small"
                   variant="outlined"
                   fullWidth
-                  onChange={() => {}}
+                  onChange={() => { }}
                   InputProps={{
                     startAdornment: (
-                      <InputAdornment onClick={() => {}} position="end">
+                      <InputAdornment onClick={() => { }} position="end">
                         <TollIcon />
                       </InputAdornment>
                     ),
@@ -257,7 +303,7 @@ const CustomFilterModal = ({
             <div className="radio-buttons">
               <CustomRadioButton
                 options={betsFilterOptions}
-                handleRadioChange={() => {}}
+                handleRadioChange={() => { }}
                 defaultValue={betsFilterOptions[0]}
                 size={"small"}
               />
@@ -275,8 +321,8 @@ const CustomFilterModal = ({
                 <CheckIcon />
               </Button>
             </div>
-          </div>
-        </div>
+          </div >
+        </div >
       )}
     </>
   );

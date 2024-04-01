@@ -15,7 +15,7 @@ function Bets() {
           Component: (
             <BetsTable
               data={subType.data}
-              game={game.gameName}
+              gameName={game.gameName}
               subTypeName={subType.subTypeName}
             />
           ),

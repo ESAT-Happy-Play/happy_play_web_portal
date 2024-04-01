@@ -91,7 +91,6 @@ const BetsTable = ({ data, gameName, subTypeName }) => {
   };
 
   const handleChangeTimeSlot = (selectedTimeSlot) => {
-    console.log("CHANGING TIME SLOT: ", selectedTimeSlot);
     setTimeSlot(selectedTimeSlot);
   };
 
@@ -218,14 +217,14 @@ const BetsTable = ({ data, gameName, subTypeName }) => {
       <ScanModal
         open={showScanNowModal}
         onClose={toggleScanModal}
-        handleScan={() => {}}
-        handleUpload={() => {}}
+        handleScan={() => { }}
+        handleUpload={() => { }}
       />
       <ExportModal
         open={showExportModal}
         onClose={toggleExportModal}
-        handleToCsv={() => {}}
-        handleToPdf={() => {}}
+        handleToCsv={() => { }}
+        handleToPdf={() => { }}
       />
     </div>
   );

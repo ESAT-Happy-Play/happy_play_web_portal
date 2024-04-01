@@ -76,6 +76,20 @@
       margin-bottom: 10px;
     }
 
+<<<<<<< HEAD
+=======
+    .custom-date-range {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      p {
+        color: $dark-grey;
+        width: 10%;
+      }
+    }
+
+>>>>>>> df5b7b3a313003a62b8150c9cb5dcb23c9abca92
     .time-slots-container {
       display: flex;
       flex-wrap: wrap;

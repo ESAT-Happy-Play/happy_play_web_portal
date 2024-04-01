@@ -1,6 +1,23 @@
-import DashboardOutlinedIcon from '@mui/icons-material/DashboardOutlined';
+import HomeIcon from '@mui/icons-material/Home';
+import CandlestickChartIcon from '@mui/icons-material/CandlestickChart';
+import GroupsIcon from '@mui/icons-material/Groups';
+import VideogameAssetIcon from '@mui/icons-material/VideogameAsset';
+import TextSnippetIcon from '@mui/icons-material/TextSnippet';
+import SettingsIcon from '@mui/icons-material/Settings';
+import DesktopMacIcon from '@mui/icons-material/DesktopMac';
 
-import {Company, Branch, Roles} from '../views';
+import ConfirmationNumberIcon from '@mui/icons-material/ConfirmationNumber';
+import ChatIcon from '@mui/icons-material/Chat';
+import LiveHelpIcon from '@mui/icons-material/LiveHelp';
+import PsychologyIcon from '@mui/icons-material/Psychology';
+
+import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
+import CreditCardIcon from '@mui/icons-material/CreditCard';
+import EqualizerIcon from '@mui/icons-material/Equalizer';
+import WalletIcon from '@mui/icons-material/Wallet';
+import ReportProblemIcon from '@mui/icons-material/ReportProblem';
+
+import {Company, Branch, Roles, SystemUsers} from '../views';
 
 import PageLayout from '../components/layout/PageLayout';
 import AboutUs from '../views/about_us/AboutUs';
@@ -22,7 +39,6 @@ import ReportAnIssue from '../views/report_an_issue/ReportAnIssue';
 import Revenue from '../views/revenue_reports/Revenue';
 import ScheduleSettings from '../views/schedule_settings/ScheduleSettings';
 import StoreSettings from '../views/store_settings/StoreSettings';
-import SystemUsers from '../views/system_users/SystemUsers';
 import Terms from '../views/terms_of_use/Terms';
 import TextBlast from '../views/text_blast/TextBlast';
 import TransactionReports from '../views/transaction_reports/TransactionReports';
@@ -35,6 +51,10 @@ const routeLinks = [
       path: "/",
       element: <Home />,
       state: "Home.Home",
+      sidebarProps: {
+        displayText: "Dashboard",
+        icon: <HomeIcon />
+      },
     },
     // Administrative 1
     {
@@ -43,7 +63,7 @@ const routeLinks = [
       state: "Administrative",
       sidebarProps: {
         displayText: "Administrative",
-        icon: <DashboardOutlinedIcon />
+        icon: <CandlestickChartIcon />
       },
       child: [
         {
@@ -51,8 +71,7 @@ const routeLinks = [
           element: <Company />,
           state: "Administrative.Company",
           sidebarProps: {
-            displayText: "Company",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Company"
           }
         },
         {
@@ -60,8 +79,7 @@ const routeLinks = [
           element: <Branch />,
           state: "Administrative.Branch",
           sidebarProps: {
-            displayText: "Branch",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Branch"
           }
         },
         {
@@ -69,8 +87,7 @@ const routeLinks = [
           element: <Roles />,
           state: "Administrative.Roles",
           sidebarProps: {
-            displayText: "Roles",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Roles"
           }
         },
         {
@@ -78,8 +95,7 @@ const routeLinks = [
           element: <UserVerification />,
           state: "Administrative.UserVerification",
           sidebarProps: {
-            displayText: "User Verification",
-            icon: <DashboardOutlinedIcon />
+            displayText: "User Verification"
           }
         },
         {
@@ -87,8 +103,7 @@ const routeLinks = [
           element: <UserStatus />,
           state: "Administrative.UserStatus",
           sidebarProps: {
-            displayText: "User Status",
-            icon: <DashboardOutlinedIcon />
+            displayText: "User Status"
           }
         },
         {
@@ -96,8 +111,7 @@ const routeLinks = [
           element: <UserStatus />,
           state: "Administrative.UserGames",
           sidebarProps: {
-            displayText: "Games",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Games"
           }
         },
       ]
@@ -110,7 +124,7 @@ const routeLinks = [
       state: "UserAccounts",
       sidebarProps: {
         displayText: "User Accounts",
-        icon: <DashboardOutlinedIcon />
+        icon: <GroupsIcon />
       },
       child: [
         {
@@ -118,8 +132,7 @@ const routeLinks = [
           element: <SystemUsers />,
           state: "UserAccounts.SystemUsers",
           sidebarProps: {
-            displayText: "System Users",
-            icon: <DashboardOutlinedIcon />
+            displayText: "System Users"
           }
         },
         {
@@ -127,8 +140,7 @@ const routeLinks = [
           element: <MasterAgents />,
           state: "UserAccounts.MasterAgents",
           sidebarProps: {
-            displayText: "Master Agents",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Master Agents"
           }
         },
         {
@@ -136,8 +148,7 @@ const routeLinks = [
           element: <Agents />,
           state: "UserAccounts.Agents",
           sidebarProps: {
-            displayText: "Agents",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Agents"
           }
         },
         {
@@ -145,10 +156,17 @@ const routeLinks = [
           element: <Players />,
           state: "UserAccounts.Players",
           sidebarProps: {
-            displayText: "Players",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Players"
           }
         },
+        {
+          path: "/user/approval",
+          element: <Players />,
+          state: "UserAccounts.UserApproval",
+          sidebarProps: {
+            displayText: "User Approval"
+          }
+        }
       ]
     },
 
@@ -159,7 +177,7 @@ const routeLinks = [
       state: "Game",
       sidebarProps: {
         displayText: "Game",
-        icon: <DashboardOutlinedIcon />
+        icon: <VideogameAssetIcon />
       },
       child: [
         {
@@ -167,8 +185,7 @@ const routeLinks = [
           element: <ScheduleSettings />,
           state: "Game.ScheduleSettings",
           sidebarProps: {
-            displayText: "Schedule Settings",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Schedule Settings"
           }
         },
         {
@@ -176,8 +193,7 @@ const routeLinks = [
           element: <MechanicsSettings />,
           state: "Game.MechanicsSettings",
           sidebarProps: {
-            displayText: "Mechanics Settings",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Mechanics Settings"
           }
         },
         {
@@ -185,26 +201,23 @@ const routeLinks = [
           element: <StoreSettings />,
           state: "Game.StoreSettings",
           sidebarProps: {
-            displayText: "Store Settings",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Store Settings"
           }
         },
         {
-          path: "/promotions",
+          path: "/game/promotions",
           element: <Promotions />,
           state: "Game.Promotions",
           sidebarProps: {
-            displayText: "Promotions",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Promotions"
           }
         },
         {
-          path: "/bets",
+          path: "/game/bets",
           element: <Bets />,
           state: "Game.Bets",
           sidebarProps: {
-            displayText: "Bets",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Bets"
           }
         },
         {
@@ -212,8 +225,7 @@ const routeLinks = [
           element: <GameResults />,
           state: "Game.Results",
           sidebarProps: {
-            displayText: "Game Results",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Game Results"
           }
         },
         {
@@ -221,8 +233,7 @@ const routeLinks = [
           element: <GamePrizes />,
           state: "Game.GamePrizes",
           sidebarProps: {
-            displayText: "Game Prizes",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Game Prizes"
           }
         },
       ]
@@ -235,7 +246,7 @@ const routeLinks = [
       state: "Posts",
       sidebarProps: {
         displayText: "Posts",
-        icon: <DashboardOutlinedIcon />
+        icon: <TextSnippetIcon />
       },
       child: [
         {
@@ -243,8 +254,7 @@ const routeLinks = [
           element: <TextBlast />,
           state: "Posts.TextBlast",
           sidebarProps: {
-            displayText: "Text Blast",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Text Blast"
           }
         },
         {
@@ -252,8 +262,7 @@ const routeLinks = [
           element: <Annoucements />,
           state: "Posts.Announcements",
           sidebarProps: {
-            displayText: "Announcements",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Announcements"
           }
         },
         {
@@ -261,8 +270,7 @@ const routeLinks = [
           element: <Annoucements />,
           state: "Posts.Livestream",
           sidebarProps: {
-            displayText: "Livestream",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Livestream"
           }
         },
       ]
@@ -275,7 +283,7 @@ const routeLinks = [
       state: "Reports",
       sidebarProps: {
         displayText: "Reports",
-        icon: <DashboardOutlinedIcon />
+        icon: <SettingsIcon />
       },
       child: [
         {
@@ -283,8 +291,7 @@ const routeLinks = [
           element: <Revenue />,
           state: "Reports.Revenue",
           sidebarProps: {
-            displayText: "Revenue",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Revenue"
           }
         },
         {
@@ -292,8 +299,7 @@ const routeLinks = [
           element: <TransactionReports />,
           state: "Reports.Transaction",
           sidebarProps: {
-            displayText: "Transactions",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Transactions"
           }
         },
         {
@@ -301,8 +307,7 @@ const routeLinks = [
           element: <Performance />,
           state: "Reports.Performance",
           sidebarProps: {
-            displayText: "Performance",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Performance"
           }
         },
         {
@@ -310,8 +315,7 @@ const routeLinks = [
           element: <ActivityReports />,
           state: "Reports.Activity",
           sidebarProps: {
-            displayText: "Activity",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Activity"
           }
         },
         {
@@ -319,8 +323,7 @@ const routeLinks = [
           element: <Growth />,
           state: "Reports.Growth",
           sidebarProps: {
-            displayText: "Growth",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Growth"
           }
         },
       ]
@@ -333,7 +336,7 @@ const routeLinks = [
       state: "System",
       sidebarProps: {
         displayText: "System",
-        icon: <DashboardOutlinedIcon />
+        icon: <DesktopMacIcon />
       },
       child: [
         {
@@ -341,8 +344,7 @@ const routeLinks = [
           element: <ReportAnIssue />,
           state: "System.ReportAnIssue",
           sidebarProps: {
-            displayText: "Report An Issue",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Report An Issue"
           }
         },
         {
@@ -350,8 +352,7 @@ const routeLinks = [
           element: <Terms />,
           state: "System.TermsOfUse",
           sidebarProps: {
-            displayText: "Terms Of Use",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Terms Of Use"
           }
         },
         {
@@ -359,8 +360,7 @@ const routeLinks = [
           element: <PrivacyPolicy />,
           state: "System.PrivacyPolicy",
           sidebarProps: {
-            displayText: "Privacy Policy",
-            icon: <DashboardOutlinedIcon />
+            displayText: "Privacy Policy"
           }
         },
         {
@@ -368,23 +368,113 @@ const routeLinks = [
           element: <AboutUs />,
           state: "System.AboutUs",
           sidebarProps: {
-            displayText: "About Us",
-            icon: <DashboardOutlinedIcon />
+            displayText: "About Us"
           }
         },
       ]
     },
-    // //Notification 7
-    // {
-    //   path: "/notifications/Updates",
-    //   element: <Notifications />,
-    //   state: "Notifications.Updates",
-    // },
-    //Your Profile 8
+
+    // Accounting
     {
-      path: "/profile",
-      element: <UserProfile />,
-      state: "Profile.ProfileInformation",
-    }
+      path: "/deposits",
+      element: <Home />,
+      state: "Accounting.Deposits",
+      sidebarProps: {
+        displayText: "Deposits",
+        icon: <MonetizationOnIcon />
+      },
+    },
+    {
+      path: "/withdrawals",
+      element: <Home />,
+      state: "Accounting.Withdrawals",
+      sidebarProps: {
+        displayText: "Withdrawals",
+        icon: <CreditCardIcon />
+      },
+    },
+    {
+      path: "/bets",
+      element: <Home />,
+      state: "Accounting.Bets",
+      sidebarProps: {
+        displayText: "Bets",
+        icon: <VideogameAssetIcon />
+      },
+    },
+    {
+      path: "/assets",
+      element: <Home />,
+      state: "Accounting.Assets",
+      sidebarProps: {
+        displayText: "Assets",
+        icon: <EqualizerIcon />
+      },
+    },
+    {
+      path: "/wallet/settings",
+      element: <Home />,
+      state: "Accounting.WalletSettings",
+      sidebarProps: {
+        displayText: "Wallet Settings",
+        icon: <WalletIcon />
+      },
+    },
+    {
+      path: "/report/issue",
+      element: <Home />,
+      state: "Accounting.ReportAnIssue",
+      sidebarProps: {
+        displayText: "Report An Issue",
+        icon: <ReportProblemIcon />
+      },
+    },
+
+    // Support
+    {
+      path: "/tickets",
+      element: <Home />,
+      state: "Support.Tickets",
+      sidebarProps: {
+        displayText: "Tickets",
+        icon: <ConfirmationNumberIcon />
+      },
+    },
+    {
+      path: "/livechat",
+      element: <Home />,
+      state: "Support.LiveChat",
+      sidebarProps: {
+        displayText: "Live Chat",
+        icon: <ChatIcon />
+      },
+    },
+    {
+      path: "/behavior",
+      element: <Home />,
+      state: "Support.Behavior",
+      sidebarProps: {
+        displayText: "Behavior",
+        icon: <PsychologyIcon />
+      },
+    },
+    {
+      path: "/support/users",
+      element: <Home />,
+      state: "Support.Users",
+      sidebarProps: {
+        displayText: "Users",
+        icon: <GroupsIcon />
+      },
+    },
+    {
+      path: "/faqs",
+      element: <Home />,
+      state: "Support.FAQs",
+      sidebarProps: {
+        displayText: "FAQs",
+        icon: <LiveHelpIcon />
+      },
+    },
   ];
 export default routeLinks;

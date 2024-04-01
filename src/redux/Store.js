@@ -4,7 +4,8 @@ import AuthReducer from "./reducers/auth/AuthReducer";
 import AppStateReducer from "./reducers/AppStateReducer";
 import MenuStateReducer from "./reducers/MenuStateReducer";
 import AccountStateReducer from "./reducers/AccountStateReducer";
-import OtpVerifiedStateReducer from "./reducers/OtpVerifiedStateReducer";
+import CompanyStateReducer from "./reducers/CompanyStateReducer";
+import GamesStateReducer from "./reducers/GamesStateReducer";
 
 import { ApiRequestBuilder } from "../api/ApiRequestBuilder";
 
@@ -13,7 +14,8 @@ export const store = configureStore({
     appState: AppStateReducer,
     menuState: MenuStateReducer,
     accountState: AccountStateReducer,
-    numberVerified: OtpVerifiedStateReducer,
+    companyState: CompanyStateReducer,
+    gameState: GamesStateReducer,
     [ApiRequestBuilder.reducerPath]: ApiRequestBuilder.reducer,
     authState: AuthReducer
   },

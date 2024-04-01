@@ -6,23 +6,29 @@ import React, { useEffect, useState } from 'react';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 
 import { useSelector, useDispatch } from "react-redux";
+import { useNavigate } from 'react-router-dom';
+
+import { logOut } from '../../redux/reducers/auth/AuthReducer';
+import { removeAppState } from '../../redux/reducers/AppStateReducer';
+import { removeMenuState } from '../../redux/reducers/MenuStateReducer';
+import { removeAccountState } from '../../redux/reducers/AccountStateReducer';
+import { removeCompanyState } from '../../redux/reducers/CompanyStateReducer';
+import { removeGameState } from '../../redux/reducers/GamesStateReducer';
+
+import MessageDialog from "../Dialog/MessageDialog";
+
 import "./sidebar.scss"
 import { GetJWTStoreObject, GetStoreObject } from "../../helper/Helpers";
 import { Routes, Route, Link } from "react-router-dom";
 
 const Sidebar = () => {
-  const dispatch = useDispatch();
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
   // auth api response object
   let storeObj = GetStoreObject("auth");
-  // storeObj.companyObjId
-  // storeObj.branchId
-  // storeObj.isMain
-  // storeObj.accountObjectId
-  // storeObj.branchName
-
-  // const { authState } = useSelector((state) => state);
   const [selected, setSelected] = useState("");
   // TODO: connect to actual notification number
   const mockNotifCounter = 4;
@@ -38,7 +44,7 @@ const Sidebar = () => {
             route.child ? (
               <SidebarItemCollapse item={route} key={index} selected={selected == route.sidebarProps.displayText} setSelected={setSelected} />
             ) : (
-              <SidebarItem item={route} key={index} />
+              <SidebarItem item={route} hasIcon={true} key={index} />
             )
           ) : null
         ))
@@ -66,6 +72,14 @@ const Sidebar = () => {
           <p>Happy Play © 2024</p>
         </div>
       </div>
+
+      <MessageDialog
+        isOpenMessage={ openConfirmLogoutSubmit } 
+        handleCloseMessage={ handleLogoutSubmitClose } 
+        handleOkay={ handleLogoutOkay } 
+        title={ "Logout" } 
+        content={ "Are you sure you want to logout?" }
+        color={ "error" } />
     </div>
   );
 };

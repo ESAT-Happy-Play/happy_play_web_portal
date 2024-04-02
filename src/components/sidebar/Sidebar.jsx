@@ -72,14 +72,6 @@ const Sidebar = () => {
           <p>Happy Play © 2024</p>
         </div>
       </div>
-
-      <MessageDialog
-        isOpenMessage={ openConfirmLogoutSubmit } 
-        handleCloseMessage={ handleLogoutSubmitClose } 
-        handleOkay={ handleLogoutOkay } 
-        title={ "Logout" } 
-        content={ "Are you sure you want to logout?" }
-        color={ "error" } />
     </div>
   );
 };

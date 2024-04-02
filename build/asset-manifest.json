@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "http://happyplay-web.esat-apps.com/static/css/main.aa97ea23.css",
+    "main.js": "http://happyplay-web.esat-apps.com/static/js/main.2becdc02.js",
+    "static/media/jackpot-3.4-logo.png": "http://happyplay-web.esat-apps.com/static/media/jackpot-3.4-logo.1685e529950cb76f14a8.png",
+    "static/media/regular-logo.png": "http://happyplay-web.esat-apps.com/static/media/regular-logo.6c95e28d23db9481d0c9.png",
+    "static/media/jackpot-3.3-logo.png": "http://happyplay-web.esat-apps.com/static/media/jackpot-3.3-logo.0043ba2e4a045bee42d6.png",
+    "static/media/maroon-bg.png": "http://happyplay-web.esat-apps.com/static/media/maroon-bg.dc3b113bcb21941128bc.png",
+    "static/media/Inter-SemiBoldItalic.otf": "http://happyplay-web.esat-apps.com/static/media/Inter-SemiBoldItalic.e38e27f283c11f08ebd7.otf",
+    "static/media/Inter-Bold.otf": "http://happyplay-web.esat-apps.com/static/media/Inter-Bold.29a77b7e0aa49b534323.otf",
+    "static/media/Inter-Italic.otf": "http://happyplay-web.esat-apps.com/static/media/Inter-Italic.78529c1946e52095fabb.otf",
+    "static/media/Inter-SemiBold.otf": "http://happyplay-web.esat-apps.com/static/media/Inter-SemiBold.3aa40e610d938943736b.otf",
+    "static/media/Inter-Medium.otf": "http://happyplay-web.esat-apps.com/static/media/Inter-Medium.16eda82a3c37a6edda09.otf",
+    "static/media/Inter-Black.otf": "http://happyplay-web.esat-apps.com/static/media/Inter-Black.b2a2b192860f79c0b89c.otf",
+    "static/media/Inter-Light.otf": "http://happyplay-web.esat-apps.com/static/media/Inter-Light.f70b465fac229d73e982.otf",
+    "static/media/Inter-Regular.otf": "http://happyplay-web.esat-apps.com/static/media/Inter-Regular.a416f4674fad5f019461.otf",
+    "static/media/magic-result-container.png": "http://happyplay-web.esat-apps.com/static/media/magic-result-container.5055caac37e5dba090f2.png",
+    "static/media/happy-play-logo.png": "http://happyplay-web.esat-apps.com/static/media/happy-play-logo.bd47a76b53d9eaf05cce.png",
+    "static/media/magic-win-logo.png": "http://happyplay-web.esat-apps.com/static/media/magic-win-logo.671b28f06d4df79deeed.png",
+    "static/media/tripple-win-logo.png": "http://happyplay-web.esat-apps.com/static/media/tripple-win-logo.1e3cf1e776e3d6a60d8f.png",
+    "static/media/power-win-logo.png": "http://happyplay-web.esat-apps.com/static/media/power-win-logo.c51ec890edacc1a0afde.png",
+    "static/media/coin.png": "http://happyplay-web.esat-apps.com/static/media/coin.743ad674d3f300c84892.png",
+    "static/media/slot-container.png": "http://happyplay-web.esat-apps.com/static/media/slot-container.9e1ce567a6d81be6b7f5.png",
+    "static/media/Default Profile Pic.png": "http://happyplay-web.esat-apps.com/static/media/Default Profile Pic.62568573736fd855355f.png",
+    "static/media/sample-transaction-qr.png": "http://happyplay-web.esat-apps.com/static/media/sample-transaction-qr.81c3919119b8dc823794.png",
+    "static/media/CrownIcon.png": "http://happyplay-web.esat-apps.com/static/media/CrownIcon.7f322d4a0d6c193f022e.png",
+    "index.html": "http://happyplay-web.esat-apps.com/index.html",
+    "main.aa97ea23.css.map": "http://happyplay-web.esat-apps.com/static/css/main.aa97ea23.css.map",
+    "main.2becdc02.js.map": "http://happyplay-web.esat-apps.com/static/js/main.2becdc02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa97ea23.css",
+    "static/js/main.2becdc02.js"
+  ]
+}

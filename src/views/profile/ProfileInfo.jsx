@@ -54,10 +54,9 @@ const ProfileInfo = () => {
             { label: "Account", isHeader: true },
             { label: "Password", Component: <Password /> },
           ]} />
-        {/* <div className="foot">
-          <div className="item itemLogout" onClick={ handleLogoutSubmitOpen }>
-          <span >Logout</span> 
-          <ExitToAppIcon className='icon' />
+        <div className="verticalTabfFoot" onClick={ handleLogoutSubmitOpen } > 
+          <div className="Logout" >
+          <span >Logout</span>
           </div>
         </div>
         <MessageDialog
@@ -66,9 +65,9 @@ const ProfileInfo = () => {
             handleOkay={ handleLogoutOkay } 
             title={ "Logout" } 
             content={ "Are you sure you want to logout?" }
-            color={ "error" } /> */}
+            color={ "error" } />
         
-        {/* <NotificationDialog isOpen={ openNotify } handleClose={ handleNotifyClose } /> */}
+        <NotificationDialog isOpen={ openNotify } handleClose={ handleNotifyClose } />
       </div>   
     </div>       
   )

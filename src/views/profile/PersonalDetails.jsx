@@ -24,40 +24,39 @@ import Select from 'react-select'
 import { toast } from 'react-toastify';
 import { GETFetch } from "../../api/ApiFetchBuilder";
 import PageLoader from "../../components/widget/PageLoader";
-
+import { GetStoreObject } from "../../helper/Helpers";
 import { UserProfileService } from '../../services/UserProfileService';
+import moment from 'moment';
+import axios from "axios";
 
 const PersonalInfo = () => {
   const [pageLoader, setPageLoader] = useState(false);
-  const [personalInfo, setPersonalInfoState] = useState([]);
-  // const dispatch = useDispatch();
-  const PersonalInfoHandler = async (data) => {
-    UserProfileService.getProfileInfo(data).then((response) => {
-    if(response) {
-      setPersonalInfoState(response.data.account);
-      console.log(response.data.account);
-    }
-  });
-  }
-
-  useEffect(() => {
-    PersonalInfoHandler();
-  }, []);
+  let accountData = GetStoreObject("accountInfo");
+  let newdate = moment(accountData.data.birthDate, 'DD/MM/YYYY'); 
 
   const [isEditing, setIsEditing] = React.useState(true);
   const toggleEdit = () => {
     setIsEditing(!isEditing)
   };
 
+  
+
+  const getData = async () => {
+    const res = await axios.get("https://api.ipify.org/?format=json");
+    console.log(res.data);
+  };
+
+  getData();
+
   const [formData, setFormData] = React.useState({
-    firstName: personalInfo.firstName,
-    middleName: personalInfo.middleName,
-    lastName: personalInfo.lastName,
-    birthDate: personalInfo.birthDate,
-    gender: personalInfo.gender,
-    martialStatus: personalInfo.martialStatus,
-    bloodType: personalInfo.bloodType,
-    nationality: personalInfo.nationality
+      firstName: accountData.data.firstName,
+      middleName: accountData.data.middleName,
+      lastName: accountData.data.lastName,
+      birthDate: accountData.data.birthDate,
+      gender: accountData.data.gender,
+      martialStatus: accountData.data.martialStatus,
+      bloodType: accountData.data.bloodType,
+      nationality: accountData.data.nationality
   });
 
   const handleChange = (e) => {
@@ -77,6 +76,7 @@ const PersonalInfo = () => {
     UserProfileService.updatePersonalDetails(formData)
     .then((resp) => {
       if (resp) {
+        console.log(formData);
         toast.success(`${formData.firstName} added successfully.`);
         handleSubmitClose();
         //reload page after 2 sec
@@ -129,8 +129,8 @@ const PersonalInfo = () => {
                   <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>FirstName</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={personalInfo.firstName} sx={{ width: "50%" }} variant="outlined" size="small" /> :
-                        <TextField placeholder={personalInfo.firstName} name="firstName" value={personalInfo.firstName} onChange={handleChange} sx={{ width: "50%" }} variant="outlined" size="small" />
+                        isEditing ? <TextField disabled placeholder={accountData.data.firstName} sx={{ width: "50%" }} variant="outlined" size="small" /> :
+                        <TextField placeholder={accountData.data.firstName} name="firstName" onChange={handleChange} sx={{ width: "50%" }} variant="outlined" size="small" />
                       }
                   <hr/>
                   </div>
@@ -138,56 +138,56 @@ const PersonalInfo = () => {
                   <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>Middlename</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={personalInfo.middleName} sx={{ width: "50%" }} variant="outlined" size="small" /> :
-                        <TextField placeholder={personalInfo.middleName} name="middleName" value={personalInfo.middleName} onChange={handleChange} sx={{ width: "50%" }} variant="outlined" size="small" />
+                        isEditing ? <TextField disabled placeholder={accountData.data.middleName} sx={{ width: "50%" }} variant="outlined" size="small" /> :
+                        <TextField placeholder={accountData.data.middleName} name="middleName" onChange={handleChange} sx={{ width: "50%" }} variant="outlined" size="small" />
                       }
                   </div>
                   
                   <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>Lastname</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={personalInfo.lastName} sx={{ width: "50%" }} variant="outlined" size="small" /> :
-                        <TextField placeholder={personalInfo.lastName} name="lastName" value={personalInfo.lastName} onChange={handleChange} sx={{ width: "50%" }} variant="outlined" size="small" />
+                        isEditing ? <TextField disabled placeholder={accountData.data.lastName} sx={{ width: "50%" }} variant="outlined" size="small" /> :
+                        <TextField placeholder={accountData.data.lastName} name="lastName" onChange={handleChange} sx={{ width: "50%" }} variant="outlined" size="small" />
                       }
                   </div>
 
                   <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>Birth Date</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={personalInfo.birthDate} sx={{ width: "50%" }} variant="outlined" size="small" />  :
-                        <TextField type="date" name="birthDate" value={"MM-DD-YYYY"} onChange={handleChange} sx={{ width: "50%" }} variant="outlined" size="small"/>
+                        isEditing ? <TextField disabled type="date" placeholder={moment(newdate).format("yyyy-MM-DD")} sx={{ width: "50%" }} variant="outlined" size="small" />  :
+                        <TextField type="date" name="birthDate" defaultValue={moment(newdate).format("yyyy-MM-DD")} onChange={handleChange} sx={{ width: "50%" }} variant="outlined" size="small"/>
                       }
                   </div>
                   
                   <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>Gender</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={personalInfo.gender} defaultValue={personalInfo.gender}  sx={{ width: "50%" }} variant="outlined" size="small"/>  :
-                        <Select placeholder={personalInfo.gender} name="gender" defaultValue={personalInfo.gender} options={genders} onChange={handleChange} sx={{ width: "50%" }} variant="outlined" size="small"/>
+                        isEditing ? <TextField disabled placeholder={accountData.data.gender}  sx={{ width: "50%" }} variant="outlined" size="small"/>  :
+                        <Select placeholder={accountData.data.gender} name="gender" defaultValue={accountData.data.gender} options={genders} onChange={handleChange} sx={{ width: "50%" }} variant="outlined" size="small"/>
                       }
                   </div>
                   
                   <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>Civil Status</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={personalInfo.martialStatus} defaultValue={personalInfo.martialStatus}  sx={{ width: "50%" }} variant="outlined" size="small"/>  :
-                        <Select placeholder={personalInfo.martialStatus} name="martialStatus" defaultValue={personalInfo.martialStatus} onChange={handleChange} options={civilStatuses} sx={{ width: "50%" }} variant="outlined" size="small"/>
+                        isEditing ? <TextField disabled placeholder={accountData.data.martialStatus} sx={{ width: "50%" }} variant="outlined" size="small"/>  :
+                        <Select placeholder={accountData.data.martialStatus} name="martialStatus" onChange={handleChange} options={civilStatuses} sx={{ width: "50%" }} variant="outlined" size="small"/>
                       }
                   </div>
 
                   <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>Blood Type</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={personalInfo.bloodType} defaultValue={personalInfo.bloodType}  sx={{ width: "50%" }} variant="outlined" size="small"/>  :
-                        <Select placeholder={personalInfo.bloodType} name="bloodType" defaultValue={personalInfo.bloodType} onChange={handleChange} options={bloodTypes} sx={{ width: "50%" }} variant="outlined" size="small"/>
+                        isEditing ? <TextField disabled placeholder={accountData.data.bloodType} sx={{ width: "50%" }} variant="outlined" size="small"/>  :
+                        <Select placeholder={accountData.data.bloodType} name="bloodType" onChange={handleChange} options={bloodTypes} sx={{ width: "50%" }} variant="outlined" size="small"/>
                       }
                   </div>
 
                   <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>Nationality</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={personalInfo.nationality} defaultValue={personalInfo.nationality}  sx={{ width: "50%" }} variant="outlined" size="small"/>  :
-                        <Select placeholder={personalInfo.nationality} name="nationality" defaultValue={personalInfo.nationality} onChange={handleChange} options={nationalities} sx={{ width: "50%" }} variant="outlined" size="small"/>
+                        isEditing ? <TextField disabled placeholder={accountData.data.nationality} sx={{ width: "50%" }} variant="outlined" size="small"/>  :
+                        <Select placeholder={accountData.data.nationality} name="nationality" onChange={handleChange} options={nationalities} sx={{ width: "50%" }} variant="outlined" size="small"/>
                       }
                   </div>
 

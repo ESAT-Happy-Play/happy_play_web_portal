@@ -1,49 +1,22 @@
-import { styled } from '@mui/material/styles';
 import React, { useState, useEffect } from 'react';
 import { TextField, MenuItem } from "@mui/material";
-import Link from '@mui/material/Link';
 import './ProfileInfo.scss';
 import Stack from '@mui/material/Stack';
 import EditIcon from '@mui/icons-material/Edit';
 import CancelIcon from '@mui/icons-material/Cancel';
 import SaveIcon from '@mui/icons-material/Save';
-import Radio from '@mui/material/Radio';
-import RadioGroup from '@mui/material/RadioGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import FormControl from '@mui/material/FormControl';
 
 import List from '@mui/material/List';
-import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
-import Collapse from '@mui/material/Collapse';
-import ExpandLess from '@mui/icons-material/ExpandLess';
-import ExpandMore from '@mui/icons-material/ExpandMore';
 
 import Button from '@mui/material/Button';
-import Select from 'react-select'
-import { toast } from 'react-toastify';
-import { GETFetch } from "../../api/ApiFetchBuilder";
 import PageLoader from "../../components/widget/PageLoader";
-// import { GetStoreObject } from "../../helper/Helpers/";
 import { UserProfileService } from '../../services/UserProfileService';
+import { GetStoreObject } from "../../helper/Helpers";
 
-const Address = () => {
-  // let loginObj = GetStoreObject("auth");
+const Address = () => {    
+  let accountData = GetStoreObject("accountInfo");
   const [pageLoader, setPageLoader] = useState(false);
-  const [AddressInfo, setAddressInfoState] = useState([]);
-  // const dispatch = useDispatch();
-  const AddressInfoHandler = async (data) => {
-    UserProfileService.getProfileInfo(data).then((response) => {
-    if(response) {
-      setAddressInfoState(response.data.account);
-      console.log(response.data.account);
-    }
-  });
-  }
-
-  useEffect(() => {
-    AddressInfoHandler();
-  }, []);
   
   const [isEditing, setIsEditing] = React.useState(true);
   const toggleEdit = () => {
@@ -63,40 +36,40 @@ const Address = () => {
                   <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>Region</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={AddressInfo.presentRegion} sx={{ width: "50%" }} variant="outlined" size="small" /> :
-                        <TextField placeholder={AddressInfo.presentRegion} defaultValue={AddressInfo.presentRegion} sx={{ width: "50%" }} variant="outlined" size="small" />
+                        isEditing ? <TextField disabled placeholder={accountData.data.presentRegion} sx={{ width: "50%" }} variant="outlined" size="small" /> :
+                        <TextField placeholder={accountData.data.presentRegion} defaultValue={accountData.data.presentRegion} sx={{ width: "50%" }} variant="outlined" size="small" />
                       }
                   </div>
 
                   <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>Province</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={AddressInfo.presentProvince} sx={{ width: "50%" }} variant="outlined" size="small" /> :
-                        <TextField placeholder={AddressInfo.presentProvince} defaultValue={AddressInfo.presentProvince} sx={{ width: "50%" }} variant="outlined" size="small" />
+                        isEditing ? <TextField disabled placeholder={accountData.data.presentProvince} sx={{ width: "50%" }} variant="outlined" size="small" /> :
+                        <TextField placeholder={accountData.data.presentProvince} defaultValue={accountData.data.presentProvince} sx={{ width: "50%" }} variant="outlined" size="small" />
                       }
                   </div>
 
                   <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>Municipality</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={AddressInfo.presentMunicipality} sx={{ width: "50%" }} variant="outlined" size="small" /> :
-                        <TextField placeholder={AddressInfo.presentMunicipality} defaultValue={AddressInfo.presentMunicipality} sx={{ width: "50%" }} variant="outlined" size="small" />
+                        isEditing ? <TextField disabled placeholder={accountData.data.presentMunicipality} sx={{ width: "50%" }} variant="outlined" size="small" /> :
+                        <TextField placeholder={accountData.data.presentMunicipality} defaultValue={accountData.data.presentMunicipality} sx={{ width: "50%" }} variant="outlined" size="small" />
                       }
                   </div>
 
                   <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>Barangay</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={AddressInfo.presentBarangay} sx={{ width: "50%" }} variant="outlined" size="small" /> :
-                        <TextField placeholder={AddressInfo.presentBarangay} defaultValue={AddressInfo.presentBarangay} sx={{ width: "50%" }} variant="outlined" size="small" />
+                        isEditing ? <TextField disabled placeholder={accountData.data.presentBarangay} sx={{ width: "50%" }} variant="outlined" size="small" /> :
+                        <TextField placeholder={accountData.data.presentBarangay} defaultValue={accountData.data.presentBarangay} sx={{ width: "50%" }} variant="outlined" size="small" />
                       }
                   </div>
 
                   <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>Street/Purok</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={AddressInfo.presentStreetOrPurok} sx={{ width: "50%" }} variant="outlined" size="small" /> :
-                        <TextField placeholder={AddressInfo.presentStreetOrPurok} defaultValue={AddressInfo.presentStreetOrPurok} sx={{ width: "50%" }} variant="outlined" size="small" />
+                        isEditing ? <TextField disabled placeholder={accountData.data.presentStreetOrPurok} sx={{ width: "50%" }} variant="outlined" size="small" /> :
+                        <TextField placeholder={accountData.data.presentStreetOrPurok} defaultValue={accountData.data.presentStreetOrPurok} sx={{ width: "50%" }} variant="outlined" size="small" />
                       }
                   </div>
                   </List>
@@ -110,40 +83,40 @@ const Address = () => {
                 <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>Region</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={AddressInfo.permanentRegion} sx={{ width: "50%" }} variant="outlined" size="small" /> :
-                        <TextField placeholder={AddressInfo.permanentRegion} defaultValue={AddressInfo.permanentRegion} sx={{ width: "50%" }} variant="outlined" size="small" />
+                        isEditing ? <TextField disabled placeholder={accountData.data.permanentRegion} sx={{ width: "50%" }} variant="outlined" size="small" /> :
+                        <TextField placeholder={accountData.data.permanentRegion} defaultValue={accountData.data.permanentRegion} sx={{ width: "50%" }} variant="outlined" size="small" />
                       }
                   </div>
 
                   <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>Province</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={AddressInfo.permanentProvince} sx={{ width: "50%" }} variant="outlined" size="small" /> :
-                        <TextField placeholder={AddressInfo.permanentProvince} defaultValue={AddressInfo.permanentProvince} sx={{ width: "50%" }} variant="outlined" size="small" />
+                        isEditing ? <TextField disabled placeholder={accountData.data.permanentProvince} sx={{ width: "50%" }} variant="outlined" size="small" /> :
+                        <TextField placeholder={accountData.data.permanentProvince} defaultValue={accountData.data.permanentProvince} sx={{ width: "50%" }} variant="outlined" size="small" />
                       }
                   </div>
 
                   <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>Municipality</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={AddressInfo.permanentMunicipality} sx={{ width: "50%" }} variant="outlined" size="small" /> :
-                        <TextField placeholder={AddressInfo.permanentMunicipality} defaultValue={AddressInfo.permanentMunicipality} sx={{ width: "50%" }} variant="outlined" size="small" />
+                        isEditing ? <TextField disabled placeholder={accountData.data.permanentMunicipality} sx={{ width: "50%" }} variant="outlined" size="small" /> :
+                        <TextField placeholder={accountData.data.permanentMunicipality} defaultValue={accountData.data.permanentMunicipality} sx={{ width: "50%" }} variant="outlined" size="small" />
                       }
                   </div>
 
                   <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>Barangay</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={AddressInfo.permanentBarangay} sx={{ width: "50%" }} variant="outlined" size="small" /> :
-                        <TextField placeholder={AddressInfo.permanentBarangay} defaultValue={AddressInfo.permanentBarangay} sx={{ width: "50%" }} variant="outlined" size="small" />
+                        isEditing ? <TextField disabled placeholder={accountData.data.permanentBarangay} sx={{ width: "50%" }} variant="outlined" size="small" /> :
+                        <TextField placeholder={accountData.data.permanentBarangay} defaultValue={accountData.data.permanentBarangay} sx={{ width: "50%" }} variant="outlined" size="small" />
                       }
                   </div>
 
                   <div style={{display:'flex', gap:'8px', marginBottom:'10px'}}>
                     <label style={{width:'150px', marginTop:''}}>Street/Purok</label>
                       { 
-                        isEditing ? <TextField disabled placeholder={AddressInfo.permanentStreetOrPurok} sx={{ width: "50%" }} variant="outlined" size="small" /> :
-                        <TextField placeholder={AddressInfo.permanentStreetOrPurok} defaultValue={AddressInfo.permanentStreetOrPurok} sx={{ width: "50%" }} variant="outlined" size="small" />
+                        isEditing ? <TextField disabled placeholder={accountData.data.permanentStreetOrPurok} sx={{ width: "50%" }} variant="outlined" size="small" /> :
+                        <TextField placeholder={accountData.data.permanentStreetOrPurok} defaultValue={accountData.data.permanentStreetOrPurok} sx={{ width: "50%" }} variant="outlined" size="small" />
                       }
                   </div>
                 </List>

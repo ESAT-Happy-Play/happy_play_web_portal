@@ -22,6 +22,7 @@ import MessageDialog from "../Dialog/MessageDialog";
 
 import "./sidebar.scss"
 import { GetJWTStoreObject, GetStoreObject } from "../../helper/Helpers";
+import { Routes, Route, Link } from "react-router-dom";
 
 const Sidebar = () => {
   const dispatch = useDispatch()
@@ -31,21 +32,6 @@ const Sidebar = () => {
   const [selected, setSelected] = useState("");
   // TODO: connect to actual notification number
   const mockNotifCounter = 4;
-
-  // Confiration dialog message for add company
-  const [openConfirmLogoutSubmit, setConfirmLogoutSubmit] = React.useState(false);
-  const handleLogoutSubmitOpen = () => { setConfirmLogoutSubmit(true); };
-  const handleLogoutSubmitClose = () => { setConfirmLogoutSubmit(false); };
-  const handleLogoutOkay = async () => {
-    dispatch(logOut());
-    dispatch(removeAppState());
-    dispatch(removeMenuState());
-    dispatch(removeAccountState());
-    dispatch(removeGameState());
-    dispatch(removeCompanyState());
-
-    window.location.href = '/login';
-  };
 
   return (
     <div className="sidebar">
@@ -71,31 +57,21 @@ const Sidebar = () => {
             <p className="notif-count">{mockNotifCounter}</p>
           }
         </div>
-        <div className="profile">
-          <AccountCircleRoundedIcon className='icon' />
-          <div>
-            <h2>Username</h2>
-            <p>Your Profile</p>
+        <a href="/profile">  
+          <div className="profile">
+            <AccountCircleRoundedIcon className='icon' />
+            <div>
+              <h2>Username</h2>
+              Your Profile
+            </div>
+            <ArrowForwardIosIcon className='icon' />
           </div>
-          <ArrowForwardIosIcon className='icon' />
-        </div>
-        <div className="notifications" onClick={handleLogoutSubmitOpen}>
-          <ExitToAppIcon className='icon' />
-          <p>Logout</p>
-        </div>
+        </a>
         <div className="trademark">
           <h2>Web Dashboard</h2>
           <p>Happy Play © 2024</p>
         </div>
       </div>
-
-      <MessageDialog
-        isOpenMessage={ openConfirmLogoutSubmit } 
-        handleCloseMessage={ handleLogoutSubmitClose } 
-        handleOkay={ handleLogoutOkay } 
-        title={ "Logout" } 
-        content={ "Are you sure you want to logout?" }
-        color={ "error" } />
     </div>
   );
 };

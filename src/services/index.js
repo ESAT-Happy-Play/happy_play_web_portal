@@ -11,6 +11,7 @@ import { RoleService } from './RoleService';
 import { GameService } from './GameService';
 import { DrawTypeService } from './DrawTypeService';
 import { CloseDateService } from './CloseDateService';
+import { UserProfileService } from './UserProfileService';
 
 export { AuthService, MenuService, AccountService, CompanyService, OTPService, AddressService,
-BranchService, ImageService, UserService, RoleService, GameService, DrawTypeService, CloseDateService };
+BranchService, ImageService, UserService, RoleService, GameService, DrawTypeService, CloseDateService, UserProfileService };

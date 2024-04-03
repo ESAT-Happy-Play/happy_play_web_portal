@@ -75,7 +75,7 @@ const EditProfileInfo = () => {
 
   const handleCurrentUserData = async () => {
     setPageLoader(true);
-    let url = `${process.env.REACT_APP_API_URL}/users/currentuserdata`;
+    let url = `${process.env.REACT_APP_API_URL}/users/Account/current`;
     let response = await GETFetch(url);
     setPageLoader(false);
     if(response.status) {

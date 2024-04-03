@@ -27,10 +27,8 @@ import Annoucements from '../views/annoucements/Annoucements';
 import Bets from '../views/bets/Bets';
 import GamePrizes from '../views/game_prizes/GamePrizes';
 import GameResults from '../views/game_results/GameResults';
-import Games from '../views/games/Games';
 import Growth from '../views/growth_reports/Growth';
 import Home from '../views/home/Home';
-import Livestream from '../views/livestream/Livestream';
 import MasterAgents from '../views/master_agents/MasterAgents';
 import MechanicsSettings from '../views/mechanics_settings/MechanicsSettings';
 import Performance from '../views/performance_reports/Performance';
@@ -46,6 +44,7 @@ import TextBlast from '../views/text_blast/TextBlast';
 import TransactionReports from '../views/transaction_reports/TransactionReports';
 import UserStatus from '../views/user_status/UserStatus';
 import UserVerification from '../views/user_verification/UserVerification';
+import UserProfile from '../views/profile/ProfileInfo';
 
 const routeLinks = [
     {
